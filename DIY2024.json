@@ -10,7 +10,7 @@
 {"key":"网盘配置","name":"网盘及彈幕配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,"ext":"http://127.0.0.1:9978/file/TV/tokenm.json","jar":"http://yydf.540734621.xyz/vx/pg/pg.jar;md5;ad3dc4d6cd2e2c3f49c85491feef293b"},
 {"key":"豆豆","name":"豆瓣搜索","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
 {"key":"drpy_js_磁力熊搜索","name":"磁力熊搜索","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiong.js","searchable":0,"quickSearch":0,"changeable":1},
-{"key":"88Pan","name":"688网盘","type":3,"api":"csp_EightEight","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://662688.xyz","danmu": false},"timeout":25,"jar":"./jar/pg.jar"},
+{"key":"88Pan","name":"688网盘","type":3,"api":"csp_EightEight","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://662688.xyz","danmu": false},"timeout":25,"jar":"./jar/2024pg.jar"},
 {"key":"七夜","name":"七夜","type":3,"api":"csp_Dovx","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/TV/token.txt", "danmu": false},"jar":"./jar/newok.png", "timeout":30},
 {"key":"运输车弹幕版","name":"运输车4K","type":3,"api":"csp_Wogg","jar":"./jar/newok.png","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://www.weixine.net","danmu": false},"timeout":25},
 {"key":"玩偶表哥弹幕","name":"玩偶表哥","type":3,"api":"csp_Wobg","jar":"./jar/newok.png","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","danmu":false},"timeout":25},
