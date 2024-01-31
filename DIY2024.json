@@ -7,16 +7,6 @@
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "sites":[
 {"key":"cc","name":"免费接口，发现广告立即换源","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
-{
-            "key": "lf_js_ikanbot",
-            "name": "点播 | lf-ikan",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "api": ".js/lf_ikanbot4_min.js"
-        },
 
 {
             "key": "lf_js_search",
