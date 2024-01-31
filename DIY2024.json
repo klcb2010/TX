@@ -39,6 +39,7 @@
 {"key":"drpy_js_百忙无果","name":"百忙无果","type":3,"api":"./lib/drpy2.min.js","ext":"./js/百忙无果.js","jar":"./jar/XYQ.jar;md5;6120d08f4eb1edce507bfcd1b339c482"},
 {"key": "ggys_open","name": "高光影视","type": 3,"api": "./js/ggys_open.js","jar":".jar/pg.jar"},
 {"key":"drpy_js_电影港","name":"电影港","type":3,"api":"./lib/drpy2.min.js","ext":"./js/dygang.js","playerType":"1", "searchable":1, "quickSearch":1, "changeable":1, "timeout":30,"jar":".jar/pg.jar"},
+{"key": "巧技四","name": "巧技四","type": 3,"api": "csp_qiao2","playerType": 2,"jar":"http://cdn.qiaoji8.com/fix24117.jar;md5;2e85feb2888d9efb5b396258f22841ac","ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji4"},
 {"key":"巧技三","name":"巧技三","type":3,"api":"csp_qiao2","searchable":1,"quickSearch":1,"jar":"http://cdn.qiaoji8.com/fix24117.jar;md5;2e85feb2888d9efb5b396258f22841ac","playerType":2,"filterable":1,"ext":"https://jihulab.com/qiaoji/open/-/raw/main/qiaoji3"},
 {"key": "巧技二","name": "巧技二","type": 3,"api": "csp_qiao2","playerType": 2,"jar":"http://cdn.qiaoji8.com/fix24117.jar;md5;2e85feb2888d9efb5b396258f22841ac","ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji2"},
 {"key":"玩偶哥哥","name":"玩偶哥哥","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"},
