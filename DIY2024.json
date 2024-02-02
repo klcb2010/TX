@@ -34,7 +34,7 @@
 {"key": "虎虎","name": "虎虎影视","type": 3,"api": "csp_XBPQ","jar":"./jar/spider.jar;md5;d1fa24b46f218f455bc3f4b948fd457e","searchable":1,"quickSearch":1,"filterable":1,"ext": "./lib/虎虎.json"},
 {"key":"哔嘀影视","name":"哔嘀影视磁力","type":3,"api":"csp_XYQHiker","jar":"./jar/spider.jar;md5;d1fa24b46f218f455bc3f4b948fd457e","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/哔嘀影视.json"},
 {"key":"圣城影视","name":"圣城影视","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/圣城影视.json","jar":"./jar/spider.jar"},
-{"key":"影探","name":"影探","type":3,"api":"./lib/drpy.min.js","jar":"./jar/0606.jar;md5;3A017244A8B8691E10152BBCA9C4DE6F","ext":"https://gitee.com/guot54/YGBH777/raw/main/js/yt.js"},
+{"key":"影探","name":"影探","type":3,"api":"./lib/drpy.min.js","jar":"./jar/0606","ext":"https://gitee.com/guot54/YGBH777/raw/main/js/yt.js"},
 {"key": "儿童英语","name": "儿童英语","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 1,"filterable": 1,"ext": "./lib/儿童英语.json"},
 {"key": "儿童硬笔","name": "儿童硬笔","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 1,"filterable": 1,"ext": "./lib/儿童硬笔.json"},
 {"key": "儿童思维","name": "儿童思维","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 1,"filterable": 1,"ext": "./lib/儿童思维.json"},
