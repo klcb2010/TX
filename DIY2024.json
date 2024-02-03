@@ -30,16 +30,6 @@
    "changeable": 0,
    "jar": "./jar/厂长.jar"
   },
-  {
-            "key": "开心HK影视",
-            "name": "开心影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://dpaste.com/CMF89P9BG.txt"},
-    
 {"key":"Xinsj","name":"视觉直连","type":3,"api":"csp_Xinsj","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.hdmyy.com/"},
 {"key":"南瓜","name":"南瓜","type":3,"api":"csp_NanGua","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"csp_七新","name":"七新影视","type": 3,"api": "csp_XBPQ","jar": "./jar/0606.jar","searchable": 1, "quickSearch": 1, "filterable": 1,"ext":"./json/七新影视.json"},
