@@ -125,10 +125,8 @@
 {"name":"海外看","hosts":["haiwaikan"],"regex":["10.0099","10.3333","16.0599","8.1748","10.85"]},
 {"name":"索尼","hosts":["suonizy"],"regex":["15.1666","15.2666"]},
 {"name":"抖音嗅探","hosts":["douyin.com"],"regex":["is_play_url="]},
-{"name":"農民嗅探","hosts":["toutiaovod.com"],"regex":["video/tos/cn"]}
-],
-"rules": [
-    {
+{"name":"農民嗅探","hosts":["toutiaovod.com"],"regex":["video/tos/cn"]},
+{
       "name": "火山嗅探广告",
       "host": [
         "huoshan.com"
