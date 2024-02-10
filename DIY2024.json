@@ -40,6 +40,8 @@
 "ext": "./json/速映影视.json",
 "jar": "./jar/XBPQ.jar"
 },
+{"key":"土豆网盘弹幕","name":"土豆网盘","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://ali.lvdoui.top","danmu":false,"jar":"./jar/newok.png"},
+"timeout":25},
 {
 "key": "meowtv_phys",
 "name": "胖虎影视",
