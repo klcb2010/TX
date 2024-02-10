@@ -40,9 +40,9 @@
 "ext": "./json/速映影视.json",
 "jar": "./jar/XBPQ.jar"
 },
-{"key":"土豆网盘弹幕","name":"土豆网盘","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://ali.lvdoui.top","danmu":false,"jar":"./jar/newok.png"},
+{"key":"土豆网盘弹幕","name":"土豆网盘","type":3,"api":"csp_Wobg","jar":"./jar/newok.png","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://ali.lvdoui.top"},
 "timeout":25},
-{"key":"我哥哥弹幕","name":"我哥哥","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"http://www.ttkx.live","danmu":false,"jar":"./jar/newok.png"},
+{"key":"我哥哥弹幕","name":"我哥哥","type":3,"api":"csp_Wobg","jar":"./jar/newok.png","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"http://www.ttkx.live"},
 "timeout":25},
 {
 "key": "meowtv_phys",
