@@ -28,6 +28,7 @@
 			"ext":"0$$$","jar":"./jar/pg2024.jar"
 		},
 {"key": "巧技三","name": "巧技三","type": 3,"api": "csp_qiao2","playerType": 2,"jar":"http://cdn.qiaoji8.com/fix24117.jar;md5;2e85feb2888d9efb5b396258f22841ac","ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji3"},
+{"key":"南瓜","name":"南瓜","type":3,"api":"csp_NanGua","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {
 "key": "csp_速映",
 "name": "速映影视",
