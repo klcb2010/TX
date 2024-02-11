@@ -28,7 +28,7 @@
 			"changeable": 1, 
 			"ext":"0$$$","jar":"./jar/pg2024.jar"
 		},
-{"key": "巧技二","name": "巧技二","type": 3,"api": "csp_qiao2","playerType": 2,"jar":"http://cdn.qiaoji8.com/fix24117.jar;md5;2e85feb2888d9efb5b396258f22841ac","ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji2"},
+{"key": "巧技三","name": "巧技三","type": 3,"api": "csp_qiao2","playerType": 2,"jar":"http://cdn.qiaoji8.com/fix24117.jar;md5;2e85feb2888d9efb5b396258f22841ac","ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji3"},
 {
 "key": "csp_速映",
 "name": "速映影视",
