@@ -10,10 +10,10 @@
 {"key":"网盘配置","name":"本地网盘配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt"},"jar":"http://yydf.540734621.xyz/vx/pg/pg.jar"},
 {"key":"豆豆","name":"豆瓣搜索","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
 {"key":"drpy_js_磁力熊搜索","name":"磁力熊搜索","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiong.js","searchable":0,"quickSearch":0,"changeable":1},
-{"key":"阿里云集合","name":"阿里云集合","type":3,"api":"csp_阿里云集合","searchable":1,"filterable":0,"switchable":0,"ext":"file://TV/ali_token.txt","jar":"./jar/阿里集合20240126.jar"},
+{"key":"阿里云集合4K","name":"阿里云集合","type":3,"api":"csp_阿里云集合","searchable":1,"filterable":0,"switchable":0,"ext":"file://TV/ali_token.txt","jar":"./jar/阿里集合20240126.jar"},
 {"key":"七夜","name":"七夜","type":3,"api":"csp_Dovx","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/TV/token.txt", "danmu": false},"jar":"./jar/newok.png", "timeout":30},
 {"key":"运输车弹幕版","name":"运输车4K","type":3,"api":"csp_Wogg","jar":"./jar/newok.png","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://www.weixine.net","danmu": false},"timeout":25},
-{"key":"玩偶表哥弹幕","name":"玩偶表哥","type":3,"api":"csp_Wobg","jar":"./jar/newok.png","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","danmu":false},"timeout":25},
+{"key":"玩偶表哥弹幕","name":"玩偶表哥4K","type":3,"api":"csp_Wobg","jar":"./jar/newok.png","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","danmu":false},"timeout":25},
 {"key":"360_spider","name":"疯疯想看","type":3,"api":"csp_SP360","filterable":1,"quickSearch":1,"searchable":1,"jar":"./jar/XYQ.jar;md5;6120d08f4eb1edce507bfcd1b339c482"},
 {"key":"sansan","name":"三三解析","type":3,"api":"csp_SP33","searchable":1,"quickSearch":1,"changeable":0},
 {"key":"drpy_js_百忙无果","name":"百忙无果","type":3,"api":"./lib/drpy2.min.js","ext":"./js/百忙无果.js","jar":"./jar/XYQ.jar;md5;6120d08f4eb1edce507bfcd1b339c482"},
@@ -40,7 +40,7 @@
 "ext": "./json/速映影视.json",
 "jar": "./jar/XBPQ.jar"
 },
-{"key":"土豆网盘弹幕","name":"土豆网盘","type":3,"api":"csp_Wobg","jar":"./jar/newok.png","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://ali.lvdoui.top"},
+{"key":"土豆网盘弹幕","name":"土豆网盘4K","type":3,"api":"csp_Wobg","jar":"./jar/newok.png","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://ali.lvdoui.top"},
 "timeout":25},
 {"key":"我哥哥弹幕","name":"我哥哥","type":3,"api":"csp_Wobg","jar":"./jar/newok.png","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"http://www.ttkx.live"},
 "timeout":25},
@@ -55,7 +55,7 @@
 "ext": "./json/胖虎影视.json",
 "jar": "./jar/XBPQ.jar"
 },
-{"key":"玩偶哥哥","name":"玩偶哥哥","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"file://TV/ali_token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"},
+{"key":"玩偶哥哥","name":"玩偶哥哥4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"file://TV/ali_token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"},
 {"key":"荐片弹幕版","name":"荐片","type": 3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": false},"jar":"./jar/ok.png;md5;E5F0A5283309C662BDAF3659A55E9F1D", "timeout":30},
 {
    "key": "csp_Czzy",
