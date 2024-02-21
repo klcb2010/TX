@@ -26,7 +26,9 @@
 			"changeable": 1, 
 			"ext":"0$$$","jar":"./jar/pg2024.jar"
 		},
-{"key": "巧技四","name": "巧技四","type": 3,"api": "csp_qiao2","playerType": 2,"jar":"http://cdn.qiaoji8.com/fix24117.jar;md5;2e85feb2888d9efb5b396258f22841ac","ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji4"},
+{"key":"巧技五","name":"巧技五","type":3,"api":"csp_qiao2","searchable":1,"quickSearch":1,"playerType":2,"filterable":1,"ext":"https://jihulab.com/qiaoji/open/-/raw/main/qiaoji5","jar":"http://cdn.qiaoji8.com/fix24117.jar"},
+{"key":"巧技四","name":"巧技四","type":3,"api":"csp_qiao2","searchable":1,"quickSearch":1,"playerType":2,"filterable":1,"ext":"https://jihulab.com/qiaoji/open/-/raw/main/qiaoji4","jar":"http://cdn.qiaoji8.com/fix24117.jar"},
+{"key":"tvbsk","name":"TVB云播","type":3,"api":"csp_Skapp","playerType":2,"ext":"https://jihulab.com/qiaoji/open/-/raw/main/tvbyb"},
 {"key":"南瓜","name":"南瓜","type":3,"api":"csp_NanGua","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {
 "key": "csp_速映",
