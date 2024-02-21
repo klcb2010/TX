@@ -36,7 +36,7 @@
 "timeout":15},
 {"key":"找資源","name":"找资源搜索","type":3,"api":"csp_Zhaozy","jar":"./jar/okpng.txt","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"file://TV/ali_token.txt","danmu":false},
 "timeout":15},
-{"key":"盘搜","name":"盘┃搜索","type":3,"api":"csp_PanSou","jar":"./jar/okpng.txt","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"file://TV/ali_token.txt","danmu":false},
+{"key":"盘搜","name":"盘搜索","type":3,"api":"csp_PanSou","jar":"./jar/okpng.txt","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"file://TV/ali_token.txt","danmu":false},
 "timeout":15},
 {"key":"易搜","name":"易搜搜索","type":3,"api":"csp_YiSo","jar":"./jar/okpng.txt","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"file://TV/ali_token.txt","danmu":false,"cookie":"JSESSIONID=FEAFA3BD405267C378C2455FBAD4A704;satoken=0f065aaa-1b6b-4b9b-9910-83a67fb14da2"},
 "timeout":15},
