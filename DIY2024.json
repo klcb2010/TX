@@ -20,6 +20,36 @@
 "timeout":25},
 {"key":"玩偶表哥弹幕","name":"玩偶表哥4K","type":3,"api":"csp_Wobg","jar":"./jar/okpng.txt","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","danmu":false},
 "timeout":25},
+{
+"key": "Buleitv",
+"name": "布蕾4K",
+"type": 3,
+"api": "csp_Buleitv",
+"searchable": 1,
+"changeable": 0,
+"jar":"./jar/影探王小二放牛娃.jar"
+
+},
+{
+"key": "Zhuiyitv",
+"name": "追忆TV",
+"type": 3,
+"api": "csp_Zhuiyitv",
+"searchable": 1,
+"changeable": 0,
+"jar":"./jar/影探王小二放牛娃.jar"
+
+},
+{
+"key": "Yingtantv",
+"name": "影探TV",
+"type": 3,
+"api": "csp_Yingtantv2",
+"searchable": 1,
+"changeable": 0,
+"jar":"./jar/影探王小二放牛娃.jar"
+
+},
 {"key":"️爱看Bot弹幕版","name":"爱看Bot","type":3,"api":"csp_Ikanbot","jar":"./jar/okpng.txt","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":false},
 "timeout":10},
 {"key":"七夜","name":"七夜搜索","type":3,"api":"csp_Dovx","jar":"./jar/okpng.txt","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"file://TV/ali_token.txt","danmu":false},
