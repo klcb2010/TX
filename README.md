@@ -12,7 +12,6 @@ https://agit.ai/ddx/TVBox
 
 
 
-删除 js.json和cat/js下的两个YQK文件才能自定义
 
 
 其他源码https://jihulab.com/xuanzhuapp/xzys
