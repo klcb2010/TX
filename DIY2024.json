@@ -59,6 +59,16 @@
       },
       "jar": "http://4k.weixine.link:5678/tvbox/lvdou.jar"
     },
+{
+      "key": "bulei",
+      "name": "布蕾Tv测试",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://38.12.25.109:158/api.php/app/"
+    },
 {"key":"️爱看Bot弹幕版","name":"爱看Bot","type":3,"api":"csp_Ikanbot","jar":"./jar/okpng.txt","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":false},
 "timeout":10},
 {"key":"七夜","name":"七夜搜索","type":3,"api":"csp_Dovx","jar":"./jar/okpng.txt","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"file://TV/ali_token.txt","danmu":false},
