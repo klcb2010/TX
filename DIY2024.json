@@ -24,32 +24,25 @@
 "key": "Buleitv",
 "name": "💯布蕾┃TV┃App",
 "type": 3,
-"api": "csp_Buleitv",
+"api": "csp_Buleitv","jar":"./jar/追忆影探布蕾带自动追踪.jar",
 "searchable": 1,
-"changeable": 0,
-"jar":"./jar/影探王小二放牛娃.jar"
-
+"changeable": 0
+},{
+"key": "Yingtantv",
+"name": "💯影探┃TV┃App",
+"type": 3,
+"api": "csp_Yingtantv2","jar":"./jar/追忆影探布蕾带自动追踪.jar",
+"searchable": 1,
+"changeable": 0
 },
 {
 "key": "Zhuiyitv",
 "name": "💯追忆┃TV┃App",
 "type": 3,
-"api": "csp_Zhuiyitv",
+"api": "csp_Zhuiyitv","jar":"./jar/追忆影探布蕾带自动追踪.jar",
 "searchable": 1,
-"changeable": 0,
-"jar":"./jar/影探王小二放牛娃.jar"
-
-},
-{
-"key": "Yingtantv",
-"name": "💯影探┃TV┃App",
-"type": 3,
-"api": "csp_Yingtantv2",
-"searchable": 1,
-"changeable": 0,
-"jar":"./jar/影探王小二放牛娃.jar"
-
-},
+"changeable": 0
+}
 {"key":"️爱看Bot弹幕版","name":"爱看Bot","type":3,"api":"csp_Ikanbot","jar":"./jar/okpng.txt","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":false},
 "timeout":10},
 {"key":"七夜","name":"七夜搜索","type":3,"api":"csp_Dovx","jar":"./jar/okpng.txt","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"file://TV/ali_token.txt","danmu":false},
