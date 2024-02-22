@@ -181,7 +181,7 @@
 {"key":"新6V","name":"新6V","type":3,"api":"csp_SixV","searchable":1,"quickSearch":1,"changeable":0,"ext": "http://www.xb6v.com/","timeout":30},
 {"key": "虎虎","name": "虎虎影视","type": 3,"api": "csp_XBPQ","jar":"./jar/spider.jar;md5;d1fa24b46f218f455bc3f4b948fd457e","searchable":1,"quickSearch":1,"filterable":1,"ext": "./lib/虎虎.json"},
 {"key":"哔嘀影视","name":"哔嘀影视磁力","type":3,"api":"csp_XYQHiker","jar":"./jar/spider.jar;md5;d1fa24b46f218f455bc3f4b948fd457e","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/哔嘀影视.json"},
-{"key":"圣城影视","name":"圣城影视","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/圣城影视.json","jar":"./jar/spider.jar"},
+{"key":"圣城影视","name":"圣城影视","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/圣城影视.json","jar":"./jar/spider.jar"},
 {"key":"影探","name":"影探4K","type":3,"api":"./lib/drpy.min.js","jar":"./jar/0606","ext":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/js/yt.js"},
 {"key": "儿童英语","name": "儿童英语","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 1,"filterable": 1,"ext": "./lib/儿童英语.json"},
 {"key": "儿童硬笔","name": "儿童硬笔","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 1,"filterable": 1,"ext": "./lib/儿童硬笔.json"},
