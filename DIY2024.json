@@ -64,7 +64,7 @@
 			"name": "天天",
 			"type": 3,
 			"api": "csp_TTian",
-			"playerType": 1,
+			"jar":"./jar/pg.jar","playerType": 1,
 			"ext": "http://op.ysdqjs.cn$$$null$$$1"
 		},
 {"key":"️爱看Bot弹幕版","name":"爱看Bot","type":3,"api":"csp_Ikanbot","jar":"./jar/okpng.txt","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":false},
