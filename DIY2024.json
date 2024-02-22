@@ -58,7 +58,7 @@
         "mackey": "yingshiche123456|PHPBxdt7PppocRJ5"
       },
       "jar": "http://4k.weixine.link:5678/tvbox/lvdou.jar"
-    }
+    },
 {"key":"️爱看Bot弹幕版","name":"爱看Bot","type":3,"api":"csp_Ikanbot","jar":"./jar/okpng.txt","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":false},
 "timeout":10},
 {"key":"七夜","name":"七夜搜索","type":3,"api":"csp_Dovx","jar":"./jar/okpng.txt","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"file://TV/ali_token.txt","danmu":false},
