@@ -22,7 +22,7 @@
 "timeout":25},
 {
 "key": "Buleitv",
-"name": "布蕾4K",
+"name": "💯布蕾┃TV┃App",
 "type": 3,
 "api": "csp_Buleitv",
 "searchable": 1,
@@ -32,7 +32,7 @@
 },
 {
 "key": "Zhuiyitv",
-"name": "追忆TV",
+"name": "💯追忆┃TV┃App",
 "type": 3,
 "api": "csp_Zhuiyitv",
 "searchable": 1,
@@ -42,7 +42,7 @@
 },
 {
 "key": "Yingtantv",
-"name": "影探TV",
+"name": "💯影探┃TV┃App",
 "type": 3,
 "api": "csp_Yingtantv2",
 "searchable": 1,
