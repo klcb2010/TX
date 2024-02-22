@@ -98,11 +98,7 @@
 		},
 
 {"key":"tvbsk","name":"TVB云播","type":3,"api":"csp_Skapp","jar":"http://cdn.qiaoji8.com/fix24117.jar","playerType":2,"ext":"https://jihulab.com/qiaoji/open/-/raw/main/tvbyb"},
-{"key":"巧技一","name":"巧技一","type":3,"api":"csp_qiao2","jar":"http://cdn.qiaoji8.com/fix24117.jar","playerType":2,"ext":"https://jihulab.com/qiaoji/open/-/raw/main/qiaoji1"},
-{"key":"巧技二","name":"巧技二","type":3,"api":"csp_qiao2","jar":"http://cdn.qiaoji8.com/fix24117.jar","playerType":2,"ext":"https://jihulab.com/qiaoji/open/-/raw/main/qiaoji2"},
-{"key":"巧技三","name":"巧技三","type":3,"api":"csp_qiao2","jar":"http://cdn.qiaoji8.com/fix24117.jar","playerType":2,"ext":"https://jihulab.com/qiaoji/open/-/raw/main/qiaoji3"},
-{"key":"巧技四","name":"巧技四","type":3,"api":"csp_qiao2","jar":"http://cdn.qiaoji8.com/fix24117.jar","playerType":2,"ext":"https://jihulab.com/qiaoji/open/-/raw/main/qiaoji4"},
-{"key":"巧技五","name":"巧技五","type":3,"api":"csp_qiao2","jar":"http://cdn.qiaoji8.com/fix24117.jar","searchable":1,"quickSearch":1,"playerType":2,"filterable":1,"ext":"https://jihulab.com/qiaoji/open/-/raw/main/qiaoji5"},
+{"key":"Dygang","name":"电影港","type":3,"jar":"http://cdn.qiaoji8.com/fix24117.jar","api":"csp_Dygang"},
 {"key":"南瓜","name":"南瓜","type":3,"api":"csp_NanGua","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {
 "key": "csp_速映",
@@ -127,7 +123,7 @@
 "ext": "./json/胖虎影视.json",
 "jar": "./jar/XBPQ.jar"
 },
-{"key":"玩偶哥哥","name":"玩偶哥哥4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"file://TV/ali_token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"},
+{"key":"玩偶哥哥","name":"玩偶哥哥4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"file://TV/ali_token.txt+4k|auto|fhd$$$https://cdn.wogg.xyz/$$$弹"},
 {"key":"荐片弹幕版","name":"荐片","type": 3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": false},"jar":"./jar/ok.png;md5;E5F0A5283309C662BDAF3659A55E9F1D", "timeout":30},
 {
    "key": "csp_Czzy",
