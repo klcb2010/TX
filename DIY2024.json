@@ -97,7 +97,12 @@
 			"ext":"0$$$","jar":"./jar/pg2024.jar"
 		},
 
-{"key":"tvbsk","name":"TVB云播","type":3,"api":"csp_Skapp","playerType":2,"ext":"https://jihulab.com/qiaoji/open/-/raw/main/tvbyb"},
+{"key":"tvbsk","name":"TVB云播","type":3,"api":"csp_Skapp","jar":"http://cdn.qiaoji8.com/fix24117.jar","playerType":2,"ext":"https://jihulab.com/qiaoji/open/-/raw/main/tvbyb"},
+{"key":"巧技一","name":"巧技一","type":3,"api":"csp_qiao2","jar":"http://cdn.qiaoji8.com/fix24117.jar","playerType":2,"ext":"https://jihulab.com/qiaoji/open/-/raw/main/qiaoji1"},
+{"key":"巧技二","name":"巧技二","type":3,"api":"csp_qiao2","jar":"http://cdn.qiaoji8.com/fix24117.jar","playerType":2,"ext":"https://jihulab.com/qiaoji/open/-/raw/main/qiaoji2"},
+{"key":"巧技三","name":"巧技三","type":3,"api":"csp_qiao2","jar":"http://cdn.qiaoji8.com/fix24117.jar","playerType":2,"ext":"https://jihulab.com/qiaoji/open/-/raw/main/qiaoji3"},
+{"key":"巧技四","name":"巧技四","type":3,"api":"csp_qiao2","jar":"http://cdn.qiaoji8.com/fix24117.jar","playerType":2,"ext":"https://jihulab.com/qiaoji/open/-/raw/main/qiaoji4"},
+{"key":"巧技五","name":"巧技五","type":3,"api":"csp_qiao2","jar":"http://cdn.qiaoji8.com/fix24117.jar","searchable":1,"quickSearch":1,"playerType":2,"filterable":1,"ext":"https://jihulab.com/qiaoji/open/-/raw/main/qiaoji5"},
 {"key":"南瓜","name":"南瓜","type":3,"api":"csp_NanGua","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {
 "key": "csp_速映",
