@@ -22,7 +22,7 @@
 "timeout":25},
         {
             "key": "Buleitv",
-            "name": "💯布蕾┃TV┃App",
+            "name": "布蕾TV",
             "type": 3,
             "api": "csp_Buleitv",
             "jar": "./jar/追忆影探布蕾带自动追踪.jar",
@@ -31,7 +31,7 @@
         },
         {
             "key": "Yingtantv",
-            "name": "💯影探┃TV┃App",
+            "name": "影探TV",
             "type": 3,
             "api": "csp_Yingtantv2",
             "jar": "./jar/追忆影探布蕾带自动追踪.jar",
@@ -40,7 +40,7 @@
         },
         {
             "key": "Zhuiyitv",
-            "name": "💯追忆┃TV┃App",
+            "name": "追忆TV",
             "type": 3,
             "api": "csp_Zhuiyitv",
             "jar": "./jar/追忆影探布蕾带自动追踪.jar",
@@ -58,16 +58,6 @@
         "mackey": "yingshiche123456|PHPBxdt7PppocRJ5"
       },
       "jar": "http://4k.weixine.link:5678/tvbox/lvdou.jar"
-    },
-{
-      "key": "bulei",
-      "name": "布蕾Tv测试",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://38.12.25.109:158/api.php/app/"
     },
 {"key":"️爱看Bot弹幕版","name":"爱看Bot","type":3,"api":"csp_Ikanbot","jar":"./jar/okpng.txt","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":false},
 "timeout":10},
