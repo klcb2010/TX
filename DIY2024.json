@@ -19,17 +19,7 @@
 {"key":"我哥哥弹幕","name":"我哥哥4K","type":3,"api":"csp_Wobg","jar":"./jar/okpng.txt","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"http://www.ttkx.live","danmu":false},
 "timeout":25},
 {"key":"玩偶表哥弹幕","name":"玩偶表哥4K","type":3,"api":"csp_Wobg","jar":"./jar/okpng.txt","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","danmu":false},
-"timeout":25},
-        {
-            "key": "Buleitv",
-            "name": "布蕾TV",
-            "type": 3,
-            "api": "csp_Buleitv",
-            "jar": "./jar/追忆影探布蕾带自动追踪.jar",
-            "searchable": 1,
-            "changeable": 0
-        },
-        {
+"timeout":25},{
             "key": "Yingtantv",
             "name": "影探TV",
             "type": 3,
@@ -38,15 +28,7 @@
             "searchable": 1,
             "changeable": 0
         },
-        {
-            "key": "Zhuiyitv",
-            "name": "追忆TV",
-            "type": 3,
-            "api": "csp_Zhuiyitv",
-            "jar": "./jar/追忆影探布蕾带自动追踪.jar",
-            "searchable": 1,
-            "changeable": 0
-        },
+        
 {
       "key": "影视车®APP",
       "name": "影视车4K",
