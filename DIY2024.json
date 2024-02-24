@@ -30,17 +30,20 @@
         },
         
 {
-      "key": "影视车®APP",
-      "name": "影视车4K",
-      "type": 3,
-      "api": "csp_LvDou",
-      "playerType": 1,
-      "ext": {
-        "server": "https://4k.ysctv.cn/api.php/app/",
-        "mackey": "yingshiche123456|PHPBxdt7PppocRJ5"
-      },
-      "jar": "http://4k.weixine.link:5678/tvbox/lvdou.jar"
-    },
+"key": "影视车®APP",
+"name": "影视车APP",
+"type": 3,
+"api": "csp_Yscapp","jar":"./jar/影视车影探.jar",
+"searchable": 1,
+"changeable": 0
+},{
+"key": "Yingtantv",
+"name": "💯影探App",
+"type": 3,
+"api": "csp_Yingtantv2","jar":"./jar/影视车影探.jar",
+"searchable": 1,
+"changeable": 0
+},
 	{
 			"key": "天天",
 			"name": "天天",
