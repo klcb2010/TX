@@ -29,22 +29,6 @@
             "changeable": 0
         },
         
-{
-"key": "影视车®APP",
-"name": "影视车APP",
-"type": 3,
-"api": "csp_Yscapp","jar":"./jar/影视车影探.jar",
-"searchable": 1,
-"changeable": 0
-},
-{
-"key": "Yingtantv",
-"name": "💯影探App",
-"type": 3,
-"api": "csp_Yingtantv2","jar":"./jar/影视车影探.jar",
-"searchable": 1,
-"changeable": 0
-},
 	{
 			"key": "天天",
 			"name": "天天",
