@@ -6,7 +6,7 @@
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "sites":[
 {"key":"cc","name":"发现广告，及时联系我屏蔽","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
-{"key":"cc","name":"最后更新：04-02-26","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
+{"key":"cc","name":"最后更新：04-02-26","type":3,"api":"./js/drpy2.min.js","ext":"./js/drpy.js"},
 {"key": "lf_js_search","name": "路飞搜索","type": 3,"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "./js/lf_search3_min.js"},
 {"key":"网盘配置","name":"本地网盘配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt"},"jar":"http://yydf.540734621.xyz/vx/pg/pg.jar"},
 {"key":"豆豆","name":"豆瓣搜索","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
