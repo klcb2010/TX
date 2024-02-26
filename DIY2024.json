@@ -10,6 +10,22 @@
 {"key":"网盘配置","name":"本地网盘配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt"},"jar":"http://yydf.540734621.xyz/vx/pg/pg.jar"},
 {"key":"豆豆","name":"豆瓣搜索","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
 {"key":"drpy_js_磁力熊搜索","name":"磁力熊搜索","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiong.js","searchable":0,"quickSearch":0,"changeable":1},
+{
+      "key": "宇宙",
+      "name": "宇宙4K",
+      "type": 3,
+      "api": "csp_LvDou",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "playerType": 1,
+      "ext": {
+        "server": "http://ds.yuzhoukeji.top/api.php/app/",
+        "mackey": "cbXJS43|xTlpFxIsjD1k5YtopgnB",
+        "danmu": true
+      }
+    },
 {"key":"运输车弹幕版","name":"运输车4K","type":3,"api":"csp_Wogg","jar":"./jar/okpng.txt","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://www.weixine.net","danmu":false},
 "timeout":25},
 {"key":"nm","name":"农民影视","type":3,"api":"csp_WebNM","searchable":1,"quickSearch":0,"filterable":0,"ext":"https://v.nmvod.cn","jar": "https://d.kstore.space/download/6474/tvbox/jar/YSZYZ.jar"},
