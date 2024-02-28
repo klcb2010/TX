@@ -12,7 +12,7 @@
 {"key":"drpy_js_磁力熊搜索","name":"磁力熊搜索","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiong.js","searchable":0,"quickSearch":0,"changeable":1},
 {"key": "蜜果视界",
       "name": "蜜果4K",
-      "api": "csp_AppYs",
+      "api": "csp_AppYs","jar":"./jar/0606.jar",
       "type": 3,
       "ext": "https://miguo.pro/api.php/v1.vod"
     },
