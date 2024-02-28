@@ -12,7 +12,7 @@
 {"key":"drpy_js_磁力熊搜索","name":"磁力熊搜索","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiong.js","searchable":0,"quickSearch":0,"changeable":1},
 {
 "key": "Fangniu4k",
-"name": "放牛TV",
+"name": "4K放牛TV",
 "type": 3,
 "api": "csp_Fangniu4k","jar":"./jar/custom_2024spider.jar",
 "searchable": 1,
