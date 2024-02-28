@@ -10,6 +10,12 @@
 {"key": "lf_js_search","name": "路飞搜索","type": 3,"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "./js/lf_search3_min.js"},
 {"key":"网盘配置","name":"本地网盘配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt"},"jar":"http://yydf.540734621.xyz/vx/pg/pg.jar"},
 {"key":"drpy_js_磁力熊搜索","name":"磁力熊搜索","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiong.js","searchable":0,"quickSearch":0,"changeable":1},
+{"key": "蜜果视界",
+      "name": "蜜果4K",
+      "api": "csp_AppYs",
+      "type": 3,
+      "ext": "https://miguo.pro/api.php/v1.vod"
+    },
 {
 "key": "Fangniu4k",
 "name": "4K放牛TV",
