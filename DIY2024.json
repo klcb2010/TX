@@ -16,22 +16,6 @@
       "ext": "https://miguo.pro/api.php/v1.vod"
     },
 {
-      "key": "宇宙",
-      "name": "宇宙4K",
-      "type": 3,
-      "api": "csp_LvDou","jar": "http://101.200.184.252/drpy/pg.jar",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "playerType": 1,
-      "ext": {
-        "server": "http://ds.yuzhoukeji.top/api.php/app/",
-        "mackey": "cbXJS43|xTlpFxIsjD1k5YtopgnB",
-        "danmu": false
-      }
-    },
-{
 "key": "Fangniu4k",
 "name": "4K放牛TV",
 "type": 3,
