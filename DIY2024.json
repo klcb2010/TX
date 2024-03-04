@@ -23,7 +23,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": ".jar/XBPQ.jar",
+            "jar": "./jar/XBPQ.jar",
             "api": "csp_XBPQ",
             "playerType": "2",
             "ext": {
