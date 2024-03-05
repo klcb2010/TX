@@ -50,7 +50,7 @@
 },
 
 
-{"key":"运输车弹幕版","name":"运输车4K","type":3,"api":"csp_Wogg","jar":"./jar/okpng.txt","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://www.weixine.net","danmu":false},
+{"key":"运输车弹幕版","name":"运输车4K","type":3,"api":"csp_Wogg","jar":"./jar/okpng.txt","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://www.weixine.link","danmu":false},
 "timeout":25},
 {"key":"nm","name":"农民影视","type":3,"api":"csp_WebNM","searchable":1,"quickSearch":0,"filterable":0,"ext":"https://v.nmvod.cn","jar": "https://d.kstore.space/download/6474/tvbox/jar/YSZYZ.jar"},
 {"key":"团长弹幕版","name":"团长4K","type":3,"api":"csp_Tzfile","jar":"./jar/okpng.txt","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","danmu":false},
