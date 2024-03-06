@@ -5,7 +5,7 @@
 ],
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "sites":[
-{"key":"cc","name":"4K资源需要关注公众号","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
+{"key":"cc","name":"4K资源密码1811","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
 {"key": "js豆瓣1","name": "最后更新：04-03-05","type": 3,"api": "./lib/drpy2.min.js","jar":"./jar/0606.jar","ext": "./lib/douban.js","searchable": 0,"quickSearch": 0,"filterable": 0},
 {"key": "lf_js_search","name": "路飞搜索","type": 3,"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "./js/lf_search3_min.js"},
 {"key":"网盘配置","name":"本地网盘配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt"},"jar":"http://yydf.540734621.xyz/vx/pg/pg.jar"},
