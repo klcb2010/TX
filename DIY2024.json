@@ -5,7 +5,7 @@
 ],
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "sites":[
-{"key":"cc","name":"网盘资源需要相应APP扫码登录","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
+{"key":"cc","name":"网盘资源需要相应APP扫码","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
 {"key": "js豆瓣1","name": "最后更新：04-03-06","type": 3,"api": "./lib/drpy2.min.js","jar":"./jar/0606.jar","ext": "./lib/douban.js","searchable": 0,"quickSearch": 0,"filterable": 0},
 {"key": "lf_js_search","name": "路飞搜索","type": 3,"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "./js/lf_search3_min.js"},
 {
