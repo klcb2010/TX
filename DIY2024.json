@@ -96,14 +96,6 @@
 "ext": "./json/胖虎影视.json",
 "jar": "./jar/XBPQ.jar"
 },
-{
-			"key": "愛看",
-			"name": "愛看",
-			"type": 3,
-			"api": "./js/ikanbot_open.js","jar": "./jar/pg.jar",
-			"searchable": 1,
-			"changeable": 0
-		},
 {"key":"玩偶哥哥","name":"玩偶哥哥4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"file://TV/ali_token.txt+4k|auto|fhd$$$https://cdn.wogg.xyz/$$$弹"},
 {"key":"Wobg","name":"玩偶表哥|网盘","type":3,"api":"csp_Wobg","jar": "./jar/pg.jar","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://wobge.run.goorm.io$$$null$$$1$$$./lib/wogg.json"},
 {"key":"荐片弹幕版","name":"荐片","type": 3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": false},"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okpng.txt", "timeout":30},
