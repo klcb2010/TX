@@ -52,16 +52,6 @@
 "searchable": 1,
 "changeable": 0
 },
-{"key":"运输车弹幕版","name":"影视车4K","type":3,"api":"csp_Wogg","jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okpng.txt;md5;4049eb25fda43b7c0d359274e9fdabce","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://www.weixine.link","danmu":true},
-"timeout":25},
-{"key":"团长弹幕版","name":"团长4K","type":3,"api":"csp_Tzfile","jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okpng.txt","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","danmu":true},
-"timeout":25},
-{"key":"土豆网盘弹幕","name":"土豆4K弹","type":3,"api":"csp_Wobg","jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okpng.txt","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://aliz.lvdoui.top","danmu":true},
-"timeout":25},
-{"key":"玩偶表哥弹幕","name":"玩偶表哥4K","type":3,"api":"csp_Wobg","jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okpng.txt","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","danmu":true},
-"timeout":25},
-{"key":"️爱看Bot弹幕版","name":"爱看Bot","type":3,"api":"csp_Ikanbot","jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okpng.txt","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},
-"timeout":10},
 	{
 			"key": "天天",
 			"name": "天天",
@@ -108,7 +98,16 @@
 "ext": "./json/胖虎影视.json",
 "jar": "./jar/XBPQ.jar"
 },
+{
+			"key": "愛看",
+			"name": "愛看",
+			"type": 3,
+			"api": "./js/ikanbot_open.js","jar": "./jar/pg.jar",
+			"searchable": 1,
+			"changeable": 0
+		},
 {"key":"玩偶哥哥","name":"玩偶哥哥4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"file://TV/ali_token.txt+4k|auto|fhd$$$https://cdn.wogg.xyz/$$$弹"},
+{"key":"Wobg","name":"玩偶表哥|网盘","type":3,"api":"csp_Wobg","jar": "./jar/pg.jar","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://wobge.run.goorm.io$$$null$$$1$$$./lib/wogg.json"},
 {"key":"荐片弹幕版","name":"荐片","type": 3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": false},"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okpng.txt", "timeout":30},
 {
    "key": "csp_Czzy",
