@@ -107,7 +107,22 @@
 "jar": "./jar/XBPQ.jar"
 },
 {"key":"玩偶哥哥","name":"玩偶哥哥4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"file://TV/ali_token.txt+4k|auto|fhd$$$https://cdn.wogg.xyz/$$$弹"},
-{"key":"Wobg","name":"玩偶表哥|网盘","type":3,"api":"csp_Wobg","jar": "./jar/pg.jar","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://wobge.run.goorm.io$$$null$$$1$$$./lib/wogg.json"},
+    {
+      "key": "玩偶表哥弹幕",
+      "name": "玩偶表哥网盘",
+      "type": 3,
+      "api": "csp_Wobg",
+      "jar": "http://我不是.摸鱼儿.top/0304/jar/mybt.php",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TV/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TV/quark_cookie.txt",
+        "danmu": false 
+      },
+      "timeout": 25
+    },
 {
    "key": "csp_Czzy",
    "name": "厂长高清",
