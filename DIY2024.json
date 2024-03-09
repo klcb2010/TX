@@ -16,6 +16,8 @@
 			"changeable": 0,
 			"ext":"./lib/tokenm.json"
 		},
+{"key":"玩偶弹幕版","name":"玩偶哥哥4K弹幕","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okpng.txt","ext":{"token":"file://TV/ali_token.txt","wogg":true,"danmu":true},
+"timeout":30},
 {"key":"酷看弹幕版","name":"酷看弹幕","type":3,"api":"csp_Kkys","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okpng.txt","ext":{"danmu":true},
 "timeout":20},
 {"key":"厂长弹幕版","name":"厂长弹幕","type":3,"api":"csp_Czzy","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okpng.txt","ext":{"danmu":true},
@@ -130,8 +132,6 @@
 "ext": "./json/胖虎影视.json",
 "jar": "./jar/XBPQ.jar"
 },
-{"key":"玩偶哥哥","name":"玩偶哥哥4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"file://TV/ali_token.txt+4k|auto|fhd$$$https://cdn.wogg.xyz/$$$弹"},
-
 {
    "key": "csp_Czzy",
    "name": "厂长高清",
