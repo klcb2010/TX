@@ -39,6 +39,16 @@
 {"key":"七夜","name":"七夜搜索","type":3,"api":"csp_Dovx","searchable":1,"filterable":0,"changeable":0,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okpng.txt","ext":{"token":"file://TV/ali_token.txt","danmu":true},
 "timeout":15},
 
+{
+      "key": "獨播",
+      "name": "獨播 | 海外翻墙",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "changeable": 1,
+      "jar":"./jar/pg.jar",
+      "ext": "./lib/duboku.json"
+    },
 
 {
             "key": "baipiaoys",
