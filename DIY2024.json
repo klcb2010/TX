@@ -5,7 +5,7 @@
 ],
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "sites":[
-{"key": "豆瓣","name": "网盘资源需要输入激活码1401","type": 3,"api": "csp_Douban","jar": "./jar/pg.jar","searchable": 0,"changeable": 1,"indexs":1,"ext": "./lib/douban.json"},
+{"key": "豆瓣","name": "发现广告,联系我屏蔽","type": 3,"api": "csp_Douban","jar": "./jar/pg.jar","searchable": 0,"changeable": 1,"indexs":1,"ext": "./lib/douban.json"},
 {"key": "lf_js_search","name": "最后更新：04-03-10","type": 3,"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "./js/lf_search3_min.js"},
 
 {			"key": "网盘配置",
