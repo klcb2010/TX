@@ -16,7 +16,7 @@
 			"changeable": 0,
 			"ext":"./lib/tokenm.json"
 		},
-{"key":"玩偶弹幕版","name":"玩偶哥哥4K弹幕","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okpng.txt","ext":{"token":"file://TV/ali_token.txt","wogg":true,"danmu":true},
+{"key":"玩偶弹幕版","name":"玩偶哥哥4K弹幕","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","ext":{"token":"file://TV/ali_token.txt","wogg":true,"danmu":true},
 "timeout":30},
 {"key":"酷看弹幕版","name":"酷看弹幕","type":3,"api":"csp_Kkys","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okpng.txt","ext":{"danmu":true},
 "timeout":20},
