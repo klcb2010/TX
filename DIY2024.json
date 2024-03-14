@@ -1,7 +1,6 @@
 {
 "spider":"./jar/fan.txt;md5;5543dae038ce2248e7759e9cbca295b9",
-"lives":[{"name":"首选","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.jpg"},
-{"name":"备选","type":0,"url":"https://gitlab.com/klcb2010/TX/-/raw/master/IPtv-DIY.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.jpg"}
+"lives":[{"name":"IPv6","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.jpg"}
 ],
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "sites":[
