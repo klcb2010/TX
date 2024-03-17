@@ -37,45 +37,7 @@
 "timeout":10},
 {"key":"七夜","name":"七夜搜索","type":3,"api":"csp_Dovx","searchable":1,"filterable":0,"changeable":0,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","ext":{"token":"file://TV/ali_token.txt","danmu":true},
 "timeout":15},
-
 {
-      "key": "獨播",
-      "name": "獨播 | 海外翻墙",
-      "type": 3,
-      "api": "csp_XPathMacFilter",
-      "searchable": 1,
-      "changeable": 1,
-      "jar":"./jar/pg.jar",
-      "ext": "./lib/duboku.json"
-    },
-
-{
-            "key": "baipiaoys",
-            "name": "免费TV",
-            "type": 3,
-            "changeable": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./jar/XBPQ.jar",
-            "api": "csp_XBPQ",
-            "playerType": "2",
-            "ext": {
-                "主页url": "http://www.baipiaoys.cc/",
-                "副标题": "pic-text text-right\">&&</b>",
-                "搜索模式": "1",
-                "搜索url": "https://www.baipiaoys.cc/search.html?wd={wd}",
-                "图片": "data-original=\"&&\"",
-                "嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
-                "影片类型": "<div class=\"module-info-tag\">&&立即播放",
-                "导演": "导演：&&</div>",
-                "主演": "主演：&&</div>",
-                "分类": "短剧$4#电影$1#电视剧$2#动漫$3#综艺$5",
-                "分类url": "http://www.baipiaoys.cc/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/lang/{lang}/letter/{letter}/year/{year}.html"
-            }
-        },
-
-	{
 			"key": "天天",
 			"name": "天天",
 			"type": 3,
@@ -83,19 +45,11 @@
 			"jar":"./jar/pg.jar","playerType": 1,
 			"ext": "http://op.ysdqjs.cn$$$null$$$1"
 		},
-{
-"key": "Fangniu4k",
-"name": "4K放牛TV",
-"type": 3,
-"api": "csp_Fangniu4k","jar":"./jar/zuixinfangniu.jar",
-"searchable": 1,
-"changeable": 0
-},
-	{"key":"Pan99","name":"盘99|网盘","type":3,"api":"csp_Pan99","jar": "./jar/pg.jar","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://pan99.xyz$$$null$$$1"},
+{"key":"Pan99","name":"盘99|网盘","type":3,"api":"csp_Pan99","jar": "./jar/pg.jar","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://pan99.xyz$$$null$$$1"},
 		{"key":"Hdhive","name":"影巢|网盘","type":3,"api":"csp_Hdhive","jar": "./jar/pg.jar","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$null$$$1"},
     {
       "key": "运输车弹幕版",
-      "name": "💯运输车【弹幕】4K-HDR",
+      "name": "运输车4K",
       "type": 3,
       "api": "csp_Wogg",
       "jar": "http://我不是.摸鱼儿.top/0304/jar/mybt.php",
@@ -145,7 +99,7 @@
    "key": "csp_Czzy",
    "name": "厂长高清",
    "type": 3,
-   "api": "csp_Czzy",
+   "api": "csp_Czzy","quickSearch": 1,
    "searchable": 1,
    "changeable": 0,
    "jar": "./jar/厂长.jar"
@@ -188,12 +142,10 @@
 			}
 		},
     {"key":"视觉","name":"视觉在线","type":3,"api":"csp_Appto","jar": "./jar/pg.jar","searchable":1,"quickSearch":1,"playerType":2,"filterable":1,"ext":"jrytgWz8W3BsIGIs/QktiAoZ7DtDplwV9Pg7bF8WHnTF5F2klyA77RixFCdoINLj8nCqhlMNuwB1Pb2inNFkZjh8RyGN7ZiOnqpb+aNKTWc/Jck9cfN+SNPCNjjnciGaRqH02Q0iKQBwU/zWOS96pWBxD9lY0qzeNbz4IrokjL7REfCrRVCcOVrXRuY+Pqa4W64no+kOxEzgiXo2D2z1M5rewxwQD0hMFq8psl+TndXgy3T02vKjjNzGT6U7IqR2O1BPEj7GbFWtGZHeYsMp9/hvlhKj6zpekdc/TuxTAQ5+zLGSoL5rrwLOlEr+OSpeT8C6bDxI9wvvmIoFMLMmgHEo2weV2KgP6r6MONUo7B7UlSWSydzHsXYKjcM0Z0kk5GO6eCn2/H3nDnhccyOtL101S4JRTPAsF4FStqYRibK/I1jwUd8+tUxUKtHRqb2tSD5g0HzcKjZGSCvw/drZKG2dEtOEFhb8f6b3f+UH6f8oGOPrw5n/sUmWoMtNV6qO0uXgisoIBGcesdlXaZd7ZmFwecyipGGkUh2L+uHKTpGBYXpwYZweuESOdeaemVcEiPWs0uvWxi3fQHvhYyVOORJxrVWwwkxAOUGbQCCXxeghANz9NPwK6ff6siV0+p2486wXV55TX8rR8UakzQ1f7/5PaFp5FnjQEzwmkPF/zzE4=$$$null$$$1"},
-{"key":"快影","name":"快影","type":3,"api":"csp_AppYsV2","jar": "./jar/pg.jar","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"http://iosa.xn--654a.cc/api.php/app/$$$null$$$1"},
 {"key":"csp_七新","name":"七新影视","type": 3,"api": "csp_XBPQ","jar": "./jar/0606.jar","searchable": 1, "quickSearch": 1, "filterable": 1,"ext":"./json/七新影视.json"},
-{"key":"星奇","name":"星奇","type":3,"api":"csp_AppMao","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"FbjDcUxPqpfNr0QF4QvE6sExbd4UXJxJXzdL462ywU1XScGa5G6Hj0/c+Ou1GW6rdX6N2XIhnD46QzIsRoZ8bk4fG4OYi0iCaWwRj2ddkacwFqHtLjQhalHqIy0+kpiTv2eOfJYxTshgrxcJ+g3lEHx7ZLC9kB1TCfZUSHwqHB3tt6V/1OhRENIOZNRFfXVBEFd7jQg+J06kjCAF7z1Bt8hRvMjC2VcbQXsEz8MCZDgu06C9/wirWcTa/wWJsfT+Z7fXaDs+dIWMYiwf6td5CWTx6LfL6eTuiMhs2KU5Byw9F+4Y/AHBg4r+LEe+Hm4EM2d8X3ca5zHSj+kjmpXOiGDo4TalFqgTq67eggmthCbV2d131SKc03V+5gruudQQk/Tb9e4lg6SQhA9/5kWOOM/LRmkqIxSt6d0wpu7yKKh65enwKbgasc93/HnGr6W4LuZjf6eYnS2GgRzWRE0fT5lYNmxnWeRnYuLhoZbDqslAfJzg"},
+
 {"key":"csp_Bttoo","name":"比特直连","type":3,"api":"csp_Bttwoo","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"DiDuan","name":"低端直连","type":3,"api":"csp_Ddrk","playerType":"2","searchable":1,"quickSearch":1,"changeable":1},
-{"key":"Auete","name":"奥特直连","type": 3,"api":"csp_Auete","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://haozhansou.com/"}, 
 {"key":"新6V","name":"新6V","type":3,"api":"csp_SixV","searchable":1,"quickSearch":1,"changeable":0,"ext": "http://www.xb6v.com/","timeout":30},
 {"key": "虎虎","name": "虎虎影视","type": 3,"api": "csp_XBPQ","jar":"./jar/spider.jar;md5;d1fa24b46f218f455bc3f4b948fd457e","searchable":1,"quickSearch":1,"filterable":1,"ext": "./lib/虎虎.json"},
 {"key":"哔嘀影视","name":"哔嘀影视","type":3,"api":"csp_XYQHiker","jar":"./jar/spider.jar;md5;d1fa24b46f218f455bc3f4b948fd457e","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/哔嘀影视.json"},
