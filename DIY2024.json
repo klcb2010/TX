@@ -35,7 +35,7 @@
 "timeout":25},
 {"key":"️爱看Bot弹幕版","name":"爱看Bot|弹幕","type":3,"api":"csp_Ikanbot","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","ext":{"danmu":true},
 "timeout":10},
-{"key":"七夜","name":"七夜搜索","type":3,"api":"csp_Dovx","searchable":1,"filterable":0,"changeable":0,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","ext":{"token":"file://TV/ali_token.txt","danmu":true},
+{"key":"七夜","name":"七夜搜索","type":3,"api":"csp_Dovx","searchable":1,"filterable":0,"quickSearch":1,"changeable":0,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","ext":{"token":"file://TV/ali_token.txt","danmu":true},
 "timeout":15},
 {
 			"key": "天天",
