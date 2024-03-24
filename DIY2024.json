@@ -25,7 +25,7 @@
 {"key":"泥巴","name":"泥巴直连","type":3,"api":"csp_NiNi","quickSearch":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","searchable":1,"changeable":1,"timeout":10},
 {"key":"动漫巴士","name":"巴士动漫","type":3,"api":"csp_Dm84","searchable":1,"quickSearch":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","filterable":1,"timeout":10},
 {"key":"七夜","name":"七夜搜索","type":3,"api":"csp_Dovx","searchable":1,"filterable":0,"quickSearch":1,"changeable":0,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","ext":{"token":"file://TV/ali_token.txt","danmu":false},"timeout":15},
-{"key":"YingSo","name":"影搜网盘","type":3,"api":"csp_YingSo","timeout":60, "jar":"./pg.jar","ext":"./lib/tokenm.json"},
+{"key":"YingSo","name":"影搜网盘","type":3,"api":"csp_YingSo","timeout":60, "jar":"./jar/pg.jar","ext":"./lib/tokenm.json"},
  {"key": "白票","name": "白票直连","type": 3,"api": "csp_Cs1369","searchable": 1,"quickSearch": 1,"jar": "https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","filterable": 1,"timeout": 25},
  {"key": "大师兄js","name": "大师兄在线", "type": 3,"searchable": 1,"quickSearch": 1,"jar": "https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","filterable": 1,"api": "https://jihulab.com/okcaptain/kko/-/raw/main/drpy/drpy2.min.js","ext": "https://jihulab.com/okcaptain/kko/-/raw/main/js/dashixiong.js","timeout": 15},
  {"key": "易搜","name": "易搜","type": 3, "api": "csp_YiSo","searchable": 1,"jar": "https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","filterable": 0, "changeable": 0,"ext": { "token": "file://TV/ali_token.txt","cookie": "JSESSIONID=FEAFA3BD405267C378C2455FBAD4A704;satoken=0f065aaa-1b6b-4b9b-9910-83a67fb14da2"},"timeout": 15},
