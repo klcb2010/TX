@@ -5,78 +5,17 @@
 {"key": "豆瓣","name": "发现广告,联系我屏蔽","type": 3,"api": "csp_Douban","jar": "./jar/pg.jar","searchable": 0,"changeable": 1,"indexs":1,"ext": "./lib/douban.json"},
 {"key": "lf_js_search","name": "最后更新：04-03-23","type": 3,"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "./js/lf_search3_min.js"},
 {"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okpng.txt","searchable":0,"changeable":0,"indexs":0,"style":{"type":"rect","ratio":1.43}},
-{"key": "csp_appys_影盒","name": "影探4K","type": 3,"api": "csp_AppYsV2","searchable": 1, "jar": "http://ythz.lyyytv.cn/uploads/tvbox/yt.jar",
- "quickSearch": 1,"filterable": 1,"ext": "http://vipcms.lyyytv.cn/api.php/app/"},
-{
-        "key": "最大资源",
-        "name": "最大资源",
-        "type": 1,
-        "api": "http://zuidazy.me/api.php/provide/vod/",
-        "searchable": 1,
-        "quickSearch": 1,
-        "categories": ["电影", "港剧", "美剧", "国产剧", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "战争片", "犯罪片", "剧情片", "纪录片", "邵氏电影", "影视解说"]
-    },
-{
-        "key": "csp_lwdy",
-        "name": "老王电影",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "ext": {
-            "分类url": "https://www.laowang.co/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
-            "分类": "电影$movie#电视剧$tv#综艺$tvshow#动漫$animation#短剧$duanju"
-        },"jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar" }, 
- {
-        "key": "华为吧",
-        "name": "华为吧",
-        "type": 1,
-        "api": "https://hw8.live/api.php/provide/vod/",  "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/CustomSpider.jar",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "categories": ["电影", "网络电影", "记录片", "冒险片", "动作片", "动漫", "新马泰动漫", "国产动漫", "港台动漫", "日本动漫", "海外动漫", "欧美动漫", "综艺", "新马泰综艺", "大陆综艺", "港台综艺", "日韩综艺", "其他综艺", "欧美综艺", "喜剧片", "动画电影", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "灾难片", "惊悚片", "歌舞片", "经典片", "电影解说", "香港剧", "电视剧", "欧美剧", "台剧", "国产剧", "日剧", "短剧", "海外剧", "韩剧", "泰剧", "新马剧", "其他剧", "动漫电影", "体育", "奇幻片", "悬疑片", "其他动漫", "犯罪片"]
-    }, 
-{
-        "key": "csp_iqiyi",
-        "name": "┃SP┃奇艺影视",
-        "type": 3,
-        "api": "csp_iqiyi",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/%E5%AE%98%E6%BA%90.jar"
-    }, 
-{
-        "key": "csp_mgtv",
-        "name": "┃SP┃芒果电影",
-        "type": 3,
-        "api": "csp_mgtv",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/%E5%AE%98%E6%BA%90.jar"
-    },
-{
-        "key": "csp_qq",
-        "name": "┃SP┃腾讯视频",
-        "type": 3,
-        "api": "csp_qq",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/%E5%AE%98%E6%BA%90.jar"
-    },
-{
-        "key": "csp-youku",
-        "name": "┃SP┃优酷电影",
-        "type": 3,
-        "api": "csp_youku",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/%E5%AE%98%E6%BA%90.jar"
-    }, 
+{"key": "最大资源","name": "最大资源","type": 1,"api": "http://zuidazy.me/api.php/provide/vod/","searchable": 1,"quickSearch": 1,"categories": ["电影", "港剧", "美剧", "国产剧", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "战争片", "犯罪片", "剧情片", "纪录片", "邵氏电影", "影视解说"]},
+{"key": "csp_lwdy","name": "老王电影","type": 3,"api": "csp_XBPQ","ext": {"分类url": "https://www.laowang.co/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
+"分类": "电影$movie#电视剧$tv#综艺$tvshow#动漫$animation#短剧$duanju"},"jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar" }, 
+{"key": "华为吧","name": "华为吧","type": 1,"api": "https://hw8.live/api.php/provide/vod/",  "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/CustomSpider.jar","searchable": 1,"quickSearch": 1,"filterable": 1,"categories": ["电影", "网络电影", "记录片", "冒险片", "动作片", "动漫", "新马泰动漫", "国产动漫", "港台动漫", "日本动漫", "海外动漫", "欧美动漫", "综艺", "新马泰综艺", "大陆综艺", "港台综艺", "日韩综艺", "其他综艺", "欧美综艺", "喜剧片", "动画电影", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "灾难片", "惊悚片", "歌舞片", "经典片", "电影解说", "香港剧", "电视剧", "欧美剧", "台剧", "国产剧", "日剧", "短剧", "海外剧", "韩剧", "泰剧", "新马剧", "其他剧", "动漫电影", "体育", "奇幻片", "悬疑片", "其他动漫", "犯罪片"]}, 
+{"key": "csp_iqiyi","name": "┃SP┃奇艺影视","type": 3,"api": "csp_iqiyi","searchable": 1,"quickSearch": 1,"filterable": 1,"jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/%E5%AE%98%E6%BA%90.jar"}, 
+{"key": "csp_mgtv","type": 3,"api": "csp_mgtv","searchable": 1,"quickSearch": 1,"filterable": 1,"jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/%E5%AE%98%E6%BA%90.jar"
+},
+{"key": "csp_qq","name": "┃SP┃腾讯视频","type": 3,"api": "csp_qq","searchable": 1,"quickSearch": 1,"filterable": 1,"jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/%E5%AE%98%E6%BA%90.jar"},
+{"key": "csp-youku","name": "┃SP┃优酷电影","type": 3,"api": "csp_youku","searchable": 1, "quickSearch": 1,"filterable": 1,"jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/%E5%AE%98%E6%BA%90.jar"}, 
 {"key":"csp_xpath_yinfans","name":"影视饭4K",
-"type":3,"api":"csp_XPath",             "searchable":1,"quickSearch":1,               "filterable":1,"ext":"./js/影视饭.json"},
+"type":3,"api":"csp_XPath",             "searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/影视饭.json"},
 {"key": "Wexxpgtv","name": "红富士TV","type": 3,"api": "csp_Wexxpgtv","jar": "./jar/wex.jar","searchable": 1,"changeable": 1},  
 {"key":"玩偶弹幕版","name":"玩偶哥哥4K弹幕","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okpng.txt","ext":{"token":"file://TV/ali_token.txt","wogg":false,"danmu":false},"timeout":30},
 {"key":"酷看弹幕版","name":"酷看弹幕","type":3,"api":"csp_Kkys","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okpng.txt","ext":{"danmu":false},"timeout":20},
