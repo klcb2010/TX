@@ -7,13 +7,14 @@
 {"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okpng.txt","searchable":0,"changeable":0,"indexs":0,"style":{"type":"rect","ratio":1.43}},
 {"key": "csp_appys_影盒","name": "影探4K","type": 3,"api": "csp_AppYsV2","searchable": 1, "jar": "http://ythz.lyyytv.cn/uploads/tvbox/yt.jar",
  "quickSearch": 1,"filterable": 1,"ext": "http://vipcms.lyyytv.cn/api.php/app/"},
-{"key": "量子资源",
-        "name": "量子资源",
+{
+        "key": "最大资源",
+        "name": "最大资源",
         "type": 1,
-        "api": "http://cj.lziapi.com/api.php/provide/vod/", "jarr": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/CustomSpider.jar",
+        "api": "http://zuidazy.me/api.php/provide/vod/",
         "searchable": 1,
         "quickSearch": 1,
-        "categories": ["动漫片", "动作片", "喜剧片", "爱情片", "科幻片", "战争片", "恐怖片", "记录片", "剧情片", "国产剧", "香港剧", "欧美剧", "韩国剧", "台湾剧", "日本剧", "海外剧", "泰国剧", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺", "欧美动漫", "国产动漫", "日韩动漫", "港台动漫", "海外动漫", "短剧"]
+        "categories": ["电影", "港剧", "美剧", "国产剧", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "战争片", "犯罪片", "剧情片", "纪录片", "邵氏电影", "影视解说"]
     },
 {
         "key": "csp_lwdy",
