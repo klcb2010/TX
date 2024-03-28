@@ -14,7 +14,7 @@
             "key": "csp_91黑料",
             "name": "91黑料",
             "type": 3,
-            "api": "csp_XBPQ","jar": "./jar/spider",
+            "api": "csp_XBPQ","jar": "./jar/XBPQ.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
