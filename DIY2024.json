@@ -3,7 +3,7 @@
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "sites":[
 {"key": "豆瓣","name": "发现广告,联系我屏蔽","type": 3,"api": "csp_Douban","jar": "./jar/pg.jar","searchable": 0,"changeable": 1,"indexs":1,"ext": "./lib/douban.json"},
-{"key": "lf_js_search","name": "最后更新：04-03-23","type": 3,"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "./js/lf_search3_min.js"},
+{"key": "lf_js_search","name": "最后更新：04-03-28","type": 3,"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "./js/lf_search3_min.js"},
 {"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","searchable":0,"changeable":0,"indexs":0,"style":{"type":"rect","ratio":1.43}}, 
 {"key":"玩偶弹幕版","name":"玩偶哥哥4K弹幕","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","ext":{"token":"file://TV/ali_token.txt","wogg":false,"danmu":false},"timeout":30},
 {"key":"酷看弹幕版","name":"酷看弹幕","type":3,"api":"csp_Kkys","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","ext":{"danmu":false},"timeout":20},
