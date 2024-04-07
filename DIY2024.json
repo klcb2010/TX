@@ -4,7 +4,7 @@
 "sites":[
 {"key": "lf_js_search","name": "最后更新：04-04-6","type": 3,"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "./js/lf_search3_min.js"},
 {"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","searchable":0,"changeable":0,"indexs":0,"style":{"type":"rect","ratio":1.43}}, 
-{"key":"玩偶弹幕版","name":"玩偶哥哥4K弹幕","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","ext":{"token":"file://TV/ali_token.txt","wogg":true,"danmu":false},"timeout":30},
+{"key":"玩偶弹幕版","name":"玩偶哥哥4K","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","ext":{"token":"file://TV/ali_token.txt","wogg":true,"danmu":false},"timeout":30},
 {"key":"酷看弹幕版","name":"酷看弹幕","type":3,"api":"csp_Kkys","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","ext":{"danmu":false},"timeout":20},
 {"key":"厂长弹幕版","name":"厂长弹幕","type":3,"api":"csp_Czzy","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","ext":{"danmu":false},"timeout":25},
 {"key":"荐片弹幕版","name":"荐片手机","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","ext":{"danmu":false},"timeout":20},
