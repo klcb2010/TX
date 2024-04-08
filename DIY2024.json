@@ -14,7 +14,7 @@
  "图片": "data-src=\"&&\"",
 "简介": "text cor3&&</div>",
 "线路数组": "swiper-slide&&</a>[[不包含:夸克网盘]", "线路标题": "</i>&&","播放数组": "anthology-list-box none&&</ul>"}},
-{"key":"Bt0","name":"不太灵磁力","type":3,"api":"csp_Bt0","jar": "./jar/pg.jar","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"null$$$null$$$1"},
+{"key":"Bt0","name":"不太灵磁力","type":3,"api":"csp_Bt0","jar": "https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"null$$$null$$$1"},
 {"key":"XBPQ_电影先生","name": "电影先生","jar": "./jar/XBPQ.jar","type": 3,"api": "csp_XBPQ","ext": {"分类url": "https://dianyi.ng/pianku-{cateId}-{area}-------{catePg}---{year}.html","简介": "class=\"video-info-item video-info-content vod_content\">&&</span>","搜索url": "https://dianyi.ng/search--------------.html?wd={wd}","搜索数组": "<div class=\"module-item-pic\">&&</div>","图片": "src=\"&&\"","搜索标题": "title=\"&&\"","搜索副标题": ">&&</a>","线路数组": "data-dropdown-value=&&</div>","线路标题": "<span>&&</small>[替换:<span></small>共]+集","播放数组": "<div class=\"scroll-content\">&&</div>","播放标题": "<span>&&</span>","分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi"}},
 {"key" : "py_白嫖","name" : "白嫖TV","type" : 3,"api" : "./lib/py_白嫖.py","searchable" : 1,"quickSearch" : 1,"filterable" : 1},
 {"key": "最大资源","name": "最大资源","type": 1,"api": "http://zuidazy.me/api.php/provide/vod/","searchable": 1,"quickSearch": 1,"categories": ["电影", "港剧", "美剧", "国产剧", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "战争片", "犯罪片", "剧情片", "纪录片", "邵氏电影", "影视解说"]},
