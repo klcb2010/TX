@@ -2,4 +2,4 @@
 
 pg的jar不支持阿里原画
 
-镜像仓库延迟5分钟
+同步gitlab镜像仓库，加速链接 https://mirror.ghproxy.com/
