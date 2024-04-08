@@ -2,7 +2,7 @@
 "lives":[{"name":"IPv6","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.jpg"}],
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "sites":[
-{"key": "lf_js_search","name": "最后更新：04-04-6","type": 3,"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "./js/lf_search3_min.js"},
+{"key": "lf_js_search","name": "最后更新：04-04-08","type": 3,"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "./js/lf_search3_min.js"},
 {"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","searchable":0,"changeable":0,"indexs":0,"style":{"type":"rect","ratio":1.43}}, 
 {"key":"玩偶弹幕版","name":"玩偶哥哥4K","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","ext":{"token":"file://TV/ali_token.txt","wogg":true,"danmu":false},"timeout":30},
 {"key":"酷看弹幕版","name":"酷看弹幕","type":3,"api":"csp_Kkys","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","ext":{"danmu":false},"timeout":20},
@@ -10,6 +10,24 @@
 {"key":"荐片弹幕版","name":"荐片手机","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","ext":{"danmu":false},"timeout":20},
 {"key":"团长弹幕版","name":"团长4K弹幕","type":3,"api":"csp_Tzfile","searchable":1,"filterable":1,"changeable":1,"jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","danmu":false},"timeout":25},
 {"key": "土豆网盘","name": "土豆4K","type": 3,"api": "csp_Wobg","jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"token": "file://TV/ali_token.txt","cookie": "file://TV/quark_cookie.txt","site": "https://tudou.lvdoui.top"},"timeout": 25},
+{
+            "key": "libhd",
+            "name": "libhd影视",
+            "type": 3,
+            "jar": "./xbpq.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "主页url": "https://www.libhd.com/",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+                "搜索url": "https://www.libhd.com/vodsearch/-------------.html?wd={wd}",
+                "分类url": "https://www.libhd.com/vodshow/{cateId}-{area}--{class}-{lang}----{catePg}---{year}.html;;akx",
+                "图片": "data-src=\"&&\"",
+                "简介": "text cor3&&</div>",
+                "线路数组": "swiper-slide&&</a>[[不包含:夸克网盘]",
+                "线路标题": "</i>&&",
+                "播放数组": "anthology-list-box none&&</ul>"
+            }
+        },
 {"key":"Bt0","name":"不太灵磁力","type":3,"api":"csp_Bt0","jar": "./jar/pg.jar","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"null$$$null$$$1"},
 {"key":"XBPQ_电影先生","name": "电影先生","jar": "./jar/XBPQ.jar","type": 3,"api": "csp_XBPQ","ext": {"分类url": "https://dianyi.ng/pianku-{cateId}-{area}-------{catePg}---{year}.html","简介": "class=\"video-info-item video-info-content vod_content\">&&</span>","搜索url": "https://dianyi.ng/search--------------.html?wd={wd}","搜索数组": "<div class=\"module-item-pic\">&&</div>","图片": "src=\"&&\"","搜索标题": "title=\"&&\"","搜索副标题": ">&&</a>","线路数组": "data-dropdown-value=&&</div>","线路标题": "<span>&&</small>[替换:<span></small>共]+集","播放数组": "<div class=\"scroll-content\">&&</div>","播放标题": "<span>&&</span>","分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi"}},
 {"key" : "py_白嫖","name" : "白嫖TV","type" : 3,"api" : "./lib/py_白嫖.py","searchable" : 1,"quickSearch" : 1,"filterable" : 1},
