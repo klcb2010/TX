@@ -14,7 +14,7 @@
             "key": "libhd",
             "name": "libhd影视",
             "type": 3,
-            "jar": "./xbpq.jar",
+            "jar": "./jar/xbpq.jar",
             "api": "csp_XBPQ",
             "ext": {
                 "主页url": "https://www.libhd.com/",
