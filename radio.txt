@@ -34,6 +34,7 @@ Love Radio FM103.7,http://ls.qingting.fm/live/273.m3u8
 MY FM 西安 FM105.5,http://live.xmcdn.com/live/870/64.m3u8
 清晨音乐台,http://lhttp.qingting.fm/live/4915/64k.mp3
 世界,#genre#
+台湾九八新闻台,http://n08.rcs.revma.com/55tyxsy4qtzuv?rj-ttl=5&rj-tok=AAABexIiGVkA-wjPtoygVgeNGQ
 1766線上電臺-私房音樂,http://livestream.1766.today:1769/live1.mp3
 ICRT,http://live.leanstream.co/ICRTFM?args=tunein_aac
 Taiwan Good TV Truth,http://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch2-3.m3u8
