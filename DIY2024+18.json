@@ -10,6 +10,21 @@
 {"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1},"jar":".jar/ok.png;md5;E5F0A5283309C662BDAF3659A55E9F1D"},
 {"key":"豆豆","name":"豆瓣搜索","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
 {"key":"drpy_js_磁力熊搜索","name":"磁力熊搜索","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiong.js","searchable":0,"quickSearch":0,"changeable":1},
+{ "key": "666",
+            "name": "撸网666",
+            "type": 3,
+            "changeable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_XBPQ",
+            "ext": {"直接播放":"1","jar":"./jar/XBPQ.jar",
+            "搜索链接后缀":"-1-1.html",
+            "搜索url":"https://luw666.ink/index.php/vodsearch/----------{pg}---.html?wd={wd}&submit=",
+            "分类": "国产传媒$160#日本$2#国产$1#韩国$4#欧美$5#动画$6",
+            "分类url": "https://luw666.ink/index.php/vodtype/{cateId}-{catePg}.html"
+            }
+        },
 {
             "key": "csp_91黑料",
             "name": "91黑料",
