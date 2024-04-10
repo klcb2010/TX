@@ -34,36 +34,6 @@ Love Radio FM103.7,http://ls.qingting.fm/live/273.m3u8
 MY FM 西安 FM105.5,http://live.xmcdn.com/live/870/64.m3u8
 清晨音乐台,http://lhttp.qingting.fm/live/4915/64k.mp3
 世界,#genre#
-YES 933 Radio,http://playerservices.streamtheworld.com/api/livestream-redirect/YES933AAC.aac
-Gold 905 Radio,http://playerservices.streamtheworld.com/api/livestream-redirect/GOLD905AAC.aac
-Class 95 Radio,http://playerservices.streamtheworld.com/api/livestream-redirect/CLASS95AAC.aac
-Capital 958 Radio,http://playerservices.streamtheworld.com/api/livestream-redirect/CAPITAL958FMAAC.aac
-Love 972 Radio,http://playerservices.streamtheworld.com/api/livestream-redirect/LOVE972FMAAC.aac
-Oli 968 Radio,http://playerservices.streamtheworld.com/api/livestream-redirect/OLI968FMAAC.aac
-Warna 942 Radio,http://playerservices.streamtheworld.com/api/livestream-redirect/WARNA942FMAAC.aac
-CNA 938 Live Singapore,http://playerservices.streamtheworld.com/pls/938NOW_PREM.pls
-ONE FM,http://playerservices.streamtheworld.com/api/livestream-redirect/one_FM_913AAC.aac?dist=radiosingaporeapp
-Mediacorp 987 Radio,http://playerservices.streamtheworld.com/api/livestream-redirect/987FMAAC.aac
-SPH 963 Radio,http://playerservices.streamtheworld.com/api/livestream-redirect/HAO_963AAC.aac
-Channel News Asia TV,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
-Jia 883 Radio,http://playerservices.streamtheworld.com/api/livestream-redirect/883JIAAAC.aac
-Money 893 Radio,http://playerservices.streamtheworld.com/api/livestream-redirect/MONEY_893AAC.aac
-Ria 897 Radio,http://playerservices.streamtheworld.com/api/livestream-redirect/RIA897FMAAC.aac
-CNA938,http://playerservices.streamtheworld.com/api/livestream-redirect/938NOW_PREM.m3u8
-938 Now Radio,http://playerservices.streamtheworld.com/api/livestream-redirect/938NOWAAC.aac
-Symphony 924 Radio,http://playerservices.streamtheworld.com/api/livestream-redirect/SYMPHONY924AAC.aac
-Hot FM,http://mediaprima.rastream.com/mediaprima-hotfm
-One FM,http://mediaprima.rastream.com/mediaprima-onefm
-Lite,http://astro1.rastream.com/lite?awparams=companionads%3Atrue%3Btags%3Aradioactive%3Bstationid%3Alite&playerid=Lite_web&authtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvaWQiOiJsYXlsaW8iLCJpYXQiOjE1Mzc3MTY0NzEsImV4cCI6MTUzNzgwMjg3MX0.pSjOU07bdGLYSH3JlfgMBR7qdU7QcAlsTPPwQB3_c3s
-Listen.Moe JPop Vorbis,https://listen.moe/stream
-NHK World TV,http://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index_2M.m3u8
-Nightwave Plaza OPUS 96,http://radio.plaza.one/opus
-R/a/dio,https://relay0.r-a-d.io/main.mp3
-Radio Hayama,http://www.internet-radio.com/servers/tools/playlistgenerator/?u=http://199.195.194.140:8073/listen.pls?sid=1&t=.m3u
-Moon Mission Recordings,http://www.internet-radio.com/servers/tools/playlistgenerator/?u=http://uk5.internet-radio.com:8306/listen.pls&t=.m3u
-Friendship Radio,http://us1new.listen2myradio.com:2199/tunein/tkuubxrv.pls
-Hitsujikai Radio,http://streaming.radio.co/se4a8e6a93/listen
-ICRT,http://live.leanstream.co/ICRTFM-MP3
 1766線上電臺-私房音樂,http://livestream.1766.today:1769/live1.mp3
 ICRT,http://live.leanstream.co/ICRTFM?args=tunein_aac
 Taiwan Good TV Truth,http://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch2-3.m3u8
@@ -166,37 +136,6 @@ BCC中广流行,http://stream.rcs.revma.com/aw9uqyxy2tzuv
 摇滚天空,http://stream3.hndt.com/now/SXJtR4M4/playlist.m3u8
 国乐悠扬,http://stream3.hndt.com/now/8bplFuwp/playlist.m3u8
 华艺广播,http://47.107.255.25:1935/live/chbc/800k/tzwj_video.m3u8
-第一财经,http://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8
-DRHK,http://sc.digitalradiohk.net:8394
-One FM,http://mediaprima.rastream.com/mediaprima-onefm
-Gold FM,http://22903.live.streamtheworld.com:3690/GOLD905_PREM.aac
-Hao FM,http://playerservices.streamtheworld.com/api/livestream-redirect/HAO_963.mp3
-Kiss FM,https://playerservices.streamtheworld.com/api/livestream-redirect/KISS_92AAC.aac
-Classic FM,http://ice-sov.musicradio.com/ClassicFM
-Money FM,https://playerservices.streamtheworld.com/api/livestream-redirect/MONEY_893AAC.aac
-Power FM,https://crystalout.surfernetwork.com:8001/KVSP_MP3
-CGTN News,http://sk.cri.cn/am846.m3u8
-Capital FM,https://playerservices.streamtheworld.com/api/livestream-redirect/CAPITAL958FM.mp3
-Yes FM,https://playerservices.streamtheworld.com/api/livestream-redirect/YES933AAC.aac
-NPR News,http://npr-ice.streamguys1.com/live.mp3
-Al Jazeera,http://tunein.ord.streamguys1.com/secure-aljazeera-english
-BBC News,https://utulsa.streamguys1.com/KWGSHD3-MP3
-CNN News,http://tunein.ord.streamguys1.com/secure-CNNi
-LBC News,https://icecast.thisisdax.com/LBCNewsUKMP3
-LBC UK,https://ice-sov.musicradio.com/LBCUKMP3
-Times Radio,http://timesradio.wireless.radio/stream
-News Radio UK,http://playoutonestreaming.com:8008/stream
-MSNBC Radio,http://peridot.streamguys.com:7850/live
-BBC Radio 1,http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio=320000.m3u8
-BBC Radio 1Xtra,http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_1xtra/bbc_1xtra.isml/bbc_1xtra-audio=320000.m3u8
-BBC Radio 1 Dance,http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_one_dance/bbc_radio_one_dance.isml/bbc_radio_one_dance-audio=320000.m3u8
-BBC Radio 1 Relax,http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_one_relax/bbc_radio_one_relax.isml/bbc_radio_one_relax-audio=320000.m3u8
-BBC Radio 2,http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_two/bbc_radio_two.isml/bbc_radio_two-audio=320000.m3u8
-BBC Radio 3,http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_three/bbc_radio_three.isml/bbc_radio_three-audio=320000.m3u8
-BBC Radio 4,http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio=320000.m3u8
-BBC Radio 4 Extra,http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_four_extra/bbc_radio_four_extra.isml/bbc_radio_four_extra-audio=320000.m3u8
-BBC Radio 5 Live,http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_five_live/bbc_radio_five_live.isml/bbc_radio_five_live-audio=320000.m3u8
-BBC Radio 6 Music,http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio=320000.m3u8
 地方,#genre#
 安阳交通广播 FM89,http://ls.qingting.fm/live/2138.m3u8
 安阳汽车音乐台 FM100.8,http://ls.qingting.fm/live/2123.m3u8
