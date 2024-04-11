@@ -10,6 +10,22 @@
 {"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1},"jar":".jar/ok.png;md5;E5F0A5283309C662BDAF3659A55E9F1D"},
 {"key":"豆豆","name":"豆瓣搜索","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
 {"key":"drpy_js_磁力熊搜索","name":"磁力熊搜索","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiong.js","searchable":0,"quickSearch":0,"changeable":1},
+{ "key": "91短",
+            "name": "❌91短视频",
+            "type": 3,"jar":"./jar/XBPQ.jar",
+
+            "api": "csp_XBPQ",
+            "ext":{         
+ "直接播放":"1",
+ "数组":"class=\"module-item-caption\"&&class=\"loading\"",
+
+ "图片":"data-cover=\"&&\"",
+ "搜索url":"https://cn1.91-short.com/search?wd={wd}",           
+ "分类":"美女$Ug_pu_kskqY%3D#囯产高清$hd#门事件$3QW8lOdBcls%3D#91大神$otDa4t6lDDQ%3D#囯产av$1Bd0Zzp8D_E%3D#大象传煤$F16wCJ3LmWY%3D#情趣综艺$-0S1LwkskU4%3D",
+            "分类url":"https://cn1.91-short.com/short/label_related_list/{cateId}"
+
+            }
+        },
 {
             "key": "py_黑料",
             "name": "黑料网(py)",
