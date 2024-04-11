@@ -11,54 +11,9 @@
 {"key":"豆豆","name":"豆瓣搜索","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
 {"key":"drpy_js_磁力熊搜索","name":"磁力熊搜索","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiong.js","searchable":0,"quickSearch":0,"changeable":1},
 {"key":"SMTV","name":"色迷TV","type":3,"changeable":1,"searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/XBPQ.jar","api":"csp_XBPQ","ext":{"直接播放":"1","数组":"class=\"col-xs-6 col-md-3\">&&</div>","图片":"style=\"background-image: url('&&')\"","链接":"href=\"&&\"","链接前缀":"https://hsex.icu/","搜索url":"https://hsex.icu/search.htm?search={wd}&sort=new","分类":"周榜$top7#月榜$top#5分钟$5min#10分钟$10min","分类url":"https://hsex.icu/{cateId}_list-{catePg}.htm;;RC"}},
-{ "key": "91短",
-            "name": "❌91短视频",
-            "type": 3,"jar":"./jar/XBPQ.jar",
 
-            "api": "csp_XBPQ",
-            "ext":{         
- "直接播放":"1",
- "数组":"class=\"module-item-caption\"&&class=\"loading\"",
 
- "图片":"data-cover=\"&&\"",
- "搜索url":"https://cn1.91-short.com/search?wd={wd}",           
- "分类":"美女$Ug_pu_kskqY%3D#囯产高清$hd#门事件$3QW8lOdBcls%3D#91大神$otDa4t6lDDQ%3D#囯产av$1Bd0Zzp8D_E%3D#大象传煤$F16wCJ3LmWY%3D#情趣综艺$-0S1LwkskU4%3D",
-            "分类url":"https://cn1.91-short.com/short/label_related_list/{cateId}"
 
-            }
-        },
-{
-            "key": "py_黑料",
-            "name": "黑料网(py)",
-            "type": 3,
-            "api": "py_hlw",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./py/黑料网.py"
-        },
-        {
-            "key": "py_黑料②",
-            "name": "黑料网(py)蜂蜜版",
-            "type": 3,
-            "api": "./py/黑料网.py",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": ""
-        },
-{
-"key": "langqun",
-"name": "🔞狼群影院",
-"type": 3,
-"changeable": 1,
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"api": "csp_XBPQ",
-"ext": "./json/狼群影院.json",
-"jar": "./jar/XBPQ.jar"
-},
 { "key": "heiliao",
 "name": "吃瓜",
 "type": 3,
@@ -116,7 +71,7 @@
                 "分类ID": "/t/&&/"
             }
         },
-{"key":"ss直播","name":"🔞ss直播","type":3,"api":"https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/ss直播.js"},
+
 {
     "key": "91md.me",
     "name": "成人18+",
