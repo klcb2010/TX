@@ -3,9 +3,9 @@
 "lives":[{"name":"首选","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "sites":[
-{"key":"cc","name":"免费接口，发现广告立即换线路","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
+{"key":"豆豆","name":"最后更新：2024.04.11","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
 {"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1},"jar":".jar/ok.png;md5;E5F0A5283309C662BDAF3659A55E9F1D"},
-{"key":"豆豆","name":"豆瓣搜索","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
+
 {"key":"drpy_js_磁力熊搜索","name":"磁力熊搜索","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiong.js","searchable":0,"quickSearch":0,"changeable":1},
 {"key":"SMTV","name":"色迷TV","type":3,"changeable":1,"searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/XBPQ.jar","api":"csp_XBPQ","ext":{"直接播放":"1","数组":"class=\"col-xs-6 col-md-3\">&&</div>","图片":"style=\"background-image: url('&&')\"","链接":"href=\"&&\"","链接前缀":"https://hsex.icu/","搜索url":"https://hsex.icu/search.htm?search={wd}&sort=new","分类":"周榜$top7#月榜$top#5分钟$5min#10分钟$10min","分类url":"https://hsex.icu/{cateId}_list-{catePg}.htm;;RC"}},
 
