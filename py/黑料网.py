@@ -106,8 +106,7 @@ class Spider(Spider):
         if not pg:
             pg = 1
 
-        url = xurl + cid + "/" + str(pg) + ".html"
-
+        url = xurl +cid + "/" + str(pg) + ".html"
         detail = requests.get(url=url, headers=headerx)
         detail.encoding = "utf-8"
         doc = BeautifulSoup(detail.text, "html.parser")
@@ -154,7 +153,7 @@ class Spider(Spider):
         while play_from[-1] == "#" or play_from[-1] == "$":
             play_from = play_from[:-1]
 
-        source_match = re.search(r"<title>(.*?)的播放地址", res.text)
+        source_match = re.search(r"<li>播放地址:<strong>(.*?)</strong></li>", res.text)
         if source_match:
             tx = source_match.group(1)
 
