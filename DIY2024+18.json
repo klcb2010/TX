@@ -1,7 +1,6 @@
 {
 "spider":"./jar/fan.txt;md5;5543dae038ce2248e7759e9cbca295b9",
-"lives":[{"name":"首选","type":0,"url":"https://live.fanmingming.com/tv/m3u/v6.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-{"name":"备选","type":0,"url":"https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPTV.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
+"lives":[{"name":"首选","type":0,"url":"https://live.fanmingming.com/tv/m3u/v6.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "sites":[
 {"key":"cc","name":"免费接口，发现广告立即换线路","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
