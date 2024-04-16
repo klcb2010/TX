@@ -10,7 +10,7 @@
 {
             "key": "Taohuazu",
             "name": " 桃花族",
-            "type": 3,"jar":"./jar/XBPQ.jar",
+            "type": 3,"jar":"./jar/pg.jar",
             "api": "csp_Taohuazu",
             "searchable": 1,
             "quickSearch": 1,
