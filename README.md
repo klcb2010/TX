@@ -6,4 +6,4 @@
 
 4、同步gitlab镜像仓库，加速链接 https://mirror.ghproxy.com/
 
-5、内置饭太硬 OK影视  需要编辑的是TV文件
+5、内置饭太硬 OK影视
