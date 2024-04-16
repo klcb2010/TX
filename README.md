@@ -2,7 +2,7 @@
 
 2、pg的jar不支持阿里原画
 
-3、直播界面 菜单键 切换TV和广播
+3、直播界面 菜单键 切换TV和广播 没有home键和菜单键的辣鸡电视千万不能要，home键方便一键回到桌面
 
 4、同步gitlab镜像仓库，加速链接 https://mirror.ghproxy.com/
 
