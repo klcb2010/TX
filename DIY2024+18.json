@@ -7,6 +7,17 @@
 {"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1},"jar":".jar/ok.png;md5;E5F0A5283309C662BDAF3659A55E9F1D"},
 
 {"key":"drpy_js_磁力熊搜索","name":"磁力熊搜索","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiong.js","searchable":0,"quickSearch":0,"changeable":1},
+{
+            "key": "Taohuazu",
+            "name": " 桃花族",
+            "type": 3,"jar":"./jar/pg.jar",
+            "api": "csp_Taohuazu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "http://thzl.cc/forum.php"},
 {"key":"色花堂","name":"🔞色花堂|在线","type":3,"api":"csp_XBPQ","changeable":0,"style":{"type":"rect","ratio":1.6},"jar":"./jar/XBPQ.jar",
       "ext":{
         "二次截取": "\"pb-3 pb-e-lg-40\"&&\"site-footer\"+\"col-6 col-sm-4 col-lg-3\"",
