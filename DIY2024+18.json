@@ -5,7 +5,27 @@
 "sites":[
 {"key":"豆豆","name":"最后更新：2024.04.11","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
 {"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1},"jar":".jar/ok.png;md5;E5F0A5283309C662BDAF3659A55E9F1D"},
-
+{
+            "key": "视色",
+            "name": "视色",
+            "type": 3,"jar":"./jar/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "免嗅": "",
+                "嗅探词": ".m3u8",
+                "数组": "class=\"video-cover&&class=\"tags",
+                "图片": "style=\"background-image: url('&&');\"",
+                "标题": "href=\"*\">&&</a>",
+                "副标题": "duration\">&&</div>",
+                "简介": "简介：</div>&&</div>",
+                "链接": "https://shise.me/player.html?id=+href=\"video.html?id=&&\"",
+                "分类url": "https://shise.me/series.html?id={cateId}&page={catePg};;z",
+                "分类": "情色电影$61c4d9b653b6d#中文AV$63824a975d8ae#日本AV$6206216719462#模特私拍$6030196781d85#业余拍摄$617d3e7acdcc8#糖心Vlog$61014080dbfde#其他影片$60192e83c9e05"
+            }
+        },
 {"key":"drpy_js_磁力熊搜索","name":"磁力熊搜索","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiong.js","searchable":0,"quickSearch":0,"changeable":1},
 {
             "key": "Taohuazu",
