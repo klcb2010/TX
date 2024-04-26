@@ -1,5 +1,4 @@
 央广,#genre#
-500首华语经典,http://ls.qingting.fm/live/3412131.m3u8?bitrate=64
 CRI 环球资讯广播 FM90.5,http://sk.cri.cn/905.m3u8
 CRI 中文环球广播,http://sk.cri.cn/hyhq.m3u8
 CRI 南海之声,http://sk.cri.cn/nhzs.m3u8
