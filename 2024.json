@@ -1,5 +1,5 @@
 {"spider":"./jar/fan.txt;md5;5543dae038ce2248e7759e9cbca295b9",
-"lives":[{"name":"直播","type":0,"url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/klcb2010/IPTV/main/tv/m3u/ipv6.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.jpg"},
+"lives":[{"name":"直播","type":0,"url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.jpg"},
 {"name":"广播","type":0,"url":"https://gitlab.com/klcb2010/TX/-/raw/master/radio.txt"}],
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "sites":[
