@@ -40,7 +40,6 @@
  {"key": "易搜","name": "易搜","type": 3, "api": "csp_YiSo","searchable": 1,"jar": "https://gitee.com/okjack/okk/raw/master/okjpg.txt","filterable": 0, "changeable": 0,"ext": { "token": "file://TV/ali_token.txt","cookie": "JSESSIONID=FEAFA3BD405267C378C2455FBAD4A704;satoken=0f065aaa-1b6b-4b9b-9910-83a67fb14da2"},"timeout": 15},
 {"key": "Yinyuetai","name": "音悦台MV","type": 3,"api": "csp_Yinyuetai","searchable": 1,"jar": "./jar/hanguomeinv.jar","changeable": 0},
 {"key": "Iktv","name": "KTV音乐MV","type": 3,"api": "csp_Iktv","searchable": 1,"jar": "./jar/hanguomeinv.jar","changeable": 0},
-{"key": "天天","name": "天天","type": 3,"api": "csp_TTian","jar":"./jar/pg.jar","playerType": 1,"ext": "http://op.ysdqjs.cn$$$null$$$1"},
 {"key":"Pan99","name":"盘99|网盘","type":3,"api":"csp_Pan99","jar": "./jar/pg.jar","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://pan99.xyz$$$null$$$1"},
 {"key":"Hdhive","name":"影巢|网盘","type":3,"api":"csp_Hdhive","jar": "./jar/pg.jar","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$null$$$1"},
 {"key":"美剧迷","name":"美剧迷|网盘","type":3,"api":"csp_Meijumi","jar": "./jar/pg.jar", "quickSearch":1, "changeable":1, "filterable":1, "timeout":60,"ext":"./lib/tokenm.json$$$https://www.meijumi.xyz/$$$null$$$1"},
