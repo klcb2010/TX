@@ -27,7 +27,6 @@
 {"key":"原创","name":"原创","type":3,"api":"csp_YCyz","timeout":15,"searchable":1,"quickSearch":1,"jar":"https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06","changeable":1},
 {"key":"快看","name":"快看","type":3,"api":"csp_Kkys","timeout":15,"searchable":1,"quickSearch":1,"jar":"https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06","changeable":1},
 {"key":"星星","name":"星星直连","type":3,"api":"csp_Star","quickSearch":1,"jar":"https://gitee.com/okjack/okk/raw/master/okjpg.txt","searchable":1,"changeable":1,"timeout":10},
-{"key":"泥巴","name":"泥巴直连","type":3,"api":"csp_NiNi","quickSearch":1,"jar":"https://gitee.com/okjack/okk/raw/master/okjpg.txt","searchable":1,"changeable":1,"timeout":10},
 {"key":"动漫巴士","name":"巴士动漫","type":3,"api":"csp_Dm84","searchable":1,"quickSearch":1,"jar":"https://gitee.com/okjack/okk/raw/master/okjpg.txt","filterable":1,"timeout":10},
 {"key":"七夜","name":"七夜搜索","type":3,"api":"csp_Dovx","searchable":1,"filterable":0,"quickSearch":1,"changeable":0,"jar":"https://gitee.com/okjack/okk/raw/master/okjpg.txt","ext":{"token":"file://TV/ali_token.txt","danmu":false},"timeout":15},
 {"key":"YingSo","name":"影搜网盘","type":3,"api":"csp_YingSo", "jar":"./jar/pg.jar","timeout":60,"ext":"./lib/tokenm.json"},
