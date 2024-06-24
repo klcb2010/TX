@@ -7,3 +7,6 @@
 4、同步gitlab镜像仓库，加速链接 https://mirror.ghproxy.com/
 
 5、内置饭太硬 OK影视  通过设置界面历史订阅按钮切换
+
+6、AI去广告 不再需要本地规则
+
