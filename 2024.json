@@ -37,6 +37,8 @@
 {"key":"AI3","name":"AI3┃仅搜索","type":3,"api":"csp_AI","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext":"http://124.222.116.5/mb/sxys/api.php/provide/vod/|okhttp/4.9.1|qiaoji"},
 {"key":"AI4","name":"AI4┃APP","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext":"http://39.98.32.241:6688/api.php/zjv3.vod"},
 {"key":"短剧","name":"短剧","type":3,"api":"csp_Djuu","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"sp360","name":"疯疯想看","type":3,"api":"csp_Sp360","jar": "https://raw.gitcode.com/okjackcaptain/okk/raw/main/okjpg.txt","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":false},
+"timeout":25},
 {"key":"无忧短剧","name":"无忧短剧","type":3,"api":"csp_Duanj","jar":"https://raw.gitcode.com/okjackcaptain/okk/raw/main/okjpg.txt","searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.433},
 "timeout":10},
 {"key":"在线短剧","name":"在线短剧","type":3,"api":"csp_Duanju","jar":"https://raw.gitcode.com/okjackcaptain/okk/raw/main/okjpg.txt","searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.433},
@@ -66,6 +68,7 @@
 {"name":"解析聚合","type":3,"url":"Demo"},
 {"name":"Json轮询","type":2,"url":"Sequence"},
 {"name":"巧技","type":1,"url":"http://pan.qiaoji8.com/tvbox/neibu.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","bilibili","1905"],"header":{"User-Agent":"okhttp/4.9.1"}}},
+{"name":"m3u8","type":1,"url":"https://jx.m3u8.tv/jiexi/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","bilibili","1905"],"header":{"User-Agent":"okhttp/4.9.1"}}},
 {"name":"巧技二","type":1,"url":"http://pan.qiaoji8.com/tvbox/gouzi.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","bilibili","1905","NetFilx"],"header":{"User-Agent":"okhttp/4.9.1"}}}
 ],
 "flags":["youku","优酷","优 酷","优酷视频", "qq","腾讯","腾 讯","腾讯视频", "iqiyi", "qiyi","奇艺","爱奇艺","爱 奇 艺", "m1905", "xigua", "letv","leshi","乐视","乐 视", "sohu","搜狐","搜 狐","搜狐视频", "tudou","mgtv","芒果","imgo","芒果TV","芒 果 T V", "bilibili","哔 哩","哔 哩 哔 哩","SPA","YuMi-vip","pptv","PPTV","ltnb","rx","SLYS","tucheng","BYGA","luanzi","dxzy","QEYSS","aliyun","AliS","122","chuangying","CL","xfyun","wuduzy","wasu","renrenmi","ppayun","haiwaikan","cool","dbm3u8","xmm","funshion","ruyi1080","ruyib1080"],
