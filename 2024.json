@@ -16,6 +16,8 @@
 "分类": "电影$movie#电视剧$tv#综艺$tvshow#动漫$animation#短剧$duanju"},"jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar" }, 
 {"key": "csp_mgtv","type": 3,"api": "csp_mgtv","name": "┃SP┃芒果TV",
 "searchable": 1,"quickSearch": 1,"filterable": 1,"jar": "./jar/SP.jar"},
+{"key": "csp_iqiyi","name": "┃SP┃奇艺影视","type": 3,"api": "csp_iqiyi","searchable": 1,"quickSearch": 1,"filterable": 1,"jar": "./jar/SP.jar"}, 
+
 {"key": "csp_qq","name": "┃SP┃腾讯视频","type": 3,"api": "csp_qq","searchable": 1,"quickSearch": 1,"filterable": 1,"jar": "./jar/SP.jar"},
 {"key": "csp-youku","name": "┃SP┃优酷电影","type": 3,"api": "csp_youku","searchable": 1, "quickSearch": 1,"filterable": 1,"jar": "./jar/SP.jar"}, 
 {"key":"csp_xpath_yinfans","name":"影视范4K磁力","type":3,"api":"csp_XPath", "searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/影视饭.json"},
