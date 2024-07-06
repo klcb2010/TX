@@ -33,7 +33,6 @@
 {"key":"Hdhive","name":"影巢|网盘","type":3,"api":"csp_Hdhive","jar": "./jar/pg.jar","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$null$$$1"},
 {"key":"美剧迷","name":"美剧迷|网盘","type":3,"api":"csp_Meijumi","jar": "./jar/pg.jar", "quickSearch":1, "changeable":1, "filterable":1, "timeout":60,"ext":"./lib/tokenm.json$$$https://www.meijumi.xyz/$$$null$$$1"},
 {"key":"UP云搜","name":"阿里UP云搜","type":3,"api":"csp_UpYun","jar": "./jar/pg.jar","timeout":30, "ext":"./lib/tokenm.json"}, 
-{"key":"sp360","name":"疯疯想看","type":3,"api":"csp_Sp360","jar": "https://raw.gitcode.com/okjackcaptain/okk/raw/main/okjpg.txt","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":false},"timeout":25},
 {"key":"AI4","name":"AI4┃APP","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext":"http://39.98.32.241:6688/api.php/zjv3.vod"},
 {"key":"短剧","name":"短剧","type":3,"api":"csp_Djuu","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"无忧短剧","name":"无忧短剧","type":3,"api":"csp_Duanj","jar":"https://raw.gitcode.com/okjackcaptain/okk/raw/main/okjpg.txt","searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.433},
