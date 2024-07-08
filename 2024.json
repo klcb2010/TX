@@ -31,7 +31,6 @@
 {"key": "Iktv","name": "KTV音乐MV","type": 3,"api": "csp_Iktv","searchable": 1,"jar": "./jar/hanguomeinv.jar","changeable": 0},
 {"key":"Pan99","name":"盘99|网盘","type":3,"api":"csp_Pan99","jar": "./jar/pg.jar","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://pan99.xyz$$$null$$$1"},
 {"key":"Hdhive","name":"影巢|网盘","type":3,"api":"csp_Hdhive","jar": "./jar/pg.jar","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$null$$$1"},
-{"key":"美剧迷","name":"美剧迷|网盘","type":3,"api":"csp_Meijumi","jar": "./jar/pg.jar", "quickSearch":1, "changeable":1, "filterable":1, "timeout":60,"ext":"./lib/tokenm.json$$$https://www.meijumi.xyz/$$$null$$$1"},
 {"key":"UP云搜","name":"阿里UP云搜","type":3,"api":"csp_UpYun","jar": "./jar/pg.jar","timeout":30, "ext":"./lib/tokenm.json"}, 
 {"key":"AI2","name":"AI2","type":3,"api":"csp_AI","searchable":1,"quickSearch":1,"jar":"http://cdn.qiaoji8.com/fix240620.jar","filterable":1,"playerType":2,"ext":"http://124.222.116.5/mb/api.php/provide/vod/|Mozilla/5.0(Macintosh;IntelMacOSX10_15_7)AppleWebKit/537.36(KHTML,likeGecko)Chrome/119.0.0.0Safari/537.33|qiaoji"},
 {"key":"AI3","name":"AI3","type":3,"api":"csp_AI","searchable":1,"quickSearch":1,"jar":"http://cdn.qiaoji8.com/fix240620.jar","filterable":1,"playerType":2,"ext":"http://124.222.116.5/mb/sxys/api.php/provide/vod/|okhttp/4.9.1|qiaoji"},
