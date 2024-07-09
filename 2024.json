@@ -3,7 +3,8 @@
 {"name":"广播","type":0,"url":"https://gitlab.com/klcb2010/TX/-/raw/master/radio.txt"}],
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "sites":[
-{"key": "lf_js_search","name": "最后更新：04-07-9","type": 3,"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "./js/lf_search3_min.js"},
+{"key":"豆瓣","name":"最后更新：04-07-9","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"jar":"https://raw.gitcode.com/okjackcaptain/kko/raw/main/okjpg.txt"},
+{"key":"天天","name":"天天直连","type":3,"api":"csp_TianTian","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://raw.gitcode.com/okjackcaptain/kko/raw/main/okjpg.txt","timeout":10},
 {"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","jar":"https://raw.gitcode.com/okjackcaptain/kko/raw/main/okjpg.txt","searchable":0,"changeable":0,"indexs":0,"style":{"type":"rect","ratio":1.43}}, 
 {"key":"玩偶弹幕版","name":"玩偶哥哥4K","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1,"jar":"https://raw.gitcode.com/okjackcaptain/kko/raw/main/okjpg.txt","ext":{"token":"file://TV/ali_token.txt","wogg":true,"danmu":false},"timeout":30},
 {"key":"酷看弹幕版","name":"酷看弹幕","type":3,"api":"csp_Kkys","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://raw.gitcode.com/okjackcaptain/kko/raw/main/okjpg.txt","ext":{"danmu":false},"timeout":20},
@@ -42,7 +43,7 @@
 "timeout":10},
 {"key":"sansan","name":"三三解析","type":3,"api":"csp_SP33","searchable":1,"quickSearch":1,"changeable":0},
 {"key":"Dygang","name":"电影港","type":3,"jar":"./jar/fix24225去弹窗.jar","api":"csp_Dygang"},
-{"key":"南瓜","name":"南瓜多线","type":3,"api":"csp_NanGua","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"南瓜","name":"南瓜直连","type":3,"api":"csp_Nangua","searchable":1,"quickSearch":1,"filterable":1,"timeout":10,"jar":"https://raw.gitcode.com/okjackcaptain/kko/raw/main/okjpg.txt"},
 {"key":"Lib","name":"立播不卡","type":3,"api":"csp_Libvio","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.libvio.cc/"},
 {"key":"厂长","name":"厂长不卡","type":3,"api":"csp_NewCz","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://czzy.top/"},
 {"key": "视觉","name": "视觉TV","type": 3,"api": "csp_XBPQ","playerType": "2","jar": "./jar/XBPQ.jar;md5;bb155c3f0133bbce4756ad52003f5968","ext": {"主页url": "https://www.3ayy.com","简介": "module-info-introduction\">&&</p>","导演": "导演：&&</div>","主演": "主演：&&</div>","影片类型": "module-info-tag\">&&立即播放","影片状态": "集数：&&</div>","数组": "<a&&module-poster-item-info\"[不包含:夸克]","标题": "title=\"&&\"","副标题": "note\">&&</div>","嗅探词": ".mp4#.m3u8","过滤词": "/player/#/index/","图片": "data-original=\"&&\"","播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
