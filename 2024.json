@@ -3,7 +3,7 @@
 {"name":"广播","type":0,"url":"https://gitlab.com/klcb2010/TX/-/raw/master/radio.txt"}],
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "sites":[
-{"key":"豆瓣","name":"last：040709[有广告 我删除]","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"jar":"https://raw.gitcode.com/okjackcaptain/kko/raw/main/okjpg.txt"},
+{"key":"豆瓣","name":"更新：040709[已删除广告资源]","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"jar":"https://raw.gitcode.com/okjackcaptain/kko/raw/main/okjpg.txt"},
 {"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","jar":"https://raw.gitcode.com/okjackcaptain/kko/raw/main/okjpg.txt","searchable":0,"changeable":0,"indexs":0,"style":{"type":"rect","ratio":1.43}}, 
 {"key":"玩偶弹幕版","name":"玩偶哥哥4K","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1,"jar":"https://raw.gitcode.com/okjackcaptain/kko/raw/main/okjpg.txt","ext":{"token":"file://TV/ali_token.txt","wogg":true,"danmu":false},"timeout":30},
 {"key":"酷看弹幕版","name":"酷看弹幕","type":3,"api":"csp_Kkys","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://raw.gitcode.com/okjackcaptain/kko/raw/main/okjpg.txt","ext":{"danmu":false},"timeout":20},
