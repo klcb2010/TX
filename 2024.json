@@ -3,8 +3,7 @@
 {"name":"广播","type":0,"url":"https://gitlab.com/klcb2010/TX/-/raw/master/radio.txt"}],
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "sites":[
-{"key":"豆瓣","name":"更新：04079[有广告 我删除]","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"jar":"https://raw.gitcode.com/okjackcaptain/kko/raw/main/okjpg.txt"},
-{"key":"天天","name":"天天直连","type":3,"api":"csp_TianTian","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://raw.gitcode.com/okjackcaptain/kko/raw/main/okjpg.txt","timeout":10},
+{"key":"豆瓣","name":"更新：040709[有广告 我删除]","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"jar":"https://raw.gitcode.com/okjackcaptain/kko/raw/main/okjpg.txt"},
 {"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","jar":"https://raw.gitcode.com/okjackcaptain/kko/raw/main/okjpg.txt","searchable":0,"changeable":0,"indexs":0,"style":{"type":"rect","ratio":1.43}}, 
 {"key":"玩偶弹幕版","name":"玩偶哥哥4K","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1,"jar":"https://raw.gitcode.com/okjackcaptain/kko/raw/main/okjpg.txt","ext":{"token":"file://TV/ali_token.txt","wogg":true,"danmu":false},"timeout":30},
 {"key":"酷看弹幕版","name":"酷看弹幕","type":3,"api":"csp_Kkys","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://raw.gitcode.com/okjackcaptain/kko/raw/main/okjpg.txt","ext":{"danmu":false},"timeout":20},
@@ -13,6 +12,7 @@
 {"key":"团长","name":"团长4K","type":3,"api":"csp_Tzfile","searchable":1,"filterable":1,"changeable":1,"jar":"https://raw.gitcode.com/okjackcaptain/kko/raw/main/okjpg.txt","ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","danmu":false},"timeout":25},
 {"key": "土豆网盘","name": "土豆4K","type": 3,"api": "csp_Wobg","jar":"https://raw.gitcode.com/okjackcaptain/kko/raw/main/okjpg.txt","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"token": "file://TV/ali_token.txt","cookie": "file://TV/quark_cookie.txt","site": "https://tudou.lvdoui.top"},"timeout": 25},
 {"key": "最大资源","name": "最大资源","type": 1,"api": "http://zuidazy.me/api.php/provide/vod/","searchable": 1,"quickSearch": 1,"categories": ["电影", "港剧", "美剧", "国产剧", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "战争片", "犯罪片", "剧情片", "纪录片", "邵氏电影", "影视解说"]},
+{"key":"天天","name":"天天直连","type":3,"api":"csp_TianTian","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://raw.gitcode.com/okjackcaptain/kko/raw/main/okjpg.txt","timeout":10},
 {"key": "csp_lwdy","name": "老王电影","type": 3,"api": "csp_XBPQ","ext": {"分类url": "https://www.laowang.co/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
 "分类": "电影$movie#电视剧$tv#综艺$tvshow#动漫$animation#短剧$duanju"},"jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wnddwc/daiweichun/main/xyqxbpq.jar" }, 
 {"key":"csp_xpath_yinfans","name":"影视范4K磁力","type":3,"api":"csp_XPath", "searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/影视饭.json"},
