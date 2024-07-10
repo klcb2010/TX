@@ -28,7 +28,7 @@
 {"key":"AI2","name":"AI2","type":3,"api":"csp_AI","searchable":1,"quickSearch":1,"jar":"http://cdn.qiaoji8.com/fix240620.jar","filterable":1,"playerType":2,"ext":"http://124.222.116.5/mb/api.php/provide/vod/|Mozilla/5.0(Macintosh;IntelMacOSX10_15_7)AppleWebKit/537.36(KHTML,likeGecko)Chrome/119.0.0.0Safari/537.33|qiaoji"},
 {"key":"AI3","name":"AI3","type":3,"api":"csp_AI","searchable":1,"quickSearch":1,"jar":"http://cdn.qiaoji8.com/fix240620.jar","filterable":1,"playerType":2,"ext":"http://124.222.116.5/mb/sxys/api.php/provide/vod/|okhttp/4.9.1|qiaoji"},
 {"key":"AI4","name":"AI4","type":3,"api":"csp_AppYsV2","jar":"http://cdn.qiaoji8.com/fix240620.jar","searchable":1,"quickSearch":1,"changeable":1, "timeout":60,"filterable":1,"playerType":2,"ext":"http://39.98.32.241:6688/api.php/zjv3.vod"},
-{"key":"Wexduanjuvop","name":"短剧秒播","type":3,"api":"csp_Wexduanjuvop","searchable":1,"changeable":1,"jar":"./jar/wex.txt","md5":"7d529dc73079606268b3885dd814b79c"},
+{"key":"Wexduanjuvop","name":"短剧秒播","type":3,"api":"csp_Wexduanjuvop","searchable":1,"changeable":1,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720280034628/wex.txt"},
 {"key":"Wexduanjuhema","name":"短剧仙品","type":3,"api":"csp_Wexduanjuhema","searchable":1,"changeable":1,"jar":"./jar/wex.txt","md5":"7d529dc73079606268b3885dd814b79c"},
 {"key":"Wexduanjuv1mp","name":"短剧极品","type":3,"api":"csp_Wexduanjuvmp","searchable":1,"changeable":1,"jar":"./jar/wex.txt","md5":"7d529dc73079606268b3885dd814b79c"},
 {"key":"vipWexduanju","name":"短剧精品","type":3,"api":"csp_Wexvipduanju","searchable":1,"changeable":1,"jar":"./jar/wex.txt","md5":"7d529dc73079606268b3885dd814b79c"},
