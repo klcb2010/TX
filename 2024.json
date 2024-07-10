@@ -32,7 +32,7 @@
 {"key":"vipWexduanju","name":"短剧精品","type":3,"api":"csp_Wexvipduanju","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 {"key":"Wexduanjuvip","name":"短剧良品","type":3,"api":"csp_Wexduanjuvip","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 {"key":"Wexyuyueys","name":"雨落影视","type":3,"api":"csp_Wexyuyueys","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
-{"key":"Wexshandian","name":"闪电秒播","type":3,"api":"csp_Wexshandian","searchable":1,"changeable":1,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720280034628/wex.txt"},
+{"key":"Wexshandian","name":"闪电秒播","type":3,"api":"csp_Wexshandian","jar":"./jar/wex.txt","searchable":1,"changeable":1},
 {"key":"Dygang","name":"电影港","type":3,"jar":"./jar/fix24225去弹窗.jar","api":"csp_Dygang"},
 {"key":"南瓜","name":"南瓜直连","type":3,"api":"csp_Nangua","searchable":1,"quickSearch":1,"filterable":1,"timeout":10,"jar":"./jar/okjpg.txt"},
 {"key":"Lib","name":"立播不卡","type":3,"api":"csp_Libvio","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.libvio.cc/"},
