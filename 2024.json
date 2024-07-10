@@ -29,6 +29,7 @@
 {"key":"AI3","name":"AI3","type":3,"api":"csp_AI","searchable":1,"quickSearch":1,"jar":"http://cdn.qiaoji8.com/fix240620.jar","filterable":1,"playerType":2,"ext":"http://124.222.116.5/mb/sxys/api.php/provide/vod/|okhttp/4.9.1|qiaoji"},
 {"key":"AI4","name":"AI4","type":3,"api":"csp_AppYsV2","jar":"http://cdn.qiaoji8.com/fix240620.jar","searchable":1,"quickSearch":1,"changeable":1, "timeout":60,"filterable":1,"playerType":2,"ext":"http://39.98.32.241:6688/api.php/zjv3.vod"},
 {"key":"vipWexduanju","name":"短剧精品","type":3,"api":"csp_Wexvipduanju","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
+{"key":"Wexduanjuvip","name":"短剧良品","type":3,"api":"csp_Wexduanjuvip","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 {"key":"Wexyuyueys","name":"雨落影视","type":3,"api":"csp_Wexyuyueys","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 {"key":"Dygang","name":"电影港","type":3,"jar":"./jar/fix24225去弹窗.jar","api":"csp_Dygang"},
 {"key":"南瓜","name":"南瓜直连","type":3,"api":"csp_Nangua","searchable":1,"quickSearch":1,"filterable":1,"timeout":10,"jar":"./jar/okjpg.txt"},
