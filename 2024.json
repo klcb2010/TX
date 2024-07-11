@@ -9,7 +9,7 @@
 {"key":"酷看弹幕版","name":"酷看弹幕","type":3,"api":"csp_Kkys","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/okjpg.txt","ext":{"danmu":false},"timeout":20},
 {"key":"drpy_js_奇珍异兽","name":"爱奇艺官源","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/klcb2010/dr_py/main/libs/drpy.min.js","ext":"./js/奇珍异兽.js","jar":"./jar/custom_spider.jar"},
 {"key":"厂长","name":"厂长不卡","type":3,"api":"csp_NewCz","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://czzy.top/"},
-{"key": "网飞影视","name": "网飞影视","type": 3,"api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/drpy2.min.js","ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/wf.js","searchable":1,"changeable":1},
+{"key": "网飞影视","name": "网飞影视","type": 3,"api": "https://ghproxy.net/https://raw.githubusercontent.com/klcb2010/dr_py/main/libs/drpy.min.js","ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/wf.js","searchable":1,"changeable":1},
 {"key":"荐片弹幕版","name":"荐片","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/okjpg.txt","ext":{"danmu":false},"timeout":20},
 {"key":"天天","name":"天天直连","type":3,"api":"csp_TianTian","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/okjpg.txt","timeout":10},
 {"key":"csp_xpath_yinfans","name":"影视范4K磁力","type":3,"api":"csp_XPath", "searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/影视饭.json"},
