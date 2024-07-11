@@ -3,7 +3,7 @@
 {"name":"广播","type":0,"url":"https://gitlab.com/klcb2010/TX/-/raw/master/radio.txt"}],
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "sites":[
-{"key":"豆瓣","name":"更新：040710[已删广告源]","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"jar":"./jar/okjpg.txt"},
+{"key":"豆瓣","name":"更新：040711[已删广告源]","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"jar":"./jar/okjpg.txt"},
 {"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","jar":"./jar/okjpg.txt","searchable":0,"changeable":0,"indexs":0,"style":{"type":"rect","ratio":1.43}}, 
 {"key":"玩偶弹幕版","name":"玩偶哥哥4K","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1,"jar":"./jar/okjpg.txt","ext":{"token":"file://TV/ali_token.txt","wogg":true,"danmu":false},"timeout":30},
 {"key":"酷看弹幕版","name":"酷看弹幕","type":3,"api":"csp_Kkys","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/okjpg.txt","ext":{"danmu":false},"timeout":20},
@@ -61,6 +61,7 @@
 {"name":"小二","type":1,"url":"http://pan.qiaoji8.com/tvbox/neibu.php?url="},
 {"name":"360解析","type":1,"url":"https://bofang.360jiexi.com/?url="},
 {"name":"碧雷解析","type":1,"url":"https://vip.bljiex.com/?v="},
+{"name":"大米解析","type":1,"url":"https://dmjx.m3u8.tv/?url="},
 {"name":"盘古解析","type":1,"url":"https://www.pangujiexi.com/pangu/?url="},
 {"name":"巧技二","type":1,"url":"http://pan.qiaoji8.com/tvbox/gouzi.php?url=","ext":{"flag":["qq","腾讯","qiyi","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","bilibili","1905","NetFilx","wasu"],"header":{"User-Agent":"okhttp/4.9.1"}}}
 ],
