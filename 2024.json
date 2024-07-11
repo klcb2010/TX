@@ -7,7 +7,6 @@
 {"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","jar":"./jar/okjpg.txt","searchable":0,"changeable":0,"indexs":0,"style":{"type":"rect","ratio":1.43}}, 
 {"key":"玩偶弹幕版","name":"玩偶哥哥4K","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1,"jar":"./jar/okjpg.txt","ext":{"token":"file://TV/ali_token.txt","wogg":true,"danmu":false},"timeout":30},
 {"key":"酷看弹幕版","name":"酷看弹幕","type":3,"api":"csp_Kkys","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/okjpg.txt","ext":{"danmu":false},"timeout":20},
-{"key":"drpy_js_奇珍异兽","name":"爱奇艺官源","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/klcb2010/dr_py/main/libs/drpy.min.js","ext":"./js/奇珍异兽.js","jar":"./jar/custom_spider.jar"},
 {"key":"drpy_js_百忙无果","name":"芒果官源","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/klcb2010/dr_py/main/libs/drpy.min.js","ext":"./js/百忙无果.js","jar":"./jar/custom_spider.jar"},
 {"key":"drpy_js_腾云驾雾","name":"腾讯官源","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/klcb2010/dr_py/main/libs/drpy.min.js","ext":"./js/腾云驾雾.js","jar":"./jar/custom_spider.jar"},
 {"key":"drpy_js_网飞.TV","name":"网飞TV","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/klcb2010/dr_py/main/libs/drpy.min.js","ext":"./js/网飞TV.js","jar":"./jar/custom_spider.jar"},
