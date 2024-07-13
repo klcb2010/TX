@@ -30,7 +30,6 @@
 {"key":"AI4","name":"AI4","type":3,"api":"csp_AppYsV2","jar":"http://cdn.qiaoji8.com/fix240620.jar","searchable":1,"quickSearch":1,"changeable":1, "timeout":60,"filterable":1,"playerType":2,"ext":"http://39.98.32.241:6688/api.php/zjv3.vod"},
 {"key":"Wexduanjuvip","name":"短剧良品","type":3,"api":"csp_Wexduanjuvip","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 {"key":"Wexsaohuo","name":"骚火影视","type":3,"api":"csp_Wexsaohuo","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
-{"key":"Wexed3000","name":"易迪阿里搜","type":3,"api":"csp_Wexed3000","searchable":1,"ext": { "token": "file://TV/ali_token.txt","cookie": "JSESSIONID=FEAFA3BD405267C378C2455FBAD4A704;satoken=0f065aaa-1b6b-4b9b-9910-83a67fb14da2"},"changeable":0,"jar":"./jar/wex.txt"},
 {"key":"Wexzxzj","name":"在线之家","type":3,"api":"csp_Wexzxzj","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 {"key":"Dygang","name":"电影港","type":3,"jar":"./jar/fix24225去弹窗.jar","api":"csp_Dygang"},
 {"key":"南瓜","name":"南瓜直连","type":3,"api":"csp_Nangua","searchable":1,"quickSearch":1,"filterable":1,"timeout":10,"jar":"./jar/okjpg.txt"},
