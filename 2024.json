@@ -18,7 +18,7 @@
 {"key":"天天","name":"天天直连","type":3,"api":"csp_TianTian","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/okjpg.txt","timeout":10},
 {"key":"csp_xpath_yinfans","name":"影视范4K磁力","type":3,"api":"csp_XPath", "searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/影视饭.json"},
 {"key":"小苹果","name":"苹果直连","type":3,"api":"csp_Xpg","jar":"./jar/okjpg.txt","searchable":1,"quickSearch":1,"filterable":1,"timeout":10},
-{"key": "mingriyingshi","name":" 明日TV","type": 3,"api": "csp_WexMingriys","jar":"./jar/wex.jar","searchable": 1,"changeable": 1,"categories": ["电影","电视剧"]},
+{"key": "mingriyingshi","name":" 明日TV","type": 3,"api": "csp_WexMingriys","jar":"./jar/wex.txt","searchable": 1,"changeable": 1,"categories": ["电影","电视剧"]},
 {"key": "达达龟","name": "达龟影视","jar":"./jar/0606.jar","type": 3,"api": "./lib/drpy.min.js","ext": "./js/ddg.js"},
 {"key":"快看","name":"快看","type":3,"api":"csp_Kkys","timeout":15,"searchable":1,"quickSearch":1,"jar":"https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06","changeable":1},
 {"key":"星星","name":"星星直连","type":3,"api":"csp_Star","quickSearch":1,"jar":"./jar/okjpg.txt","searchable":1,"changeable":1,"timeout":10},
