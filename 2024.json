@@ -22,7 +22,7 @@
 {"key":"快看","name":"快看","type":3,"api":"csp_Kkys","timeout":15,"searchable":1,"quickSearch":1,"jar":"https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06","changeable":1},
 {"key":"星星","name":"星星直连","type":3,"api":"csp_Star","quickSearch":1,"jar":"./jar/okjpg.txt","searchable":1,"changeable":1,"timeout":10},
 {"key":"动漫巴士","name":"巴士动漫","type":3,"api":"csp_Dm84","searchable":1,"quickSearch":1,"jar":"./jar/okjpg.txt","filterable":1,"timeout":10},
- {"key": "易搜","name": "易搜","type": 3, "api": "csp_YiSo","searchable": 1,"jar": "./jar/okjpg.txt","filterable": 0, "changeable": 0,"ext": { "token": "file://TV/ali_token.txt","cookie": "JSESSIONID=FEAFA3BD405267C378C2455FBAD4A704;satoken=0f065aaa-1b6b-4b9b-9910-83a67fb14da2"},"timeout": 15},
+{"key": "易搜","name": "易搜","type": 3, "api": "csp_YiSo","searchable": 1,"jar": "./jar/okjpg.txt","filterable": 0, "changeable": 0,"ext": { "token": "file://TV/ali_token.txt","cookie": "JSESSIONID=FEAFA3BD405267C378C2455FBAD4A704;satoken=0f065aaa-1b6b-4b9b-9910-83a67fb14da2"},"timeout": 15},
 {"key":"UpYun","name":"Up搜索","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"PanSearch","name":"盘Se搜索","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key": "Yinyuetai","name": "音悦台MV","type": 3,"api": "csp_Yinyuetai","searchable": 1,"jar": "./jar/hanguomeinv.jar","changeable": 0},
