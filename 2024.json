@@ -5,7 +5,7 @@
 "sites":[
 {"key":"豆瓣","name":"更新：040717[有广联我]","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"jar":"./jar/okjpg.txt"},
 {"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","jar":"./jar/okjpg.txt","searchable":0,"changeable":0,"indexs":0,"style":{"type":"rect","ratio":1.43}}, 
-{"key":"桃子","name":"桃子在线","type":3,"api":"csp_Oka","searchable":1,"quickSearch":1,"filterable":1,"timeout":10,"ext":"{\"cateUrl\":\"https://www.taozi007.com/show/{cateId}--------{page}---.html\",\"cate\":\"电影$1#剧集$2#动漫$3#综艺$4#短剧$5\",\"playFrom\":\".module-tab-items.module-tab-itemspan\",\"playUrl\":\".module-list.module-play-list\",\"search\":\"/search/{search}-------------.html\",\"webview\":1}","jar":"./jar/okjpg.txt"},
+{"key":"桃子","name":"桃子在线","type":3,"api":"csp_Oka","searchable":1,"quickSearch":1,"filterable":1,"timeout":10,"ext":"{\"cateUrl\":\"https://www.taozi007.com/show/{cateId}--------{page}---.html\",\"cate\":\"电影$1#剧集$2#动漫$3#综艺$4#短剧$5\",\"playFrom\":\".module-tab-items.module-tab-itemspan\",\"playUrl\":\".module-list.module-play-list\",\"search\":\"/search/{search}-------------.html\",\"webview\":1}"},
 {"key":"木耳","name":"木耳采集","type":1,"api":"https://json.heimuer.xyz/api.php/provide/vod","searchable":1,"filterable":1,"changeable":1,"timeout":10,"jar":"./jar/okjpg.txt"},
 {"key":"玩偶弹幕版","name":"玩偶哥哥4K","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1,"jar":"./jar/okjpg.txt","ext":{"token":"file://TV/ali_token.txt","wogg":true,"danmu":false},"timeout":30},
 {"key":"酷看弹幕版","name":"酷看弹幕","type":3,"api":"csp_Kkys","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/okjpg.txt","ext":{"danmu":false},"timeout":20},
