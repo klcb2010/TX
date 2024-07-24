@@ -7,6 +7,7 @@
 {"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","jar":"./jar/okjpg.txt","searchable":0,"changeable":0,"indexs":0,"style":{"type":"rect","ratio":1.43}}, 
 {"key":"木耳","name":"木耳采集","type":1,"api":"https://json.heimuer.xyz/api.php/provide/vod","searchable":1,"filterable":1,"changeable":1,"timeout":10,"jar":"./jar/okjpg.txt"},
 {"key":"玩偶弹幕版","name":"玩偶哥哥4K","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1,"jar":"./jar/okjpg.txt","ext":{"token":"file://TV/ali_token.txt","wogg":false,"danmu":false},"timeout":30},
+{"key":"土豆网盘","name":"土豆4K","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://tudou.lvdoui.top"},"timeout":25,"jar":"./jar/okjpg.txt"},
 {"key":"酷看弹幕版","name":"酷看弹幕","type":3,"api":"csp_Kkys","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/okjpg.txt","ext":{"danmu":false},"timeout":20},
 {"key":"视觉","name":"视觉影视","type":3,"api":"csp_Xsj","searchable":1,"changeable":1,"jar":"./jar/LR.jar"},
 {"key":"drpy_js_百忙无果","name":"芒果官源","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/klcb2010/dr_py/main/libs/drpy.min.js","ext":"./js/百忙无果.js","jar":"./jar/custom_spider.jar"},
