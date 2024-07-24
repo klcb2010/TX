@@ -54,7 +54,6 @@
 {"key":"南瓜","name":"南瓜直连","type":3,"api":"csp_Nangua","searchable":1,"quickSearch":1,"filterable":1,"timeout":10,"jar":"./jar/okjpg.txt"},
 {"key":"厂长","name":"厂长不卡","type":3,"api":"csp_NewCz","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://czzy.top/"},
 
-{"key":"比特","name":"比特秒播","type":3,"api":"csp_Bttwoo","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"低端","name":"低端外剧","type":3,"api":"csp_Ddrk","playerType":"2","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"新6V","name":"新6V","type":3,"api":"csp_SixV","searchable":1,"quickSearch":1,"changeable":0,"ext": "http://www.xb6v.com/","timeout":30},
 {"key": "虎虎","name": "虎虎影视","type": 3,"api": "csp_XBPQ","jar":"./jar/spider.jar;md5;d1fa24b46f218f455bc3f4b948fd457e","searchable":1,"quickSearch":1,"filterable":1,"ext": "./lib/虎虎.json"},
