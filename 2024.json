@@ -31,8 +31,6 @@
 "timeout":15,"jar":"./jar/okjpg.txt"},
 {"key":"蜡笔弹幕","name":"蜡笔弹幕","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://duopan.fun","danmu":false},
 "timeout":25,"jar":"./jar/okjpg.txt"},
-{"key":"csp_QuPanSou","name":"趣盘搜搜","type":3,"api":"csp_QuPanSou","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"file://TV/quark_cookie.txt","danmu":false},
-"timeout":15,"jar":"./jar/okjpg.txt"},
 {"key":"csp_Qkpanso","name":"夸克盘搜搜","type":3,"api":"csp_Qkpanso","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"file://TV/quark_cookie.txt","danmu":false},
 "timeout":15,"jar":"./jar/okjpg.txt"},
 {"key":"夸搜","name":"夸搜搜","type":3,"api":"csp_Qkso","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"file://TV/quark_cookie.txt","danmu":false},
@@ -50,7 +48,6 @@
 {"key":"Wexsaohuo","name":"骚火影视","type":3,"api":"csp_Wexsaohuo","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 {"key":"Wexzxzj","name":"在线之家","type":3,"api":"csp_Wexzxzj","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 {"key":"Dygang","name":"电影港","type":3,"jar":"./jar/fix24225去弹窗.jar","api":"csp_Dygang"},
-{"key":"南瓜","name":"南瓜直连","type":3,"api":"csp_Nangua","searchable":1,"quickSearch":1,"filterable":1,"timeout":10,"jar":"./jar/okjpg.txt"},
 {"key":"厂长","name":"厂长不卡","type":3,"api":"csp_NewCz","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://czzy.top/"},
 
 {"key":"低端","name":"低端外剧","type":3,"api":"csp_Ddrk","playerType":"2","searchable":1,"quickSearch":1,"changeable":1},
