@@ -22,6 +22,9 @@
 {"key":"小苹果","name":"苹果直连","type":3,"api":"csp_Xpg","jar":"./jar/okjpg.txt","searchable":1,"quickSearch":1,"filterable":1,"timeout":10},
 {"key": "达达龟","name": "达龟影视","jar":"./jar/0606.jar","type": 3,"api": "./lib/drpy.min.js","ext": "./js/ddg.js"},
 {"key":"快看","name":"快看","type":3,"api":"csp_Kkys","timeout":15,"searchable":1,"quickSearch":1,"jar":"https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06","changeable":1},
+{"key":"csp_QuPanSou","name":"趣盘搜","type":3,"api":"csp_QuPanSou","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"file://TV/quark_cookie.txt","danmu":false},
+"timeout":15,"jar":"./jar/okjpg.txt"},
+
 {"key":"星星","name":"星星直连","type":3,"api":"csp_Star","quickSearch":1,"jar":"./jar/okjpg.txt","searchable":1,"changeable":1,"timeout":10},
 {"key":"动漫巴士","name":"巴士动漫","type":3,"api":"csp_Dm84","searchable":1,"quickSearch":1,"jar":"./jar/okjpg.txt","filterable":1,"timeout":10},
 {"key":"UpYun","name":"Up搜","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
