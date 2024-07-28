@@ -9,7 +9,7 @@
 {"key":"玩偶","name":"玩偶4K","type":3,"api":"csp_Wogg","jar":"./jar/okjpg.txt","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","wogg":true},
 "timeout":30},
 {"key":"土豆网盘","name":"土豆4K","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://tudou.lvdoui.top"},"timeout":25,"jar":"./jar/okjpg.txt"},
-{"key":"Wexshandian","name":"闪电秒播","type":3,"api":"csp_Wexshandian","jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1722047901843/wex.txt","searchable":1,"changeable":1},
+{"key":"Wexshandian","name":"闪电秒播","type":3,"api":"csp_Wexshandian","jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1722047901843/wex.txt;md5;b41dc4257cf5b315296442b33414e0db","searchable":1,"changeable":1},
 {"key":"酷看弹幕版","name":"酷看弹幕","type":3,"api":"csp_Kkys","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/okjpg.txt","ext":{"danmu":false},"timeout":20},
 {"key":"视觉","name":"视觉影视","type":3,"api":"csp_Xsj","searchable":1,"changeable":1,"jar":"./jar/LR.jar"},
 {"key":"月亮","name":"月亮","type":3,"api":"csp_Ylys","jar":"./jar/fix24726.jar","playerType":2},
