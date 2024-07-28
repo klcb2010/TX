@@ -11,12 +11,12 @@
 {"key":"土豆网盘","name":"土豆4K","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://tudou.lvdoui.top"},"timeout":25,"jar":"./jar/okjpg.txt"},
 {"key":"酷看弹幕版","name":"酷看弹幕","type":3,"api":"csp_Kkys","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/okjpg.txt","ext":{"danmu":false},"timeout":20},
 {"key":"视觉","name":"视觉影视","type":3,"api":"csp_Xsj","searchable":1,"changeable":1,"jar":"./jar/LR.jar"},
+{"key": "cs_bh","name": "宝盒|影视","type": 1,"api": "https://guot55.serv00.net/api.php/provide/vod/?ac=list","jar":"./jar/o.jart","searchable":1,"quickSearch":1},
 {"key":"月亮","name":"月亮","type":3,"api":"csp_Ylys","jar":"./jar/fix24726.jar","playerType":2},
 {"key":"时常","name":"时常","type":3,"api":"csp_qiao3","searchable":1,"jar":"./jar/fix24726.jar","quickSearch":1,"playerType":1,"filterable":0,"ext":"laHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNhZDl8ZTU5ZDQ0YjJlZWYwM2FkOQ=="},
 {"key":"追剧","name":"追剧","type":3,"api":"csp_TTian","jar":"./jar/fix24726.jar","playerType":1,"ext":"daHR0cDovL3oua3pqdHYuY29t"},
 {"key":"繁荣","name":"繁荣","type":3,"api":"csp_Frong","jar":"./jar/fix24726.jar","playerType":1,"ext":"CMy4wLjF8aHR0cDovLzEyMS42Mi4yMy4yMzI6MTk5N3xiMTU4NDBkYXwyNHw1Njg2ODU0MzRGRUM3QzhDMjkwQUU0RkIzMjVGRjEzMHxzaGlqaWVtYW90dnwwOWVlMzUxNmMxY2E4ZWQx"},
 {"key":"柠檬","name":"柠檬","type":3,"api":"csp_Nmvod","jar":"./jar/fix24726.jar","playerType":1,"ext":"eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="},
-
 {"key":"AI2","name":"AI2┃仅搜索","type":3,"api":"csp_AI","jar":"./jar/fix24726.jar","searchable":1,"quickSearch":1,"filterable":0,"playerType":1,"ext":"faHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvYXBpLnBocC9wcm92aWRlL3ZvZC98TW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTBfMTVfNykgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExOS4wLjAuMCBTYWZhcmkvNTM3LjMzfHFpYW9qaQ=="},
 {"key":"AI3","name":"AI3┃仅搜索","type":3,"api":"csp_AI","jar":"./jar/fix24726.jar","searchable":1,"quickSearch":1,"filterable":0,"playerType":1,"ext":"haHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvc3h5cy9hcGkucGhwL3Byb3ZpZGUvdm9kL3xva2h0dHAvNC45LjF8cWlhb2pp"},
 {"key":"AI4","name":"AI4┃APP","type":3,"api":"csp_AppYsV2","jar":"./jar/fix24726.jar","searchable":1,"quickSearch":1,"filterable":0,"playerType":1,"ext":"iaHR0cDovLzM5Ljk4LjMyLjI0MTo2Njg4L2FwaS5waHAvemp2My52b2Q="},
