@@ -1,5 +1,5 @@
 {
-"spider":"http://cdn.qiaoji8.com/fix24726",
+"spider":"http://cdn.qiaoji8.com/fix24726.jar;md5;e8c89ed0862c98170bbaff794a645432",
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "lives":[
 {"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext="]}]}
