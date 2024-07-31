@@ -8,8 +8,6 @@
 {"key":"木耳","name":"木耳采集","type":1,"api":"https://json.heimuer.xyz/api.php/provide/vod","searchable":1,"filterable":1,"changeable":1,"timeout":10,"jar":"./jar/okjpg.txt"},
 {"key":"玩偶","name":"玩偶4K","type":3,"api":"csp_Wogg","jar":"./jar/okjpg.txt","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","wogg":true},
 "timeout":30},
-{"key":"360_spider","name":"疯疯想看","type":3,"api":"csp_SP360","filterable":1,"quickSearch":1,"searchable":1,"jar":"./jar/XYQ.jar"},
-
 {"key":"土豆网盘","name":"土豆4K","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://tudou.lvdoui.top"},"timeout":25,"jar":"./jar/okjpg.txt"},
 {"key":"酷看弹幕版","name":"酷看弹幕","type":3,"api":"csp_Kkys","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/okjpg.txt","ext":{"danmu":false},"timeout":20},
 {"key":"视觉","name":"视觉影视","type":3,"api":"csp_Xsj","searchable":1,"changeable":1,"jar":"./jar/LR.jar"},
@@ -53,7 +51,7 @@
 {"key":"Wexzxzj","name":"在线之家","type":3,"api":"csp_Wexzxzj","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 {"key":"Dygang","name":"电影港","type":3,"jar":"./jar/fix24225去弹窗.jar","api":"csp_Dygang"},
 {"key":"厂长","name":"厂长不卡","type":3,"api":"csp_NewCz","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://czzy.top/"},
-
+{"key":"360_spider","name":"疯疯想看","type":3,"api":"csp_SP360","filterable":1,"quickSearch":1,"searchable":1,"jar":"./jar/XYQ.jar"},
 {"key":"低端","name":"低端外剧","type":3,"api":"csp_Ddrk","playerType":"2","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"新6V","name":"新6V","type":3,"api":"csp_SixV","searchable":1,"quickSearch":1,"changeable":0,"ext": "http://www.xb6v.com/","timeout":30},
 {"key": "虎虎","name": "虎虎影视","type": 3,"api": "csp_XBPQ","jar":"./jar/spider.jar;md5;d1fa24b46f218f455bc3f4b948fd457e","searchable":1,"quickSearch":1,"filterable":1,"ext": "./lib/虎虎.json"},
@@ -70,12 +68,7 @@
 {"name":"Json轮询","type":2,"url":"Sequence"},
 {"name":"巧技","type":1,"url":"http://pan.qiaoji8.com/tvbox/neibu.php?url=","ext":{"flag":["qq","腾讯","qiyi","iqiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","leshi","乐视","mgtv","芒果","tnmb","seven","bilibili","1905","wasu","NetFilx"],"header":{"User-Agent":"okhttp/4.9.1"}}},
 {"name":"巧技二","type":1,"url":"http://pan.qiaoji8.com/tvbox/gouzi.php?url=","ext":{"flag":["qq","腾讯","qiyi","qiyi","爱奇艺","奇艺","youku","优酷","sohu","leshi","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","bilibili","1905","NetFilx","wasu"],"header":{"User-Agent":"okhttp/4.9.1"}}},
-{"name":"LR","type":1,"url":"https://api.json.icu/api/?key=92eebc17b8bf5741650f4af91d511009&url=","ext":{"flag":["imgo","migu","qq","qiyi","mgtv","bilibili","youku"],"header":{"User-Agent":"Dart/2.18 (dart:io)"}}},
-        {"name":"LR2","type":1,"url":"http://111.229.65.161/za.php?url=","ext":{"flag":["imgo","migu","qq","qiyi","mgtv","bilibili","youku","seven","NBY"],"header":{"User-Agent":"okhttp-okgo/jeasonlzy"}}},
-        {"name":"0580","type":1,"url":"https://ldhz.li0580.com//api/jsonindex.php/?key=aeiwBUFhXzruM4poio&url=","ext":{"flag":["imgo","migu","qq","qiyi","mgtv","bilibili","youku"],"header":{"User-Agent":"okhttp/3.12.0"}}},
-        {"name":"路人甲","type":1,"url":"https://jx.huohua.vip/file.php?vkey=24e249ffe42f3e3085319afa9fb6eadb&huohua.m3u8=","ext":{"flag":["imgo","migu","qq","qiyi","mgtv","bilibili","youku"],"header":{"User-Agent":"okhttp/3.12.0"}}},
-        {"name":"LR3","type":1,"url":"http://119.91.123.253:2345/Api/yun.php?url=","ext":{"flag":["imgo","migu","qq","qiyi","mgtv","bilibili","youku"],"header":{"User-Agent":"okhttp/3.12.0"}}},
-        {"name":"LR4","type":1,"url":"http://121.62.61.51:6888/api/?key=eIQ9JzXVIzkY3ZSoEZ&url=","ext":{"flag":["imgo","migu","qq","qiyi","mgtv","bilibili","youku","seven","NBY"],"header":{"User-Agent":"okhttp-okgo/jeasonlzy"}}}
+{"name":"云解析","type":0,"url":"https://yparse.ik9.c/index.php?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}}
 ],
 "doh":[
 {"name":"Google","url":"https://dns.google/dns-query","ips":["8.8.4.4","8.8.8.8"]},
