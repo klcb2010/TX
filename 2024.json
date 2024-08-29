@@ -3,8 +3,8 @@
 {"name":"广播","type":0,"url":"https://gitlab.com/klcb2010/TX/-/raw/master/radio.txt"}],
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "sites":[
-{"key":"豆瓣","name":"更新：040821[有广联我]","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"jar":"./jar/okjpg.txt"},
-{"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","jar":"./jar/okjpg.txt","searchable":0,"changeable":0,"indexs":0,"style":{"type":"rect","ratio":1.43}},
+{"key":"豆瓣","name":"更新：040829","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"jar":"./jar/okjpg.txt"},
+{"key":"豆瓣","name":"有广告 联系我","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"jar":"./jar/okjpg.txt"},
 {"key":"木耳","name":"木耳采集","type":1,"api":"https://json.heimuer.xyz/api.php/provide/vod","searchable":1,"filterable":1,"changeable":1,"timeout":10,"jar":"./jar/okjpg.txt"},
 {"key":"玩偶","name":"玩偶哥哥4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.net/","danMu":"弹"}},
 {"key":"YGP","name":"叨观荐影新片","type":3,"api":"csp_YGP","searchable":0,"quickSearch":0,"changeable":0},
