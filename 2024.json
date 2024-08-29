@@ -9,91 +9,13 @@
 {"key":"玩偶","name":"玩偶哥哥4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.net/","danMu":"弹"}},
 {"key":"土豆网盘","name":"土豆4K","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://tudou.lvdoui.top"},"timeout":25,"jar":"./jar/okjpg.txt"},
 {"key":"文才","name":"文才在线","type":3,"api":"csp_Jpys","jar":"./jar/okjpg.txt","searchable":1,"quickSearch":1,"filterable":1,"timeout":10},
-{
-      "key": "夸克至臻弹幕",
-      "name": "夸克至臻4K",
-      "type": 3,
-      "api": "csp_Wobg",
-      "jar": "./php/danmu.php",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "https://mihdr.top",
-        "danmu": true
-      }
-    },
-   
-    {
-      "key": "厂长弹幕版",
-      "name": "厂长蓝光",
-      "type": 3,
-      "api": "csp_Czzy",
-      "jar": "./php/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "timeout": 25
-    },
-    {
-      "key": "天天弹幕版",
-      "name": "天天蓝光",
-      "type": 3,
-      "api": "csp_TianTian",
-     "jar": "./php/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "timeout": 10
-    },
-    {
-      "key": "南瓜弹幕版",
-      "name": "南瓜蓝光",
-      "type": 3,
-      "api": "csp_Nangua",
-     "jar": "./php/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "timeout": 10
-    },
-  
-    {
-      "key": "剧兔",
-      "name": "剧兔蓝光",
-      "type": 3,
-      "api": "csp_AppYsV2",
-     "jar": "./php/danmu.php",
-      "ext": "https://www.zjtu.one/api.php/app/"
-    },
-    
-   
-    {
-      "key": "桃子",
-      "name": "桃子蓝光在线",
-      "type": 3,   "jar": "./php/danmu.php",
-      "api": "csp_Oka",
-   
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 10,
-      "ext": "{\"cateUrl\":\"https://www.taozi007.com/show/{cateId}--------{page}---.html\", \"cate\":\"电影$1#剧集$2#动漫$3#综艺$4#短剧$5\",\"playFrom\":\".module-tab-items .module-tab-item span\",\"playUrl\":\".module-list .module-play-list\", \"search\":\"/search/{search}-------------.html\", \"webview\":1}"
-    },
-   
-   
+{"key": "夸克至臻弹幕","name": "夸克至臻4K","type": 3,"api": "csp_Wobg","jar": "./php/danmu.php","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+"cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt","uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt","site": "https://mihdr.top","danmu": true}},
+{"key": "厂长弹幕版","name": "厂长蓝光","type": 3,"api": "csp_Czzy","jar": "./php/danmu.php","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": true},"timeout": 25},
+{"key": "天天弹幕版","name": "天天蓝光","type": 3,"api": "csp_TianTian","jar": "./php/danmu.php","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": true},"timeout": 10},
+{"key": "南瓜弹幕版","name": "南瓜蓝光","type": 3,"api": "csp_Nangua","jar": "./php/danmu.php","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": true},"timeout": 10},
+{"key": "剧兔","name": "剧兔蓝光","type": 3,"api": "csp_AppYsV2","jar": "./php/danmu.php","ext": "https://www.zjtu.one/api.php/app/"},
+{"key": "桃子","name": "桃子蓝光在线","type": 3,   "jar": "./php/danmu.php","api": "csp_Oka","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout": 10,"ext": "{\"cateUrl\":\"https://www.taozi007.com/show/{cateId}--------{page}---.html\", \"cate\":\"电影$1#剧集$2#动漫$3#综艺$4#短剧$5\",\"playFrom\":\".module-tab-items .module-tab-item span\",\"playUrl\":\".module-list .module-play-list\", \"search\":\"/search/{search}-------------.html\", \"webview\":1}"},
 {"key": "DiDuan","name": "低端蓝光外剧","type": 3,"api": "csp_Ddrk","jar": "./php/danmu.php","playerType": "2","searchable": 1,"quickSearch": 1,"changeable": 1},
 {"key": "短剧","name": "上头短剧热推","type": 3,"api": "csp_Djtt","jar": "./php/danmu.php",
 "searchable": 1,"quickSearch": 1,"changeable": 1},
@@ -114,7 +36,7 @@
 {"key":"易搜","name":"易搜","type":3,"api":"csp_YiSo","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"file://TV/ali_token.txt","cookie":"JSESSIONID=FEAFA3BD405267C378C2455FBAD4A704;satoken=0f065aaa-1b6b-4b9b-9910-83a67fb14da2"},
 "timeout":15,"jar":"./jar/okjpg.txt"},
 {"key":"星星","name":"星星直连","type":3,"api":"csp_Star","quickSearch":1,"jar":"./jar/okjpg.txt","searchable":1,"changeable":1,"timeout":10},
-{"key":"动漫巴士","name":"巴士动漫","type":3,"api":"csp_Dm84","searchable":1,"quickSearch":1,"jar":"./jar/okjpg.txt","filterable":1,"timeout":10},
+{"key": "csp_Dm84","name": "动漫巴士蓝光","type": 3,"api": "csp_Dm84",  "jar": "./php/moyu.php","searchable": 1,"quickSearch": 1,"changeable": 1},
 {"key":"UpYun","name":"Up搜","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"米搜","name":"米搜","type":3,"api":"csp_Qkpanso","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"file://TV/quark_cookie.txt","danmu":false,"site":"https://www.misou.fun"},
 "timeout":15,"jar":"./jar/okjpg.txt"},
