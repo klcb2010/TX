@@ -7,7 +7,6 @@
 {"key":"豆瓣","name":"有广告 联系我","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"jar":"./jar/okjpg.txt"},
 {"key":"木耳","name":"木耳采集","type":1,"api":"https://json.heimuer.xyz/api.php/provide/vod","searchable":1,"filterable":1,"changeable":1,"timeout":10,"jar":"./jar/okjpg.txt"},
 {"key":"玩偶","name":"玩偶哥哥4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.net/","danMu":"弹"}},
-{"key":"YGP","name":"叨观荐影新片","type":3,"api":"csp_YGP","searchable":0,"quickSearch":0,"changeable":0},
 {"key":"土豆网盘","name":"土豆4K","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://tudou.lvdoui.top"},"timeout":25,"jar":"./jar/okjpg.txt"},
 {"key":"文才","name":"文才在线","type":3,"api":"csp_Jpys","jar":"./jar/okjpg.txt","searchable":1,"quickSearch":1,"filterable":1,"timeout":10},
 {
@@ -95,26 +94,9 @@
     },
    
    
-    {
-      "key": "DiDuan",
-      "name": "低端蓝光外剧",
-      "type": 3,
-      "api": "csp_Ddrk","jar": "./php/moyu.php;md5;be6121b5c37471b191114027123912d2",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    
-    {
-      "key": "短剧",
-       "name": "上头短剧热推",
-      "type": 3,
-      "api": "csp_Djtt","jar": "./php/moyu.php;md5;be6121b5c37471b191114027123912d2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
+{"key": "DiDuan","name": "低端蓝光外剧","type": 3,"api": "csp_Ddrk","jar": "./php/moyu.php;md5;be6121b5c37471b191114027123912d2","playerType": "2","searchable": 1,"quickSearch": 1,"changeable": 1},
+{"key": "短剧","name": "上头短剧热推","type": 3,"api": "csp_Djtt","jar": "./php/moyu.php;md5;be6121b5c37471b191114027123912d2",
+"searchable": 1,"quickSearch": 1,"changeable": 1},
 {"key":"月亮","name":"月亮","type":3,"api":"csp_Ylys","jar":"./jar/fix24726.jar","playerType":2},
 {"key":"时常","name":"时常","type":3,"api":"csp_qiao3","searchable":1,"jar":"./jar/fix24726.jar","quickSearch":1,"playerType":1,"filterable":0,"ext":"laHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNhZDl8ZTU5ZDQ0YjJlZWYwM2FkOQ=="},
 {"key":"柠檬","name":"柠檬","type":3,"api":"csp_Nmvod","jar":"./jar/fix24726.jar","playerType":1,"ext":"eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="},
@@ -143,7 +125,6 @@
 {"key":"云盘4K","name":"云盘4K搜","type":3,"api":"csp_Yunpan4k","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","danmu":false},
 "timeout":15,"jar":"./jar/okjpg.txt"},
 {"key": "Yinyuetai","name": "音悦台MV","type": 3,"api": "csp_Yinyuetai","searchable": 1,"jar": "./jar/hanguomeinv.jar","changeable": 0},
-{"key":"Wexduanjuvip","name":"短剧良品","type":3,"api":"csp_Wexduanjuvip","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 {"key":"Wexsaohuo","name":"骚火影视","type":3,"api":"csp_Wexsaohuo","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 {"key":"Wexzxzj","name":"在线之家","type":3,"api":"csp_Wexzxzj","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 {"key":"Dygang","name":"电影港","type":3,"jar":"./jar/fix24225去弹窗.jar","api":"csp_Dygang"},
