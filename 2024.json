@@ -83,9 +83,9 @@
     {
       "key": "桃子",
       "name": "桃子蓝光在线",
-      "type": 3,
+      "type": 3,   "jar": "./php/danmu.php",
       "api": "csp_Oka",
-     "jar": "./php/moyu.php;md5;be6121b5c37471b191114027123912d2",
+   
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
