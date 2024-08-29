@@ -42,7 +42,7 @@
 {"key":"Wexsaohuo","name":"骚火影视","type":3,"api":"csp_Wexsaohuo","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 {"key":"Wexzxzj","name":"在线之家","type":3,"api":"csp_Wexzxzj","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 {"key":"Dygang","name":"电影港","type":3,"jar":"./jar/fix24225去弹窗.jar","api":"csp_Dygang"},
-{"key":"暴風","name":"暴風采集","type":1,"api":"https://bfzyapi.com/api.php/provide/vod","searchable":1,"quickSearch": 1,"changeable":1}
+{"key":"暴風","name":"暴風采集","type":1,"api":"https://bfzyapi.com/api.php/provide/vod","searchable":1,"quickSearch": 1,"changeable":1},
 {"key": "儿童英语","name": "儿童英语","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 1,"filterable": 1,"ext": "./lib/儿童英语.json"},
 {"key": "儿童硬笔","name": "儿童硬笔","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 1,"filterable": 1,"ext": "./lib/儿童硬笔.json"},
 {"key": "儿童思维","name": "儿童思维","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 1,"filterable": 1,"ext": "./lib/儿童思维.json"},
