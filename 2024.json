@@ -13,7 +13,6 @@
 {"key": "天天弹幕版","name": "天天蓝光","type": 3,"api": "csp_TianTian","jar": "./php/danmu.php","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": true},"timeout": 10},
 {"key": "南瓜弹幕版","name": "南瓜蓝光","type": 3,"api": "csp_Nangua","jar": "./php/danmu.php","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": true},"timeout": 10},
 {"key": "剧兔","name": "剧兔蓝光","type": 3,"api": "csp_AppYsV2","jar": "./php/danmu.php","ext": "https://www.zjtu.one/api.php/app/"},
-{"key": "桃子","name": "桃子蓝光在线","type": 3,   "jar": "./php/danmu.php","api": "csp_Oka","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout": 10,"ext": "{\"cateUrl\":\"https://www.taozi007.com/show/{cateId}--------{page}---.html\", \"cate\":\"电影$1#剧集$2#动漫$3#综艺$4#短剧$5\",\"playFrom\":\".module-tab-items .module-tab-item span\",\"playUrl\":\".module-list .module-play-list\", \"search\":\"/search/{search}-------------.html\", \"webview\":1}"},
 {"key":"Wexduanjuvip","name":"短剧良品","type":3,"api":"csp_Wexduanjuvip","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 {"key":"月亮","name":"月亮","type":3,"api":"csp_Ylys","jar":"./jar/fix24726.jar","playerType":2},
 {"key":"时常","name":"时常","type":3,"api":"csp_qiao3","searchable":1,"jar":"./jar/fix24726.jar","quickSearch":1,"playerType":1,"filterable":0,"ext":"laHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNhZDl8ZTU5ZDQ0YjJlZWYwM2FkOQ=="},
