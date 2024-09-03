@@ -3,7 +3,7 @@
 {"name":"广播","type":0,"url":"https://gitlab.com/klcb2010/TX/-/raw/master/radio.txt"}],
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "sites":[
-{"key":"豆瓣","name":"更新日期：24-08-29","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"jar":"./jar/okjpg.txt"},
+{"key":"豆瓣","name":"更新日期：24-09-3","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"jar":"./jar/okjpg.txt"},
 {"key": "豆豆","name": "失效 有广告 联系我","type": 3,"api": "csp_DouDou","jar": "./php/moyu.php","searchable": 0,"quickSearch": 0,"filterable": 0 },
 {"key":"玩偶","name":"玩偶哥哥4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.net/","danMu":"弹"}},
 {"key":"土豆网盘","name":"土豆4K","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://tudou.lvdoui.top"},"timeout":25,"jar":"./jar/okjpg.txt"},
