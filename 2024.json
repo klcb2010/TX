@@ -44,6 +44,7 @@
 {"key": "Yinyuetai","name": "音悦台MV","type": 3,"api": "csp_Yinyuetai","searchable": 1,"jar": "./jar/hanguomeinv.jar","changeable": 0},
 {"key":"Wexsaohuo","name":"骚火影视","type":3,"api":"csp_Wexsaohuo","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 {"key":"Wexzxzj","name":"在线之家","type":3,"api":"csp_Wexzxzj","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
+{"key":"Wexwencai","name":"文才秒播","type":3,"api":"csp_Wexwencai","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 {"key":"Dygang","name":"电影港","type":3,"jar":"./jar/fix24225去弹窗.jar","api":"csp_Dygang"},
 {"key":"木耳","name":"木耳采集","type":1,"api":"https://json.heimuer.xyz/api.php/provide/vod","searchable":1,"filterable":1,"changeable":1,"timeout":10,"jar":"./jar/okjpg.txt"},
 {"key":"暴風","name":"暴風采集","type":1,"api":"https://bfzyapi.com/api.php/provide/vod","searchable":1,"quickSearch": 1,"changeable":1},
