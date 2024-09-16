@@ -17,7 +17,6 @@
 {"key":"时常","name":"圣城","type":3,"api":"csp_qiao3","jar":"http://cdn.qiaoji8.com/fix24914.jar","searchable":1,"quickSearch":1,"playerType":1,"filterable":0,"ext":"caHR0cDovL2FwcC5henlqLnByb3xkYzMyNTA2ZDliNWNiZjhlfGRjMzI1MDZkOWI1Y2JmOGU="},
 {"key":"木叶","name":"木叶","type":3,"api":"csp_Muye","jar":"http://cdn.qiaoji8.com/fix24914.jar","playerType":1,"ext":"cMS4wLjl8aHR0cDovLzExMy40NS4xMzUuMTAwOjYxMTB8NWNlOGJmYTB8MTAwOXw1Njg2ODU0MzRGRUM3QzhDMjkwQUU0RkIzMjVGRjEzMHxzaGlqaWVtYW90dnw3NjU0ODdmNmIzODY2ODI4"},
 {"key":"柠檬","name":"柠檬","type":3,"api":"csp_Nmvod","jar":"http://cdn.qiaoji8.com/fix24914.jar","playerType":1,"ext":"eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="},
-{"key":"热播","name":"热播","type":3,"api":"csp_Rebot","playerType":1,"ext":"caHR0cDovL3YucmJvdHYuY24=","jar":"http://cdn.qiaoji8.com/fix24914.jar"},
 {"key":"drpy_js_大师兄影视","name":"大师兄影视","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/klcb2010/dr_py/main/libs/drpy.min.js","ext":"./js/大师兄影视.js"},
 {"key":"荐片弹幕版","name":"荐片","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/okjpg.txt","ext":{"danmu":false},"timeout":20},
 
