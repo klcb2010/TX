@@ -14,7 +14,6 @@
 {"key": "南瓜弹幕版","name": "南瓜蓝光","type": 3,"api": "csp_Nangua","jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": true},"timeout": 10},
 {"key": "剧兔","name": "剧兔蓝光","type": 3,"api": "csp_AppYsV2","jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php","ext": "https://www.zjtu.one/api.php/app/"},
 {"key":"Wexduanjuvip","name":"短剧良品","type":3,"api":"csp_Wexduanjuvip","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
-{"key":"时常","name":"圣城","type":3,"api":"csp_qiao3","jar":"./jar/fix24914.jar","searchable":1,"quickSearch":1,"playerType":1,"filterable":0,"ext":"caHR0cDovL2FwcC5henlqLnByb3xkYzMyNTA2ZDliNWNiZjhlfGRjMzI1MDZkOWI1Y2JmOGU="},
 {"key":"木叶","name":"木叶","type":3,"api":"csp_Muye","jar":"./jar/fix24914.jar","playerType":1,"ext":"cMS4wLjl8aHR0cDovLzExMy40NS4xMzUuMTAwOjYxMTB8NWNlOGJmYTB8MTAwOXw1Njg2ODU0MzRGRUM3QzhDMjkwQUU0RkIzMjVGRjEzMHxzaGlqaWVtYW90dnw3NjU0ODdmNmIzODY2ODI4"},
 {"key":"柠檬","name":"柠檬","type":3,"api":"csp_Nmvod","jar":"./jar/fix24914.jar","playerType":1,"ext":"eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="},
 {"key":"荐片弹幕版","name":"荐片","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/okjpg.txt","ext":{"danmu":false},"timeout":20},
