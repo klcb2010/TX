@@ -1,25 +1,3 @@
-央广,#genre#
-CRI 轻松调频 FM91.5,http://sk.cri.cn/915.m3u8
-CRI 南海之声,http://satellitepull.cnr.cn/live/wxnhzs/playlist.m3u8
-CNR 中国之声,http://ngcdn001.cnr.cn/live/zgzs/index.m3u8
-CNR 音乐之声,http://ngcdn003.cnr.cn/live/yyzs/index.m3u8
-CNR 经典音乐广播 101.8,http://ngcdn004.cnr.cn/live/dszs/index.m3u8
-CNR 中华之声,http://ngcdn005.cnr.cn/live/zhzs/index.m3u8
-CNR 神州之声,http://ngcdn006.cnr.cn/live/szzs/index.m3u8
-CNR 华夏之声,http://ngcdn007.cnr.cn/live/hxzs/index.m3u8
-CNR 香港之声,http://ngcdn008.cnr.cn/live/xgzs/index.m3u8
-CNR 民族之声,http://ngcdn009.cnr.cn/live/mzzs/index.m3u8
-CNR 文艺之声,http://ngcdn010.cnr.cn/live/wyzs/index.m3u8
-CNR 中国乡村之声,http://ngcdn017.cnr.cn/live/xczs/index.m3u8
-CNR 娱乐广播,http://ngcdn014.cnr.cn/live/ylgb/index.m3u8
-CNR 中国交通广播,http://ngcdn016.cnr.cn/live/gsgljtgb/index.m3u8
-Asia FM,https://lhttp.qingting.fm/live/5022405/64k.mp3
-Asia FM亚洲经典台,https://lhttp.qingting.fm/live/5021912/64k.mp3
-CRI 海峡飞虹,http://sk.cri.cn/hxfh.m3u8
-Love Radio FM103.7,http://live.xmcdn.com/live/55/64.m3u8
-Love Radio FM103.7,http://ls.qingting.fm/live/273.m3u8
-MY FM 西安 FM105.5,http://live.xmcdn.com/live/870/64.m3u8
-清晨音乐台,http://lhttp.qingting.fm/live/4915/64k.mp3
 世界,#genre#
 台湾中广新闻网,http://n03a-eu.rcs.revma.com/78fm9wyy2tzuv
 台湾中广流行网,http://stream.rcs.revma.com/aw9uqyxy2tzuv
