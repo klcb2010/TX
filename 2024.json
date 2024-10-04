@@ -16,7 +16,7 @@
 {"key":"Wexduanjuvip","name":"⑧短剧良品","type":3,"api":"csp_Wexduanjuvip","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 {"key":"柠檬","name":"⑩柠檬","type":3,"api":"csp_Nmvod","jar":"./jar/fix24914.jar","playerType":1,"ext":"eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="},
 {"key":"荐片弹幕版","name":"⑪荐片","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/okjpg.txt","ext":{"danmu":false},"timeout":20},
-{"key":"csp_xpath_yinfans","name":"⑫影视范4K磁力","type":3,"api":"csp_XPath", "searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/影视饭.json"},
+{"key":"csp_xpath_yinfans","name":"⑫影视范4K高码","type":3,"api":"csp_XPath", "searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/影视饭.json"},
 {"key":"小苹果","name":"⑬苹果直连","type":3,"api":"csp_Xpg","jar":"./jar/okjpg.txt","searchable":1,"quickSearch":1,"filterable":1,"timeout":10},
 {"key":"csp_QuPanSou","name":"趣盘搜","type":3,"api":"csp_QuPanSou","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"file://TV/quark_cookie.txt","danmu":false},
 "timeout":15,"jar":"./jar/okjpg.txt"},
