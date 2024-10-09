@@ -14,6 +14,7 @@
 {"key": "南瓜弹幕版","name": "南瓜蓝光","type": 3,"api": "csp_Nangua","jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": false},"timeout": 10},
 
 {"key":"F4kvm","name":"⑥纯享秒播","type":3,"api":"csp_WexF4kvm","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
+{"key":"Wexsaohuo","name":"🎇火火┃秒播🎇","type":3,"api":"csp_Wexsaohuo","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 
 {"key": "剧兔","name": "⑦剧兔蓝光","type": 3,"api": "csp_AppYsV2","jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php","ext": "https://www.zjtu.one/api.php/app/"},
 {"key":"柠檬","name":"⑧柠檬","type":3,"api":"csp_Nmvod","jar":"./jar/fix24914.jar","playerType":1,"ext":"eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="},
