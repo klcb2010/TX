@@ -5,9 +5,9 @@
 "sites":[
 {"key":"豆瓣","name":"更新日期：24-10-05","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"jar":"./jar/okjpg.txt"},
 {"key": "豆豆","name": "阿里、优汐、夸克，需扫码","type": 3,"api": "csp_DouDou","jar": "./php/moyu.php","searchable": 0,"quickSearch": 0,"filterable": 0 },
-{"key":"玩偶","name":"玩偶4K","type":3,"api":"csp_Wogg","jar":"./jar/okjpg.txt","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","wogg":true},
+{"key":"玩偶","name":"①玩偶4K","type":3,"api":"csp_Wogg","jar":"./jar/okjpg.txt","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","wogg":true},
 "timeout":30},
-{"key":"土豆","name":"2土豆4K","type":3,"api":"csp_Wextudou","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
+{"key":"土豆","name":"②土豆4K","type":3,"api":"csp_Wextudou","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 {"key": "夸克至臻弹幕","name": "③夸克至臻4K","type": 3,"api": "csp_Wobg","jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","site": "https://mihdr.top","danmu": false}},
 {"key": "厂长弹幕版","name": "④厂长蓝光","type": 3,"api": "csp_Czzy","jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": false},"timeout": 25},
 {"key": "天天弹幕版","name": "⑤天天蓝光","type": 3,"api": "csp_TianTian","jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": false},"timeout": 10},
