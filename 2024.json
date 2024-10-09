@@ -3,8 +3,8 @@
 {"name":"广播","type":0,"url":"https://gitlab.com/klcb2010/TX/-/raw/master/radio.txt"}],
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "sites":[
-{"key":"Wexconfig","name":"配置中心","type":3,"api":"csp_Wexconfig","searchable":0,"changeable":0,"indexs":0,"jar":"./jar/wex.txt"},
 {"key":"豆瓣","name":"更新日期：24-10-09","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"jar":"./jar/okjpg.txt"},
+{"key":"Wexconfig","name":"配置中心","type":3,"api":"csp_Wexconfig","searchable":0,"changeable":0,"indexs":0,"jar":"./jar/wex.txt"},
 {"key": "豆豆","name": "阿里、优汐、夸克，需扫码","type": 3,"api": "csp_DouDou","jar": "./php/moyu.php","searchable": 0,"quickSearch": 0,"filterable": 0 },
 {"key":"玩偶","name":"①玩偶4K","type":3,"api":"csp_Wogg","jar":"./jar/okjpg.txt","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","wogg":true},"timeout":30},
 {"key":"360","name":"②360采集","type":1,"api":"https://360zy.com/api.php/provide/vod?","jar":"./jar/wex.txt","filterable": 1,"searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","古装片","悬疑片","犯罪片","灾难片","国产剧","香港剧","韩国剧","欧美剧","台湾剧","日本剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","欧美动漫","日韩动漫","现代都市","脑洞悬疑","年代穿越","古装仙侠","女频恋爱","成长逆袭","反转爽剧"]},
@@ -23,11 +23,9 @@
 {"key":"暴風","name":"⑮暴風采集","type":1,"api":"https://bfzyapi.com/api.php/provide/vod","searchable":1,"quickSearch": 1,"changeable":1},
 {"key":"csp_Qiyou","name":"⑰奇优影视","type":3,"api":"csp_Qiyou","searchable":1,"jar":"http://1.95.79.193/PandaQ241006.jar"},
 {"key":"Ivdy","name":"⑱Ivdy影视","type":3,"api":"csp_XBPQ","ext":"http://js.xn--z7x900a.com/json/ivdy.json","searchable":0,"jar":"http://1.95.79.193/PandaQ241006.jar"},
-
 {"key":"醉挽清风","name":"⑲醉挽清风","type":3,"api":"http://我不是.摸鱼儿.top/json/js/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"spider":"http://我不是.摸鱼儿.top/by/jar/moyu.php;md5;be6121b5c37471b191114027123912d2","order_num":0,"ext":"https://gitee.com/XIYANkong123/536992286/raw/moyuer/qingfeng.js"},
 {"key":"小满万全","name":"⑳小满万全","type":3,"api":"http://我不是.摸鱼儿.top/json/js/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"changeable":0,"spider":"http://我不是.摸鱼儿.top/by/jar/moyu.php;md5;be6121b5c37471b191114027123912d2","ext":"https://gitee.com/XIYANkong123/536992286/raw/moyuer/mgtv.js"},
 {"key":"糯米","name":"㉑糯米秒播","type":3,"api":"csp_Nmyswv","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"spider":"http://我不是.摸鱼儿.top/by/jar/moyu.php;md5;be6121b5c37471b191114027123912d2"},
-
 {"key":"csp_SaoHuo","name":"⑯火火影视","type":3,"api":"csp_SaoHuo","searchable":1,"playerType":2,"jar":"http://1.95.79.193/PandaQ241006.jar"},
 {"key":"Iktv","name":"KTV音乐","type":3,"api":"csp_WexIktv","searchable":1,"changeable":0,"jar":"./jar/wex.txt"},
 {"key":"云盘4K","name":"云盘4K搜","type":3,"api":"csp_Yunpan4k","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","danmu":false},
@@ -52,7 +50,8 @@
 {"name":"解析聚合","type":3,"url":"Demo"},
 {"name":"Json轮询","type":2,"url":"Sequence"},
 {"name":"巧技","type":1,"url":"http://pan.qiaoji8.com/tvbox/neibu.php?url=","ext":{"flag":["qq","腾讯","qiyi","iqiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","leshi","乐视","mgtv","芒果","tnmb","seven","bilibili","1905","wasu","NetFilx"],"header":{"User-Agent":"okhttp/4.9.1"}}},
-{"name":"巧技二","type":1,"url":"http://pan.qiaoji8.com/tvbox/gouzi.php?url=","ext":{"flag":["qq","腾讯","qiyi","qiyi","爱奇艺","奇艺","youku","优酷","sohu","leshi","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","bilibili","1905","NetFilx","wasu"],"header":{"User-Agent":"okhttp/4.9.1"}}}],
+{"name":"巧技二","type":1,"url":"http://pan.qiaoji8.com/tvbox/gouzi.php?url=","ext":{"flag":["qq","腾讯","qiyi","qiyi","爱奇艺","奇艺","youku","优酷","sohu","leshi","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","bilibili","1905","NetFilx","wasu"],"header":{"User-Agent":"okhttp/4.9.1"}}},
+{"name":"zhuimi-super","type":1,"url":"http://moyu.zhuimi.top/zhuimi666.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","rx","ltnb","bilibili","1905","xigua"]}}],
 "doh":[
 {"name":"Google","url":"https://dns.google/dns-query","ips":["8.8.4.4","8.8.8.8"]},
 {"name":"Cloudflare","url":"https://cloudflare-dns.com/dns-query","ips":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"]},
