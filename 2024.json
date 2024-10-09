@@ -5,7 +5,6 @@
 "sites":[
 {"key":"豆瓣","name":"更新日期：24-10-09","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"jar":"./jar/okjpg.txt"},
 {"key":"Wexconfig","name":"配置中心","type":3,"api":"csp_Wexconfig","searchable":0,"changeable":0,"indexs":0,"jar":"./jar/wex.txt"},
-{"key":"Wexokconfig","name":"影视专用配置中心","type":3,"api":"csp_Wexokconfig","jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1727784528961/wex.txt;md5;e4d01b08559fb19c33e964e2ca421b87","searchable":0,"changeable":0,"indexs":0},
 {"key": "豆豆","name": "阿里、优汐、夸克，需扫码","type": 3,"api": "csp_DouDou","jar": "./php/moyu.php","searchable": 0,"quickSearch": 0,"filterable": 0 },
 {"key":"玩偶","name":"①玩偶4K","type":3,"api":"csp_Wogg","jar":"./jar/okjpg.txt","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","wogg":true},"timeout":30},
 {"key":"360","name":"②360采集","type":1,"api":"https://360zy.com/api.php/provide/vod?","jar":"./jar/wex.txt","filterable": 1,"searchable":1,"changeable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","古装片","悬疑片","犯罪片","灾难片","国产剧","香港剧","韩国剧","欧美剧","台湾剧","日本剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","欧美动漫","日韩动漫","现代都市","脑洞悬疑","年代穿越","古装仙侠","女频恋爱","成长逆袭","反转爽剧"]},
@@ -34,7 +33,6 @@
 {"key":"Wexyingso","name":"影子综合","type":3,"api":"csp_Wexyingso","searchable":1,"changeable":0,"jar":"./jar/wex.txt"},
 {"key":"csp_QuPanSou","name":"趣盘搜","type":3,"api":"csp_QuPanSou","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"file://TV/quark_cookie.txt","danmu":false},
 "timeout":15,"jar":"./jar/okjpg.txt"},
-{"key":"Sso","name":"盘他三盘","type":3,"api":"https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js","ext":"https://gitlab.com/fantaiying/ext/-/raw/main/盘他.js","searchable":1,"quickSearch":1,"changeable":0},
 {"key":"夸搜","name":"夸搜狸夸","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"changeable":0,"ext":{"pan":"quark","Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"YiSo","name":"易搜阿狸","type":3,"api":"csp_YiSo","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"PanSearch","name":"盘Se阿狸","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
