@@ -30,7 +30,7 @@
 {"key":"Iktv","name":"KTV音乐","type":3,"api":"csp_WexIktv","searchable":1,"changeable":0,"jar":"./jar/wex.txt"},
 {"key":"云盘4K","name":"云盘4K搜","type":3,"api":"csp_Yunpan4k","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","danmu":false},
 "timeout":15,"jar":"./jar/okjpg.txt"},
-{"key":"Wexyingso","name":"影子综合","type":3,"api":"csp_Wexyingso","searchable":1,"changeable":0,"jar":"./jar/wex.txt"},
+{"key":"Wexyingso","name":"影子综合","type":3,"api":"csp_Wexyingso","searchable":1,"changeable":0,"jar":"./jar/wex.txt","ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt"}},
 {"key":"csp_QuPanSou","name":"趣盘搜","type":3,"api":"csp_QuPanSou","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"file://TV/quark_cookie.txt","danmu":false},
 "timeout":15,"jar":"./jar/okjpg.txt"},
 {"key":"夸搜","name":"夸搜狸夸","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"changeable":0,"ext":{"pan":"quark","Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
