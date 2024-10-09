@@ -11,11 +11,7 @@
 {"key": "夸克至臻弹幕","name": "③夸克至臻4K","type": 3,"api": "csp_Wobg","jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","site": "https://mihdr.top","danmu": false}},
 {"key": "厂长弹幕版","name": "④厂长蓝光","type": 3,"api": "csp_Czzy","jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": false},"timeout": 25},
 {"key": "天天弹幕版","name": "⑤天天蓝光","type": 3,"api": "csp_TianTian","jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": false},"timeout": 10},
-{"key": "南瓜弹幕版","name": "南瓜蓝光","type": 3,"api": "csp_Nangua","jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": false},"timeout": 10},
-
-{"key":"F4kvm","name":"⑥纯享秒播","type":3,"api":"csp_WexF4kvm","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
-{"key":"Wexsaohuo","name":"🎇火火┃秒播🎇","type":3,"api":"csp_Wexsaohuo","searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
-
+{"key": "南瓜弹幕版","name": "⑥南瓜蓝光","type": 3,"api": "csp_Nangua","jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": false},"timeout": 10},
 {"key": "剧兔","name": "⑦剧兔蓝光","type": 3,"api": "csp_AppYsV2","jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php","ext": "https://www.zjtu.one/api.php/app/"},
 {"key":"柠檬","name":"⑧柠檬","type":3,"api":"csp_Nmvod","jar":"./jar/fix24914.jar","playerType":1,"ext":"eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="},
 {"key":"荐片弹幕版","name":"⑨荐片","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/okjpg.txt","ext":{"danmu":false},"timeout":20},
