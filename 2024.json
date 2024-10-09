@@ -9,7 +9,7 @@
 "timeout":30},
 {"key":"土豆","name":"②土豆4K","type":3,"api":"csp_Wextudou","ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","wogg":true},"searchable":1,"changeable":1,"jar":"./jar/wex.txt"},
 
-{"key":"Wexxingyun","name":"幸运4K","type":3,"api":"csp_Wexxingyun","ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","wogg":true},"searchable":1,"changeable":1},
+{"key":"Wexxingyun","name":"幸运4K","type":3,"api":"csp_Wexxingyun","jar":"./jar/wex.txt","ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","wogg":true},"searchable":1,"changeable":1},
 
 {"key": "夸克至臻弹幕","name": "③夸克至臻4K","type": 3,"api": "csp_Wobg","jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","site": "https://mihdr.top","danmu": false}},
 {"key": "厂长弹幕版","name": "④厂长蓝光","type": 3,"api": "csp_Czzy","jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": false},"timeout": 25},
