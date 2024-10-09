@@ -27,7 +27,6 @@
 {"key":"醉挽清风","name":"⑲醉挽清风","type":3,"api":"http://我不是.摸鱼儿.top/json/js/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"spider":"http://我不是.摸鱼儿.top/by/jar/moyu.php;md5;be6121b5c37471b191114027123912d2","order_num":0,"ext":"https://gitee.com/XIYANkong123/536992286/raw/moyuer/qingfeng.js"},
 {"key":"小满万全","name":"⑳小满万全","type":3,"api":"http://我不是.摸鱼儿.top/json/js/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"changeable":0,"spider":"http://我不是.摸鱼儿.top/by/jar/moyu.php;md5;be6121b5c37471b191114027123912d2","ext":"https://gitee.com/XIYANkong123/536992286/raw/moyuer/mgtv.js"},
 {"key":"糯米","name":"㉑糯米秒播","type":3,"api":"csp_Nmyswv","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"spider":"http://我不是.摸鱼儿.top/by/jar/moyu.php;md5;be6121b5c37471b191114027123912d2"},
-{"key":"Wexhanjutv","name":"㉒韩剧秒播","type":3,"api":"csp_Wexhanjutv","searchable":1,"changeable":1,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1727784528961/wex.txt"},
 {"key":"Iktv","name":"KTV音乐","type":3,"api":"csp_WexIktv","searchable":1,"changeable":0,"jar":"./jar/wex.txt"},
 {"key":"云盘4K","name":"云盘4K搜","type":3,"api":"csp_Yunpan4k","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","danmu":false},
 "timeout":15,"jar":"./jar/okjpg.txt"},
