@@ -15,7 +15,7 @@
 {"key":"繁荣","name":"⑥3繁荣","type":3,"api":"csp_Frong","playerType":1,"ext":"FMy4wLjJ8aHR0cDovLzQzLjI0OC4xMjguMTM4OjMzMTR8NDJmN2EyMDl8MjV8NTY4Njg1NDM0RkVDN0M4QzI5MEFFNEZCMzI1RkYxMzB8c2hpamllbWFvdHZ8MDllZTM1MTZjMWNhOGVkMQ==","jar":"./jar/fix24914.jar"},
 {"key":"雷电","name":"⑥4雷电","type":3,"api":"csp_Slys","playerType":1,"ext":"caHR0cDovLzEyMC4yMjQuNy45MDo4MDg=","jar":"./jar/fix24914.jar"},
 {"key": "剧兔","name": "⑦剧兔蓝光","type": 3,"api": "csp_AppYsV2","jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php","ext": "https://www.zjtu.one/api.php/app/"},
-{"key":"柠檬","name":"⑧柠檬","type":3,"api":"csp_Nmvod","jar":"./jar/fix24914.jar","playerType":1,"ext":"eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="},
+{"key":"AI4","name":"⑧AI4","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":0,"playerType":1,"ext":"iaHR0cDovLzM5Ljk4LjMyLjI0MTo2Njg4L2FwaS5waHAvemp2My52b2Q=","jar":"./jar/fix24914.jar"},
 {"key":"荐片弹幕版","name":"⑨荐片","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/okjpg.txt","ext":{"danmu":false},"timeout":20},
 {"key":"csp_xpath_yinfans","name":"⑩影视范4K高码","type":3,"api":"csp_XPath", "searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/影视饭.json"},
 {"key":"小苹果","name":"⑪苹果直连","type":3,"api":"csp_Xpg","jar":"./jar/okjpg.txt","searchable":1,"quickSearch":1,"filterable":1,"timeout":10},
