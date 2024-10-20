@@ -27,11 +27,8 @@
 {"key":"csp_SaoHuo","name":"⑯火火影视","type":3,"api":"csp_SaoHuo","searchable":1,"playerType":2,"jar":"http://1.95.79.193/PandaQ241006.jar"},
 {"key":"csp_Qiyou","name":"⑰奇优影视","type":3,"api":"csp_Qiyou","searchable":1,"jar":"http://1.95.79.193/PandaQ241006.jar"},
 {"key":"韩圈","name":"⑱韩剧","type":3,"api":"csp_HanXiaoQuan","jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1728884068216/okjpg.txt","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"timeout":10},
-{"key":"醉挽清风","name":"⑲醉挽清风","type":3,"api":"http://我不是.摸鱼儿.top/json/js/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"spider":"http://我不是.摸鱼儿.top/by/jar/moyu.php;md5;be6121b5c37471b191114027123912d2","order_num":0,"ext":"https://gitee.com/XIYANkong123/536992286/raw/moyuer/qingfeng.js"},
-{"key":"小满万全","name":"⑳小满万全","type":3,"api":"http://我不是.摸鱼儿.top/json/js/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"changeable":0,"spider":"http://我不是.摸鱼儿.top/by/jar/moyu.php;md5;be6121b5c37471b191114027123912d2","ext":"https://gitee.com/XIYANkong123/536992286/raw/moyuer/mgtv.js"},
-{"key":"糯米","name":"㉑糯米秒播","type":3,"api":"csp_Nmyswv","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"spider":"http://我不是.摸鱼儿.top/by/jar/moyu.php;md5;be6121b5c37471b191114027123912d2"},
-{"key":"热播","name":"㉒热播多线","type":3,"api":"csp_AppTT","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8I/B5wQc4Qma+pU="},
-
+{"key":"糯米","name":"⑲糯米秒播","type":3,"api":"csp_Nmyswv","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"spider":"http://我不是.摸鱼儿.top/by/jar/moyu.php;md5;be6121b5c37471b191114027123912d2"},
+{"key":"热播","name":"⑳热播多线","type":3,"api":"csp_AppTT","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8I/B5wQc4Qma+pU="},
 {"key":"Iktv","name":"KTV音乐","type":3,"api":"csp_WexIktv","searchable":1,"changeable":0,"jar":"./jar/wex.txt"},
 {"key":"csp_QuPanSou","name":"趣盘搜","type":3,"api":"csp_QuPanSou","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"file://TV/quark_cookie.txt","danmu":false},
 "timeout":15,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1728884068216/okjpg.txt"},
