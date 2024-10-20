@@ -15,7 +15,7 @@
 {"key":"繁荣","name":"⑥3繁荣","type":3,"api":"csp_Frong","playerType":1,"ext":"FMy4wLjJ8aHR0cDovLzQzLjI0OC4xMjguMTM4OjMzMTR8NDJmN2EyMDl8MjV8NTY4Njg1NDM0RkVDN0M4QzI5MEFFNEZCMzI1RkYxMzB8c2hpamllbWFvdHZ8MDllZTM1MTZjMWNhOGVkMQ==","jar":"./jar/fix24914.jar"},
 {"key":"雷电","name":"⑥4雷电","type":3,"api":"csp_Slys","playerType":1,"ext":"caHR0cDovLzEyMC4yMjQuNy45MDo4MDg=","jar":"./jar/fix24914.jar"},
 {"key":"乐观","name":"⑥5乐观","type":3,"api":"csp_Xdai","playerType":1,"ext":"caHR0cDovLzExMS4xODAuMTk4LjQwOjExMTB8NTU5MmViZWNmY2U3ODFiMXw1NTkyZWJlY2ZjZTc4MWIx","jar":"./jar/fix24914.jar"},
-{"key": "剧兔","name": "⑦剧兔蓝光","type": 3,"api": "csp_AppYsV2","jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php","ext": "https://www.zjtu.one/api.php/app/"},
+{"key":"热播","name":"⑦热播多线","type":3,"api":"csp_AppTT","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8I/B5wQc4Qma+pU="},
 {"key":"AI4","name":"⑧AI4","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":0,"playerType":1,"ext":"iaHR0cDovLzM5Ljk4LjMyLjI0MTo2Njg4L2FwaS5waHAvemp2My52b2Q=","jar":"./jar/fix24914.jar"},
 {"key":"贱贱","name":"⑨荐片","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js","ext":"https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"},
 {"key":"csp_xpath_yinfans","name":"⑩影视范4K高码","type":3,"api":"csp_XPath", "searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/影视饭.json"},
@@ -28,7 +28,7 @@
 {"key":"csp_Qiyou","name":"⑰奇优影视","type":3,"api":"csp_Qiyou","searchable":1,"jar":"http://1.95.79.193/PandaQ241006.jar"},
 {"key":"韩圈","name":"⑱韩剧","type":3,"api":"csp_HanXiaoQuan","jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1728884068216/okjpg.txt","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"timeout":10},
 {"key":"糯米","name":"⑲糯米秒播","type":3,"api":"csp_Nmyswv","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"spider":"http://我不是.摸鱼儿.top/by/jar/moyu.php;md5;be6121b5c37471b191114027123912d2"},
-{"key":"热播","name":"⑳热播多线","type":3,"api":"csp_AppTT","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8I/B5wQc4Qma+pU="},
+
 {"key":"Iktv","name":"KTV音乐","type":3,"api":"csp_WexIktv","searchable":1,"changeable":0,"jar":"./jar/wex.txt"},
 {"key":"csp_QuPanSou","name":"趣盘搜","type":3,"api":"csp_QuPanSou","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"file://TV/quark_cookie.txt","danmu":false},
 "timeout":15,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1728884068216/okjpg.txt"},
