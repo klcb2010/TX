@@ -23,10 +23,8 @@
 {"key":"木耳","name":"⑭木耳采集","type":1,"api":"https://json.heimuer.xyz/api.php/provide/vod","searchable":1,"filterable":1,"changeable":1,"timeout":10,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1728884068216/okjpg.txt"},
 {"key":"暴風","name":"⑮暴風采集","type":1,"api":"https://bfzyapi.com/api.php/provide/vod","searchable":1,"quickSearch": 1,"changeable":1},
 {"key":"csp_SaoHuo","name":"⑯火火影视","type":3,"api":"csp_SaoHuo","searchable":1,"playerType":2,"jar":"http://1.95.79.193/PandaQ241006.jar"},
-{"key":"csp_Qiyou","name":"⑰奇优影视","type":3,"api":"csp_Qiyou","searchable":1,"jar":"http://1.95.79.193/PandaQ241006.jar"},
+{"key":"糯米","name":"⑰糯米秒播","type":3,"api":"csp_Nmyswv","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"spider":"./jar/moyu.php"},
 {"key":"韩圈","name":"⑱韩剧","type":3,"api":"csp_HanXiaoQuan","jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1728884068216/okjpg.txt","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"timeout":10},
-{"key":"糯米","name":"⑲糯米秒播","type":3,"api":"csp_Nmyswv","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"spider":"./jar/moyu.php"},
-
 {"key":"Iktv","name":"KTV音乐","type":3,"api":"csp_WexIktv","searchable":1,"changeable":0,"jar":"./jar/wex.txt"},
 {"key":"csp_QuPanSou","name":"趣盘搜","type":3,"api":"csp_QuPanSou","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"file://TV/quark_cookie.txt","danmu":false},
 "timeout":15,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1728884068216/okjpg.txt"},
