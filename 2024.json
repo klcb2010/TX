@@ -11,8 +11,8 @@
 
 { "key": "厂长","name": "④厂长不卡","type": 3,"api": "csp_NewCz", "timeout": 15,"playerType": 2,"searchable": 1,"quickSearch": 1, "changeable": 1,"ext": "https://www.czzy77.com/"},
 {"key": "天天弹幕版","name": "⑤天天蓝光","type": 3,"api": "csp_TianTian","jar": "./jar/moyudanmu.php","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": false},"timeout": 10},
-{"key": "醉挽清风","name": "⑤1醉挽清风","type": 3,"api": "./js/apiv209drpy.min.js",  "spider": "./jar/moyu.php","searchable": 1,"quickSearch": 1,"filterable": 1,"order_num": 0,"ext": "./js/qingfeng.js"},
-{"key": "小满万全","name": "⑤2小满万全","type": 3,"api": "./js/apiv209drpy.min.js",  "spider": "./jar/moyu.php","searchable": 1,"quickSearch": 1,"filterable": 1,"order_num": 0,"changeable": 0,"ext": "./js/mgtv.js"},
+{"key": "小满万全", "name": "⑤1小满万全4K","type": 3,"api": "http://我不是.摸鱼儿.com/json/js/drpy.min.js", "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php","searchable": 1,"quickSearch": 1,"filterable": 1,"order_num": 0,"changeable": 0,"ext": "https://gitee.com/XIYANkong123/536992286/raw/moyuer/mgtv.js"},
+{"key": "小满万全", "name": "⑤2小满万全4K","type": 3,"api": "http://我不是.摸鱼儿.com/json/js/drpy.min.js", "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php","searchable": 1,"quickSearch": 1,"filterable": 1,"order_num": 0,"changeable": 0,"ext": "https://gitee.com/XIYANkong123/536992286/raw/moyuer/mgtv.js"},
 {"key": "夸克木偶弹幕","name": "⑤3木偶4K","type": 3,"api": "csp_Wobg","jar": "./jar/moyudanmu.php","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","site": "http://mogg.小胡.top","danmu": false}},
 
 {"key":"雷电","name":"⑥雷电","type":3,"api":"csp_Slys","playerType":1,"ext":"caHR0cDovLzEyMC4yMjQuNy45MDo4MDg=","jar":"./jar/fix24914.jar"},
