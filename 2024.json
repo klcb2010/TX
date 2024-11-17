@@ -1,5 +1,5 @@
 {"spider":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1730501203549/fan.txt",
-"lives":[{"name":"直播","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u", "ua": "okhttp/3.15","playerType":1,"epg": "https://live.fanmingming.com/e.xml","logo":"https://epg.112114.xyz/logo/{name}.png"},{"name":"直播2","type":0,"url":"https://ghp.ci/https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Gather.m3u", "ua": "okhttp/3.15","playerType":1,"epg": "https://live.fanmingming.com/e.xml","logo":"https://epg.112114.xyz/logo/{name}.png"},{"name":"广播","type":0,"url":"https://gitlab.com/klcb2010/TX/-/raw/master/radio.txt"}],
+"lives":[{"name":"直播","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u", "ua": "okhttp/3.15","playerType":1,"epg": "https://live.fanmingming.com/e.xml","logo":"https://epg.112114.xyz/logo/{name}.png"},{"name":"直播2","type":0,"url":"http://127.0.0.1:9978/proxy?do=live&url=https://tv.iill.top/m3u/Gather","playerType":2,"timeout":10},{"name":"广播","type":0,"url":"https://gitlab.com/klcb2010/TX/-/raw/master/radio.txt"}],
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "sites":[
 {"key":"豆瓣","name":"更新日期：24-11-11","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1730424610558/okjpg.txt"},
