@@ -19,7 +19,7 @@
 {"key":"热播","name":"⑦热播多线","type":3,"api":"csp_AppTT","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8I/B5wQc4Qma+pU="},
 {"key":"AI4","name":"⑧AI4","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":0,"playerType":1,"ext":"iaHR0cDovLzM5Ljk4LjMyLjI0MTo2Njg4L2FwaS5waHAvemp2My52b2Q=","jar":"./jar/fix24914.jar"},
 {"key":"贱贱","name":"⑨荐片","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js","ext":"https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"},
-{"key":"csp_xpath_yinfans","name":"⑩影视范4K高码","type":3,"api":"csp_XPath", "searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/影视饭.json"},
+{"key":"欢视","name":"⑩欢视多线","type":3,"api":"csp_AppTT","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8IPB+BwH4Qma+opv"},
 {"key":"小苹果","name":"⑪苹果直连","type":3,"api":"csp_Xpg","jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732006789516/ojpg.txt","searchable":1,"quickSearch":1,"filterable":1,"timeout":10},
 {"key": "csp_Dm84","name": "⑫动漫巴士蓝光","type": 3,"api": "csp_Dm84",  "jar": "./php/moyudanmu.php","searchable": 1,"quickSearch": 1,"changeable": 1},
 {"key":"蜡笔弹幕","name":"⑯蜡笔弹幕","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://duopan.fun","danmu":false},"timeout":25,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732006789516/ojpg.txt"},
