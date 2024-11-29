@@ -15,6 +15,8 @@
 {"key":"炉火茶香","name":"⑤4炉火茶香4K纯净","type":3,"api":"csp_AppYsV3","jar": "http://我不是.摸鱼儿.com/by/jar/moyu.php","searchable":1,"quickSearch":1,"filterable":1,"ext":{"cmsApis":"UP4wckC350BpK3+jAtNI2blhjGe5XpRJzt28WdKpAOLIdkF5c7qnry0vLSuNURpG","jxApi":"teViWfrkLeUW9XHAVTi63BPgORqZDJWqTHcpNex30AUNpjwQbj2x+zPZhEgVFKdu","prefix":"dJfwfXAVjjaQz8j4tCkylOzM25rS6UDt2JFvGkrFC/U="}},
 {"key":"雷电","name":"⑥雷电","type":3,"api":"csp_Slys","playerType":1,"ext":"caHR0cDovLzEyMC4yMjQuNy45MDo4MDg=","jar":"./jar/fix24914.jar"},
 {"key":"繁荣","name":"⑥2繁荣","type":3,"api":"csp_Frong","playerType":1,"ext":"FMy4wLjJ8aHR0cHM6Ly92aXAuMTIzcGFuLmNuLzE4MjY0MTAxNjkvZG9uZ3RhaS8xLnR4dHw0MmY3YTIwOXwyNXw1Njg2ODU0MzRGRUM3QzhDMjkwQUU0RkIzMjVGRjEzMHxzaGlqaWVtYW90dnwwOWVlMzUxNmMxY2E4ZWQx","jar":"./jar/fix24914.jar"},
+{"key":"雨滴","name":"⑥3雨滴","type":3,"api":"csp_Xdai","playerType":1,"ext":"jaHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrfGs5bzNwMmM4YjdtM3owbzh8azlvM3AyYzhiN20zejBvOA","jar":"./jar/fix24914.jar"},
+{"key":"柠檬","name":"⑥4柠檬","type":3,"api":"csp_Nmvod","playerType":2,"ext":"eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ==","jar":"./jar/fix24914.jar"},
 {"key":"热播","name":"⑦热播多线","type":3,"api":"csp_AppTT","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8I/B5wQc4Qma+pU="},
 {"key":"AI4","name":"⑧AI4","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":0,"playerType":1,"ext":"iaHR0cDovLzM5Ljk4LjMyLjI0MTo2Njg4L2FwaS5waHAvemp2My52b2Q=","jar":"./jar/fix24914.jar"},
 {"key":"贱贱","name":"⑨荐片","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js","ext":"https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"},
