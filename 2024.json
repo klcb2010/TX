@@ -2,8 +2,8 @@
 "lives":[{"name":"直播","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u", "ua": "okhttp/3.15","playerType":1,"epg": "https://live.fanmingming.com/e.xml","logo":"https://epg.112114.xyz/logo/{name}.png"},{"name":"直播2","type":0,"url":"http://127.0.0.1:9978/proxy?do=live&url=https://tv.iill.top/m3u/Gather","playerType":2,"timeout":10},{"name":"广播","type":0,"url":"https://gitlab.com/klcb2010/TX/-/raw/master/radio.txt"}],
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "sites":[
-{"key":"豆瓣","name":"更新日期：24-12-20","type":3,"api":"csp_Douban","searchable":0,"changeable":"1"},
-{"key": "豆豆","name": "阿里、优汐、夸克，需扫码","type": 3,"api": "csp_DouDou","jar": "./jar/moyu.php","searchable": 0,"quickSearch": 0,"filterable": 0 },
+{"key":"豆豆","name":"更新日期：2024.12.20","type":3,"api":"csp_DouDou","searchable":0,"quickSearch":0,"filterable":0},
+{"key": "豆豆","name": "阿里、UC、夸克，需扫码","type": 3,"api": "csp_DouDou","jar": "./jar/moyu.php","searchable": 0,"quickSearch": 0,"filterable": 0 },
 {"key":"玩偶","name":"玩偶哥哥4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","siteUrl":"https://www.wogg.net/","danMu":"弹"}},
 {"key": "夸克木偶弹幕","name": "②木偶4K","type": 3,"api": "csp_Wobg","jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","site": "http://mogg.小胡.top","danmu": false}},
 {"key": "夸克至臻弹幕","name": "③夸克至臻4K","type": 3,"api": "csp_Wobg","jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","site": "https://mihdr.top","danmu": false}},
