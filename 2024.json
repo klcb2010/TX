@@ -23,6 +23,8 @@
 {"key":"暴風","name":"⑮暴風采集","type":1,"api":"https://bfzyapi.com/api.php/provide/vod","searchable":1,"quickSearch": 1,"changeable":1},
 {"key":"csp_SaoHuo","name":"⑯火火影视","type":3,"api":"csp_SaoHuo","searchable":1,"playerType":2,"jar":"./jar/PandaQ241006.jar"},
 {"key":"糯米","name":"糯米秒播","type":3,"api":"csp_Nmyswv","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"糯米","name":"OK糯米弹幕","type":3,"api":"csp_NmysGuard","jar":"./jar/okpng.txt","searchable":1,"filterable":1,"ext":{"danmu":true},
+"timeout":10},
 {"key": "洽洽影视","name": "洽洽","type": 3,"api": "csp_AppGZ","jar":"./jar/spider2025.jar","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key":"夸搜","name":"夸搜狸夸","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"changeable":0,"ext":{"pan":"quark","Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"YiSo","name":"易搜阿狸","type":3,"api":"csp_YiSo","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
