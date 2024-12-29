@@ -20,7 +20,6 @@
 {"key":"Biliych","name":"⑩哔哔MV","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":0,"changeable":0,"ext":{"json":"https://notabug.org/fantaiying/ext/raw/main/biliych.json"}},
 {"key":"苹果","name":"苹果不卡","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"changeable":1},
 {"key": "csp_Dm84","name": "⑫鱼儿动漫巴士蓝光","type": 3,"api": "csp_Dm84",  "jar": "./jar/moyudanmu.php","searchable": 1,"quickSearch": 1,"changeable": 1},
-{"key":"暴風","name":"⑮暴風采集","type":1,"api":"https://bfzyapi.com/api.php/provide/vod","searchable":1,"quickSearch": 1,"changeable":1},
 {"key":"csp_SaoHuo","name":"⑯火火影视","type":3,"api":"csp_SaoHuo","searchable":1,"playerType":2,"jar":"./jar/PandaQ241006.jar"},
 {"key":"糯米","name":"糯米秒播","type":3,"api":"csp_Nmyswv","searchable":1,"quickSearch":1,"changeable":1},
 {"key": "洽洽影视","name": "洽洽","type": 3,"api": "csp_AppGZ","jar":"./jar/spider2025.jar","searchable": 1,"quickSearch": 1,"filterable": 1},
