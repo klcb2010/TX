@@ -21,7 +21,6 @@
 {"key": "csp_Dm84","name": "⑫鱼儿动漫巴士蓝光","type": 3,"api": "csp_Dm84",  "jar": "./php/Pizazz.php","searchable": 1,"quickSearch": 1,"changeable": 1},
 {"key":"csp_SaoHuo","name":"⑯火火影视","type":3,"api":"csp_SaoHuo","searchable":1,"playerType":2,"jar":"./jar/PandaQ241006.jar"},
 {"key":"糯米","name":"糯米秒播","type":3,"api":"csp_Nmyswv","searchable":1,"quickSearch":1,"changeable":1},
-{"key": "洽洽影视","name": "洽洽","type": 3,"api": "csp_AppGZ","jar":"./jar/spider2025.jar","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "皮皮虾","name": "鱼儿皮皮吃虾","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://38.55.250.149:1314/api.php/app/"},
 {"key": "流光影视","name": "鱼儿流光千里","jar": "./php/Pizazz.php","type": 3,"api": "csp_XBPQ","ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=流光"},
 {"key": "寒思","name": "鱼儿寒思","type": 3,"api": "csp_AppRB","jar": "./php/Pizazz.php","searchable": 1,"quickSearch": 1,"filterable": 1},
