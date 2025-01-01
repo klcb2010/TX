@@ -46,6 +46,7 @@
 {"name":"解析聚合","type":3,"url":"Demo"},
 {"name":"Json轮询","type":2,"url":"Sequence"},
 {"name":"巧技","type":1,"url":"http://pan.qiaoji8.com/tvbox/neibu.php?url=","ext":{"flag":["qq","腾讯","qiyi","iqiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","leshi","乐视","mgtv","芒果","tnmb","seven","bilibili","1905","wasu","NetFilx"],"header":{"User-Agent":"okhttp/4.9.1"}}},
+{"name": "皮皮虾","type": "1","url": "http://45.207.215.101:5423/index.php?url=","ext": {"flag": ["PPXLG","皮皮虾4K"]}},
 {"name":"巧技二","type":1,"url":"http://pan.qiaoji8.com/tvbox/gouzi.php?url=","ext":{"flag":["qq","腾讯","qiyi","qiyi","爱奇艺","奇艺","youku","优酷","sohu","leshi","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","bilibili","1905","NetFilx","wasu"],"header":{"User-Agent":"okhttp/4.9.1"}}} ,
 {"name": "zhuimi-super","type": 1,"url": "http://110.40.61.139:4655/zhuimi666.php?url=","ext": {"flag": ["qq","腾讯", "qiyi", "爱奇艺", "奇艺","youku", "优酷","sohu","搜狐","letv","乐视","mgtv", "芒果","rx","ltnb","bilibili", "1905", "xigua" ] } }],
 "doh":[
