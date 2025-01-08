@@ -1,4 +1,4 @@
-①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳㉑㉒㉓㉔㉕㉖㉗㉘㉙㉚
+
 
 删除广告与辣鸡源：
 1. 木叶       茶啊二中 跑马灯广告　　  241004
@@ -20,4 +20,9 @@
 3、直播界面 菜单键 切换TV和广播 没有home键和菜单键的辣鸡电视千万不能要，home键方便一键回到桌面
 
 4、同步gitlab镜像仓库，加速链接 https://cors.isteed.cc/
-5、局域网电视，安装docker run -d --name=doube-itv -p 50001:5000 doubebly/doube-itv:latest，运行 http://192.168.50.40:50001/help，链接http://192.168.50.40:50001/Sub?type=m3u
+
+
+5、局域网电视，安装docker run -d --name=doube-itv -p 50001:5000 doubebly/doube-itv:latest，
+
+
+运行 http://192.168.50.40:50001/help，链接http://192.168.50.40:50001/Sub?type=m3u
