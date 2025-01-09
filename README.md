@@ -25,4 +25,6 @@
 5、局域网电视，安装docker run -d --name=doube-itv -p 50001:5000 doubebly/doube-itv:latest，
 
 
-运行 http://192.168.50.40:50001/help，链接http://192.168.50.40:50001/Sub?type=m3u
+运行 http://192.168.50.40:50001/help
+
+链接http://192.168.50.40:50001/Sub?type=m3u
