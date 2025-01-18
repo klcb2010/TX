@@ -5,8 +5,7 @@
 {"key": "豆瓣","name": "更新日期：25.01.15","type": 3,"api": "csp_Douban","jar":"./jar/spider2025.jar","searchable": "0"},
 {"key":"玩偶","name":"玩偶哥哥4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","siteUrl":"https://www.wogg.net/","danMu":"弹"}},
 {"key": "夸克木偶弹幕","name": "②鱼儿木偶","type": 3,"api": "csp_Wobg","jar": "./php/Pizazz.php","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","site": "http://mogg.小胡.top","danmu": false}},
-{"key":"py_PPXYs","name":"皮皮虾影视","type":4,"api":"https://py.doube.eu.org/spider?site=PPXYs","searchable":1,"quickSearch":0,"filterable":0,"changeable":0}
-,
+{"key":"py_PPXYs","name":"皮皮虾影视","type":4,"api":"https://py.doube.eu.org/spider?site=PPXYs","searchable":1,"quickSearch":0,"filterable":0,"changeable":0},
 {"key": "夸克至臻弹幕","name": "③鱼儿夸克至臻","type": 3,"api": "csp_Wobg","jar": "./php/Pizazz.php","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","site": "https://mihdr.top","danmu": false}},
 {"key":"原创","name":"原创不卡","type":3,"api":"csp_YCyz","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"厂长","name":"厂长不卡","type":3,"api":"csp_NewCz","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.czzyvideo.com/"},
