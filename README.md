@@ -30,3 +30,17 @@
 运行 http://192.168.50.40:50001/help
 
 链接http://192.168.50.40:50001/Sub?type=m3u
+
+
+定时更新镜像
+
+`docker run -d \
+  --name watchtower \
+  --restart unless-stopped \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  containrrr/watchtower \
+  doube-itv allinone \
+  --cleanup \
+  --schedule "0 2 * * *"
+`
+
