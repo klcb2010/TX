@@ -44,3 +44,8 @@
   --schedule "0 2 * * *"
 `
 
+
+
+立即更新
+`docker exec -it watchtower /watchtower --run-once
+`
