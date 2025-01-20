@@ -7,15 +7,14 @@
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 
 "sites":[
-{"key": "應用商店","name": "TV直播软件","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"ext": "https://gitlab.com/klcb2010/TX/-/raw/master/live2025.json","jar":"./jar/pg.jar"},
 {"key": "豆瓣","name": "更新日期：25.01.15","type": 3,"api": "csp_Douban","jar":"./jar/spider2025.jar","searchable": "0"},
+{"key": "應用商店","name": "TV直播软件","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"ext": "https://gitlab.com/klcb2010/TX/-/raw/master/live2025.json","jar":"./jar/pg.jar"},
 {"key":"玩偶","name":"玩偶哥哥4K","type":3,"api":"csp_WoGG","jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1737018909312/f01162.txt","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","siteUrl":"https://www.wogg.net/","danMu":"弹"}},
 {"key": "夸克木偶弹幕","name": "②鱼儿木偶","type": 3,"api": "csp_Wobg","jar": "./php/Pizazz.php","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","site": "http://mogg.小胡.top","danmu": false}},
 {"key":"py_PPXYs","name":"皮皮虾影视","type":4,"api":"https://py.doube.eu.org/spider?site=PPXYs","searchable":1,"quickSearch":0,"filterable":0,"changeable":0},
 {"key": "夸克至臻弹幕","name": "③鱼儿夸克至臻","type": 3,"api": "csp_Wobg","jar": "./php/Pizazz.php","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","site": "https://mihdr.top","danmu": false}},
 {"key":"原创","name":"原创不卡","type":3,"api":"csp_YCyz","jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1737018909312/f01162.txt","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"厂长","name":"厂长不卡","type":3,"api":"csp_NewCz","jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1737018909312/f01162.txt","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.czzyvideo.com/"},
-{"key":"bilimd","name":"⑩哔哩影视","type":3,"api":"csp_Bilimd","searchable":1,"quickSearch":1,"jar":"./jar/okpng.txt","filterable":1,"style":{"type":"rect","ratio":1.433},"ext":{"cookie":"file://TV/bili_cookie.txt"},"timeout":10},
 {"key": "韩小圈","name": "鱼儿韩圈","type": 3,"api": "csp_HanXiaoQuan","jar": "./php/Pizazz.php","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key":"ddys_js","name":"低端在线","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720319529030/drpy2.min.txt?file=drpy2.min.js","jar":"./jar/okpng.txt","ext":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720319885464/ddys.txt","timeout":15},
 {"key": "小满万全", "name": "⑤鱼儿小满万全","type": 3,"api": "http://我不是.摸鱼儿.com/json/js/drpy.min.js", "jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php","searchable": 1,"quickSearch": 1,"filterable": 1,"order_num": 0,"changeable": 0,"ext": "https://gitee.com/XIYANkong123/536992286/raw/moyuer/mgtv.js"},
