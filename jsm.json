@@ -36,7 +36,7 @@
 			"searchable": 0,
 			"api": "./lib/live2vod.js",
 			"ext": "./lib/feimaolive.json"
-		},
+		}
 		],
 		"lives":[
 			{
