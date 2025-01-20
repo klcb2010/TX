@@ -6,7 +6,16 @@
 
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 
-"sites":[
+"sites":[{
+			"key": "豆瓣",
+			"name": "豆瓣",
+			"type": 3,
+			"api": "csp_Douban",
+			"searchable": 0,
+			"changeable": 1,
+			"indexs": 1,
+			"ext": "./lib/tokenm.json$$$./lib/douban.json"
+		},
 {"key": "豆瓣","name": "更新日期：25.01.15","type": 3,"api": "csp_Douban","jar":"./jar/spider2025.jar","searchable": "0"},
 {"key": "應用商店","name": "TV直播软件","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"ext": "https://gitlab.com/klcb2010/TX/-/raw/master/live2025.json","jar":"./jar/pg.jar"},
 {"key":"玩偶","name":"玩偶哥哥4K","type":3,"api":"csp_WoGG","jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1737018909312/f01162.txt","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","siteUrl":"https://www.wogg.net/","danMu":"弹"}},
