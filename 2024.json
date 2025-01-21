@@ -20,6 +20,7 @@
 {"key":"热播","name":"⑦热播多线","type":3,"api":"csp_AppTT","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8I/B5wQc4Qma+pU="},
 {"key":"贱贱","name":"⑨荐片","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js","ext":"https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"},
 {"key":"Biliych","name":"⑩哔哔MV","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":0,"changeable":0,"ext":{"json":"https://gitlab.com/klcb2010/TX/-/raw/master/bilibli_peizhi.json"}},
+{"key": "酷狗","name": "酷狗","type": 3,"api": "csp_Kugou","searchable": 1,"changeable": 0,"jar":"./pg.jar"},
 {"key":"苹果","name":"苹果不卡","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"changeable":1},
 {"key": "csp_Dm84","name": "⑫鱼儿动漫巴士蓝光","type": 3,"api": "csp_Dm84",  "jar": "./php/Pizazz.php","searchable": 1,"quickSearch": 1,"changeable": 1},
 {"key":"csp_SaoHuo","name":"⑯火火影视","type":3,"api":"csp_SaoHuo","searchable":1,"playerType":2,"jar":"./jar/PandaQ241006.jar"},
@@ -52,9 +53,7 @@
 {"name":"解析聚合","type":3,"url":"Demo"},
 {"name":"Json轮询","type":2,"url":"Sequence"},
 {"name":"巧技","type":1,"url":"http://pan.qiaoji8.com/tvbox/neibu.php?url=","ext":{"flag":["qq","腾讯","qiyi","iqiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","leshi","乐视","mgtv","芒果","tnmb","seven","bilibili","1905","wasu","NetFilx"],"header":{"User-Agent":"okhttp/4.9.1"}}},
-{"name": "皮皮虾","type": "1","url": "http://45.207.215.101:5423/index.php?url=","ext": {"flag": ["PPXLG","皮皮虾4K"]}},
-{"name":"巧技二","type":1,"url":"http://pan.qiaoji8.com/tvbox/gouzi.php?url=","ext":{"flag":["qq","腾讯","qiyi","qiyi","爱奇艺","奇艺","youku","优酷","sohu","leshi","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","bilibili","1905","NetFilx","wasu"],"header":{"User-Agent":"okhttp/4.9.1"}}} ,
-{"name": "zhuimi-super","type": 1,"url": "http://110.40.61.139:4655/zhuimi666.php?url=","ext": {"flag": ["qq","腾讯", "qiyi", "爱奇艺", "奇艺","youku", "优酷","sohu","搜狐","letv","乐视","mgtv", "芒果","rx","ltnb","bilibili", "1905", "xigua" ] } }],
+{"name":"巧技二","type":1,"url":"http://pan.qiaoji8.com/tvbox/gouzi.php?url=","ext":{"flag":["qq","腾讯","qiyi","qiyi","爱奇艺","奇艺","youku","优酷","sohu","leshi","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","bilibili","1905","NetFilx","wasu"],"header":{"User-Agent":"okhttp/4.9.1"}}}],
 
 "doh":[
 {"name":"Google","url":"https://dns.google/dns-query","ips":["8.8.4.4","8.8.8.8"]},
