@@ -1,7 +1,7 @@
 {"spider":"./pg.jar",
 
 "lives":[
-{"name":"pg直播250120","type":0,"url":"./pg-m3u/pg-hdfirst.m3u","ua":"okhttp/3.15","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}"},
+{"name":"IPV6","type":0,"url":"https://cors.isteed.cc/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u","ua":"okhttp/3.15","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}"},
 {"name":"pg直播250120(1天回看)","type":0,"url":"http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/tv.m3u","ua":"okhttp/3.15","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date=DATE1SUB","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png","catchup":{"type":"append","source":"?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"}},{"name":"docker专用1","type":0,"url":"http://192.168.50.40:35456/m3u", "ua": "okhttp/3.15","playerType":1,"epg": "https://live.fanmingming.com/e.xml","logo":"https://epg.112114.xyz/logo/{name}.png"},{"name":"docker专用2","type":0,"url":"http://192.168.50.40:50001/Sub?type=m3u", "ua": "okhttp/3.15","playerType":1,"epg": "https://live.fanmingming.com/e.xml","logo":"https://epg.112114.xyz/logo/{name}.png"},{"name":"广播","type":0,"url":"https://gitlab.com/klcb2010/TX/-/raw/master/radio.txt"},{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=live&proxy=&url"]}]}],
 
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
