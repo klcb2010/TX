@@ -14,7 +14,7 @@
 {"key": "豆瓣","name": "更新日期：25.01.22","type": 3,"api": "csp_Douban","searchable": 0,"changeable": 1,"indexs": 1,"ext": "./lib/tokenm.json$$$./lib/douban.json"},
 {"key":"玩偶","name":"1.玩偶哥哥4K","type":3,"api":"csp_WoGG","jar":"./jar/fan.txt","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","siteUrl":"https://www.wogg.net/","danMu":"弹"}},
 {"key":"py_jieyingshi","name":"2.界影视","type":3,"api":"https://json.doube.eu.org/python/py_jieyingshi.py","searchable":1,"quickSearch":0,"filterable":0,"changeable":0},
-{"key": "夸克木偶弹幕","name": "3.鱼儿木偶","type": 3,"api": "csp_Wobg","jar": "./php/Pizazz.php","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","site": "http://mogg.小胡.top","danmu": false}},
+{"key":"新6V","name":"3.新6V电源","type":3,"api":"csp_Xb6v","searchable":1,"changeable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://www.66ss.org$$$null$$$1"},
 {"key": "夸克至臻弹幕","name": "4.鱼儿夸克至臻","type": 3,"api": "csp_Wobg","jar": "./php/Pizazz.php","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","site": "https://mihdr.top","danmu": false}},
 {"key":"原创","name":"5.原创不卡","type":3,"api":"csp_YCyz","jar":"./jar/fan.txt","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"厂长","name":"6.厂长不卡","type":3,"api":"csp_NewCz","jar":"./jar/fan.txt","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.czzyvideo.com/"},
@@ -35,7 +35,6 @@
 {"key": "临渊影视","name": "21.鱼儿临渊","type": 3,"api": "csp_AppRZ","jar": "./php/Pizazz.php","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "浪酷弹幕","name": "22.鱼儿浪酷","type": 3,"api": "csp_TianTian","jar": "./php/Pizazz.php","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": false,"site": "aHR0cDovL3YubGt1eXMuY24="}},
 
-{"key":"夸搜","name":"夸搜狸夸","type":3,"api":"csp_PanSearch","jar":"./jar/fan.txt","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"YiSo","name":"易搜阿狸","type":3,"api":"csp_YiSo","jar":"./jar/fan.txt","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"UpYun","name":"Up搜","type":3,"api":"csp_UpYun","jar":"./jar/fan.txt","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"米搜","name":"米搜夸父","type":3,"api":"csp_MIPanSo","jar":"./jar/fan.txt","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
