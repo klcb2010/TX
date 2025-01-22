@@ -44,7 +44,7 @@
 {"key":"PanSso","name":"盘他三盘","type":3,"api":"csp_PanSso","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"YpanSo","name":"盘她三盘","type":3,"api":"csp_YpanSo","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"xzso","name":"盘它三盘","type":3,"api":"csp_xzso","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
-{"key": "夸克趣盘搜弹幕","name": "趣盘搜","type": 3,"api": "csp_QuPanSou","jar":"./jar/spider2025.jar","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt"}},
+{"key": "夸克趣盘搜弹幕","name": "趣盘搜","type": 3,"api": "csp_QuPanSou","jar":"./jar/spider2025.jar","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"少儿教育","name":"少儿教育","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},
 "searchable":0,"quickSearch":0,"changeable":0,"ext":{"json":"https://notabug.org/fantaiying/ext/raw/main/少儿教育.json"}},
 {"key":"小学课堂","name":"小学课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},
