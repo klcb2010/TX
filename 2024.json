@@ -26,7 +26,7 @@
 {"key":"贱贱","name":"12.荐片","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js","ext":"https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"},
 {"key":"MTV","name":"13.歌曲MV","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},
 "searchable":0,"quickSearch":0,"changeable":0, "jar": "./jar/fan.txt","ext":{"json":"https://gitlab.com/klcb2010/TX/-/raw/master/bilibli_peizhi.json"}},
-{"key": "Bdys_spider", "name": "14.修罗磁力", "api": "csp_Bdys01", "type": 3, "filterable": 1, "searchable": 1, "quickSearch": 1, "timeout": 60, "ext": "./lib/tokenm.json$$$https://xlys.me/$$$noproxy$$$1"},
+{"key": "Bdys_spider", "name": "14.修罗磁力", "api": "csp_Bdys01", "type": 3, "filterable": 1, "searchable": 1, "quickSearch": 1, "timeout": 60, "ext": "./lib/tokenm.json$$$https://xlys01.com/$$$noproxy$$$1"},
 {"key":"苹果","name":"15.苹果不卡","type":3,"api":"csp_LiteApple","jar":"./jar/fan.txt","searchable":1,"quickSearch":1,"changeable":1},
 {"key": "csp_Dm84","name": "16.鱼儿动漫巴士蓝光","type": 3,"api": "csp_Dm84",  "jar": "./php/Pizazz.php","searchable": 1,"quickSearch": 1,"changeable": 1},
 {"key":"csp_SaoHuo","name":"17.火火影视","type":3,"api":"csp_SaoHuo","searchable":1,"playerType":2,"jar":"./jar/PandaQ241006.jar"},
