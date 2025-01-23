@@ -1,8 +1,1 @@
-{
-  "class": [
-    {
-      "type_name": "登陆配置",
-      "type_id": "peizhi","jar":"./jar/fan.txt"
-    },{"type_name":"演唱会","type_id":"演唱会超清"},{"type_name":"经典老歌","type_id":"经典老歌超清"}
-  ]
-}
+{"class": [{"type_name":"演唱会","type_id":"演唱会超清"},{"type_name":"经典老歌","type_id":"经典老歌超清"}]}
