@@ -7,34 +7,7 @@
 
 "sites":[
 {"key": "豆瓣","name": "更新日期：25.01.21","type": 3,"api": "csp_Douban","searchable": 0,"changeable": 1,"indexs": 1,"ext": "./lib/tokenm.json$$$./lib/douban.json"},
-
-  {
-    "key": "bili",
-    "name": "B站 | Bili[jar]",
-    "type": 3,
-    "api": "csp_Bili",
-    "searchable": 1,
-    "quickSearch": 0,
-    "changeable": 0,
-    "ext": {
-      "type": "演唱会##音乐",
-      "cookie": ""
-    }
-  },
-  {
-    "key": "bili_fan",
-    "name": "B站扩展 | Fan",
-    "type": 3,
-    "api": "csp_Bili",
-    "jar": "./jar/fan.txt",
-    "searchable": 1,
-    "quickSearch": 0,
-    "changeable": 0,
-    "ext": {
-      "json": "https://gitlab.com/klcb2010/TX/-/raw/master/bilibli_peizhi.json"
-    }
-  }
-
+{"key":"Biliych","name":"B站测试","type":3,"api":"csp_Bili","jar":"./jar/fan.txt","searchable":1,"quickSearch":0,"changeable":0,"ext":{"type":"演唱会##音乐","cookie":"","json":"https://gitlab.com/klcb2010/TX/-/raw/master/bilibli_peizhi.json"}}
 
 ,
 {"key":"bili","name":"B站 | Bili[jar]","type":3,"api":"csp_Bili","searchable":1,"quickSearch":0,"changeable":0,"ext":{"type":"演唱会##音乐","cookie":"","json":"https://gitlab.com/klcb2010/TX/-/raw/master/bilibli_peizhi.json"}},
