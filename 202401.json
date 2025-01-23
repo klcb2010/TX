@@ -10,7 +10,7 @@
 
 {"json":"https://gitlab.com/klcb2010/TX/-/raw/master/bilibli_peizhi.json"},
 
-{"key":"Wexokconfig","name":"王二小配置","type":3,"api":"csp_WexokconfigGuard","searchable":0,"changeable":0,"indexs":0,"jar":"./jar/wex.txt"},
+{"key":"Wexokconfig","name":"王二小配置","type":3,"api":"csp_WexokconfigGuard","searchable":0,"changeable":0,"indexs":0,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1737375996012/wex.txt"},
 {"key":"biliych","name":"哔哔┃歌曲","type":3,"api":"csp_BiliGuard","searchable":0,"quickSearch":1,"filterable":1,"style":{"type":"rect","ratio":1.433},
 "ext":{"json":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1730557798499/bilisong.txt","jar":"./jar/wex.txt"}},
 
