@@ -18,7 +18,7 @@
   "ext": {
     "type": "演唱会##音乐",
     "cookie": "",
-    "jar_ext": "./jar/fan.txt",
+    "jar": "./jar/fan.txt",
     "json": "https://gitlab.com/klcb2010/TX/-/raw/master/bilibli_peizhi.json"
   }
 }
