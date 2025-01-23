@@ -36,7 +36,7 @@
 {"key": "流光影视","name": "19.鱼儿流光千里","jar": "./php/Pizazz.php","type": 3,"api": "csp_XBPQ","ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=流光"},
 {"key": "寒思","name": "20.鱼儿寒思","type": 3,"api": "csp_AppRB","jar": "./php/Pizazz.php","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "临渊影视","name": "21.鱼儿临渊","type": 3,"api": "csp_AppRZ","jar": "./php/Pizazz.php","searchable": 1,"quickSearch": 1,"filterable": 1},
-
+{"key":"人人","name":"我为人人","type":3,"api":"csp_Xdai","jar":"http://我不是.摸鱼儿.xyz/by/jar/Pizazz.php","playerType":1,"ext":"caHR0cHM6Ly9qaWVrb3UtMTMxNDA1NDY5OS5jb3MuYXAtY2hvbmdxaW5nLm15cWNsb3VkLmNvbS8xLnR4dHxGNTFGNUQ1MkQyM0NCRjI3fEY1MUY1RDUyRDIzQ0JGMjd8MTky"},
 
 {"key":"YiSo","name":"易搜阿狸","type":3,"api":"csp_YiSo","jar":"./jar/fan.txt","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"UpYun","name":"Up搜","type":3,"api":"csp_UpYun","jar":"./jar/fan.txt","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
