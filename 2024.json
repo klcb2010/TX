@@ -5,7 +5,6 @@
 {"name":"IPV6直播","type":0,"url":"https://wget.la/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u" ,"ua": "okhttp/3.15","playerType":1,"epg": "https://live.fanmingming.com/e.xml","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"docker专用1","type":0,"url":"http://192.168.50.40:35456/m3u", "ua": "okhttp/3.15","playerType":1,"epg": "https://live.fanmingming.com/e.xml","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"docker专用2","type":0,"url":"http://192.168.50.40:50001/Sub?type=m3u", "ua": "okhttp/3.15","playerType":1,"epg": "https://live.fanmingming.com/e.xml","logo":"https://epg.112114.xyz/logo/{name}.png"},
-{"name":"Judy直播","type":0,"url":"https://video.mytvsuper.xyz/playlist/zong-he-ding-yue.m3u?token=257191600554869","playerType":1,"epg": "https://live.fanmingming.com/e.xml","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"广播","type":0,"url":"https://gitlab.com/klcb2010/TX/-/raw/master/radio.txt"},
 {"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=live&proxy=&url="]}]}],
 
