@@ -38,6 +38,7 @@
   allinone \
   --cleanup \
   --schedule "0 2 * * *"
+
 `
 
 
