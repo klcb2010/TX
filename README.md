@@ -1,5 +1,5 @@
 
-外挂jar本地或者zxian不得多于2，否则wogg的网盘播放必挂。
+外挂jar本地或者https不得多于2，否则wogg的网盘播放必挂。
 
 网盘配置  重新加载 go  重新载入Alison weishi  可用
 
