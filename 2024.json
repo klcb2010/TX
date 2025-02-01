@@ -28,7 +28,7 @@
 
 {"key": "浪酷弹幕","name": "11.鱼儿浪酷","type": 3,"api": "csp_TianTian","jar": "./php/Pizazz.php","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": false,"site": "aHR0cDovL3YubGt1eXMuY24="}},
 {"key": "夸克至臻弹幕","name": "12.鱼儿夸克至臻","type": 3,"api": "csp_Wobg","jar": "./php/Pizazz.php","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","site": "https://mihdr.top","danmu": false}},
-{"key":"夸克蜡笔弹幕","name":"13.鱼儿蜡笔资源","type":3,"api":"csp_Wobg","jar":"./php/Pizazz.php","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"http://127.0.0.1:9978/file/TVfan/token.txt","cookie":"http://127.0.0.1:9978/file/TVBox/quark.txt","site":"http://labipan.com/","danmu":false}},
+{"key":"夸克蜡笔弹幕","name":"13.鱼儿蜡笔资源","type":3,"api":"csp_Wobg","jar":"./php/Pizazz.php","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"http://127.0.0.1:9978/file/TVfan/token.txt","cookie":"http://127.0.0.1:9978/file/TV/quark_cookie.txt","site":"http://labipan.com/","danmu":false}},
 
 {"key": "csp_Dm84","name": "14.鱼儿动漫巴士蓝光","type": 3,"api": "csp_Dm84",  "jar": "./php/Pizazz.php","searchable": 1,"quickSearch": 1,"changeable": 1},
 {"key": "流光影视","name": "15.鱼儿流光千里","jar": "./php/Pizazz.php","type": 3,"api": "csp_XBPQ","ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=流光"},
