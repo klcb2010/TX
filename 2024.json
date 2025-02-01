@@ -28,8 +28,7 @@
 
 {"key": "浪酷弹幕","name": "11.鱼儿浪酷","type": 3,"api": "csp_TianTian","jar": "./php/Pizazz.php","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": false,"site": "aHR0cDovL3YubGt1eXMuY24="}},
 {"key": "夸克至臻弹幕","name": "12.鱼儿夸克至臻","type": 3,"api": "csp_Wobg","jar": "./php/Pizazz.php","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt","site": "https://mihdr.top","danmu": false}},
-{"key":"夸克蜡笔弹幕","name":"13.鱼儿蜡笔资源","type":3,"api":"csp_Wobg","jar":"./php/Pizazz.php","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"http://127.0.0.1:9978/file/TVfan/token.txt","cookie":"http://127.0.0.1:9978/file/TV/quark_cookie.txt","site":"http://labipan.com/","danmu":false}},
-
+{"key":"夸克蜡笔弹幕","name":"13.鱼儿蜡笔资源","type":3,"api":"csp_Wobg","jar":"./lib/Pizazz.php","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"http://127.0.0.1:9978/file/TVBox/token.txt","cookie":"http://127.0.0.1:9978/file/TVBox/quark.txt","site":"http://labipan.com/","danmu":false}},
 {"key": "csp_Dm84","name": "14.鱼儿动漫巴士蓝光","type": 3,"api": "csp_Dm84",  "jar": "./php/Pizazz.php","searchable": 1,"quickSearch": 1,"changeable": 1},
 {"key": "流光影视","name": "15.鱼儿流光千里","jar": "./php/Pizazz.php","type": 3,"api": "csp_XBPQ","ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=流光"},
 {"key":"美剧迷","name":"16.鱼儿美剧迷","type":3,"api":"csp_MeijuMi","jar":"./php/Pizazz.php","searchable":1,"quickSearch":1,"filterable":1},
@@ -46,8 +45,7 @@
 {"key":"夸搜","name":"夸搜夸父","type":3,"api":"csp_PanSearch","jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1738055801642/f0128.txt","searchable":1,"quickSearch":1,"changeable":0,"ext":{"pan":"quark","Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"抠搜","name":"抠抠搜搜","type":3,"api":"csp_KkSs","jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1738055801642/f0128.txt","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"UC","name":"优汐搜搜","type":3,"api":"csp_UuSs","jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1738055801642/f0128.txt","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
-{"key": "夸克趣盘搜弹幕","name": "趣盘搜","type": 3,"api": "csp_QuPanSou","jar":"./jar/spider2025.jar","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","uc_cookie":"file://TV/uc_cookie.txt"}},
-
+{"key": "夸克趣盘搜弹幕","name": "趣盘搜","type": 3,"api": "csp_QuPanSou","jar":"./jar/spider2025.jar","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"cookie": "http://127.0.0.1:9978/file/TV/quark_cookie.txt","danmu": false}},
 {"key":"少儿教育","name":"少儿教育","type":3,"api":"csp_Bili","jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1738055801642/f0128.txt","style":{"type":"rect","ratio":1.597},
 "searchable":0,"quickSearch":0,"changeable":0,"ext":{"json":"https://notabug.org/fantaiying/ext/raw/main/少儿教育.json"}},
 {"key":"小学课堂","name":"小学课堂","type":3,"api":"csp_Bili","jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1738055801642/f0128.txt","style":{"type":"rect","ratio":1.597},
