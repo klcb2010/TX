@@ -260,8 +260,7 @@ http://127.0.0.1:35456/itv/5000000010000018926.m3u8?cdn=bestzb
 http://127.0.0.1:35456/itv/2000000002000000014.m3u8?cdn=hnbblive
 #EXTINF:-1,tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://epg.v1.mk/logo/哈哈炫动.png" group-title="卫视",上海哈哈炫动
 http://127.0.0.1:35456/itv/5000000011000031123.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://epg.v1.mk/logo/五星体育.png" group-title="卫视",上海五星体育
-http://127.0.0.1:35456/itv/5000000010000017540.m3u8?cdn=bestzb
+
 #EXTINF:-1,tvg-id="上海新闻综合" tvg-name="上海新闻综合" tvg-logo="https://epg.v1.mk/logo/上海新闻综合.png" group-title="卫视",上海新闻综合
 http://127.0.0.1:35456/itv/5000000011000031110.m3u8?cdn=bestzb
 #EXTINF:-1,tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://epg.v1.mk/logo/深圳卫视.png" group-title="卫视",深圳卫视
@@ -291,6 +290,10 @@ http://127.0.0.1:35456/itv/5000000006000040018.m3u8?cdn=bestzb
 #EXTINF:-1,tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://epg.v1.mk/logo/内蒙古卫视.png" group-title="卫视",内蒙古卫视
 http://127.0.0.1:35456/itv/1000000002000014080.m3u8?cdn=ystenlive
 
+#EXTINF:-1 group-title="油管",公視直播  
+http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/watch?v=4Uc00FPs27M  
+#EXTINF:-1 group-title="油管",凤凰卫视  
+http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/watch?v=dmDg7NfUoSw  
 
 #EXTINF:-1 group-title="油管",凤凰资讯
 http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/watch?v=HFib76ySpbU
