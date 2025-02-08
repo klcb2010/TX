@@ -1,6 +1,6 @@
-{"recommend":"LIST:最新|推荐,官方频道",
+{"recommend":"LIST:最新推荐,官方频道",
 "class":[
-{"type_id":"LIST:华语音乐,华语MV,点击率最高","type_name":"音乐"}],
+{"type_id":"LIST:华语音乐,华语MV","type_name":"音乐"}],
 "LIST:华语音乐,华语MV,点击率最高":[
 {"key":"time","name":"时间","value":[{"n":"时间全选","v":""},{"n":"2024","v":"2024"},{"n":"2023","v":"2023"}]},
 {"key":"tid","name":"地区","value":[{"n":"华语音乐","v":"华语音乐"},{"n":"华语MV","v":"华语MV"}]}],
