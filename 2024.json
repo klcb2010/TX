@@ -9,7 +9,7 @@
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 
 "sites":[
-{"key":"豆瓣","name":"更新日期：25.02.07","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"indexs":1,"ext":"./lib/tokenm.json$$$./lib/douban.json"},
+{"key":"豆瓣","name":"更新日期：25.02.08","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"indexs":1,"ext":"./lib/tokenm.json$$$./lib/douban.json"},
 {"key": "應用商店","name": "TV直播软件","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"ext": "https://gitlab.com/klcb2010/TX/-/raw/master/live2025.json"},
 {"key": "网盘配置", "name": "网盘及彈幕配置", "type": 3, "api": "csp_Config", "searchable": 0, "changeable": 0, "ext": "./lib/tokenm.json", "style": {"type": "rect", "ratio": 1.5}},
 
