@@ -52,3 +52,5 @@ docker run -d \
   allinone \
   --cleanup \
   --schedule "0 2 * * *"
+
+YouTube卡 1分钟 重启网盘全部go代理
