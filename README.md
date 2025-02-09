@@ -34,11 +34,21 @@
 4、同步gitlab镜像仓库，加速链接 https://cors.isteed.cc/
 
 
-
-
-
 安装镜像 
 
 docker run -d --restart always --privileged=true -p 35455:35455 --name allinone youshandefeiyang/allinone -tv=true -aesKey=dy27nq58o8ydcj01bbulcbwekcdbfba8 -userid=人工获取-token人工获取
 
 查看镜像ID   docker images
+
+
+定时更新 
+
+
+docker run -d \
+  --name watchtower \
+  --restart unless-stopped \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  containrrr/watchtower \
+  allinone \
+  --cleanup \
+  --schedule "0 2 * * *"
