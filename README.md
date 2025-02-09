@@ -37,19 +37,8 @@
 
 
 
-定时更新镜像 `docker run -d \
-  --name watchtower \
-  --restart unless-stopped \
-  -v /var/run/docker.sock:/var/run/docker.sock \
-  containrrr/watchtower \
-  allinone \
-  --cleanup \
-  --schedule "0 2 * * *"
+安装镜像 
 
-`
+docker run -d --restart always --privileged=true -p 35455:35455 --name allinone youshandefeiyang/allinone -tv=true -aesKey=dy27nq58o8ydcj01bbulcbwekcdbfba8 -userid=人工获取-token人工获取
 
-
-
-立即更新
-`docker exec -it watchtower /watchtower --run-once
-`
+查看镜像ID   docker images
