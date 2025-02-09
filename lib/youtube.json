@@ -1,5 +1,6 @@
 {"recommend":"LIST:最新推荐,官方频道",
 "class":[
+{"type_id":"LIST:@HotFireMovie,火爆影院","type_name":"自媒体"},
 {"type_id":"LIST:华语音乐,华语MV","type_name":"音乐"}],
 "LIST:华语音乐,华语MV,点击率最高":[
 {"key":"time","name":"时间","value":[{"n":"时间全选","v":""},{"n":"2024","v":"2024"},{"n":"2023","v":"2023"}]},
