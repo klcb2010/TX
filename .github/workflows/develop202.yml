@@ -1,0 +1,119 @@
+name: Update develop202.txt
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */1 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Run time log
+        run: |
+          echo "===== RUN TIME ====="
+          echo "UTC:   $(date -u)"
+          echo "LOCAL: $(date)"
+
+      - name: Random delay before download
+        run: |
+          DELAY=$((1 + RANDOM % 50))
+          echo "Delaying for $DELAY seconds..."
+          sleep $DELAY
+
+      - name: Download source
+        run: |
+          echo "===== Download ====="
+
+          curl -L --fail \
+            "https://raw.githubusercontent.com/develop202/migu_video/main/interface.txt" \
+            -o source.txt
+
+          echo "===== Download OK ====="
+          ls -lh source.txt
+          wc -l source.txt
+
+          if [ ! -s source.txt ]; then
+            echo "Download failed or source.txt is empty"
+            exit 1
+          fi
+
+          echo "===== Upstream Last Modified ====="
+          curl -I -s \
+            "https://raw.githubusercontent.com/develop202/migu_video/main/interface.txt" \
+            | grep -i last-modified || true
+
+      - name: Filter M3U
+        run: |
+          sed -i 's/\r$//' source.txt
+
+          awk '
+          BEGIN{
+              count=0
+          }
+
+          /^#EXTM3U/{
+              print
+              next
+          }
+
+          /^#EXTINF:/{
+              keep=0
+
+              if ($0 ~ /group-title="央视频道"/ ||
+                  $0 ~ /group-title="超清频道"/ ||
+                  $0 ~ /group-title="卫视频道"/) {
+
+                  if ($0 !~ /卫生健康|发现之旅|老故事|中学生|新疆|三沙|宁夏|青海|海峡|兵团|西藏|CGTN|购物|4K|8K|测试/) {
+                      keep=1
+                      info=$0
+                  }
+              }
+
+              next
+          }
+
+          /^http/{
+              if (keep) {
+                  print info
+                  print
+                  count++
+              }
+
+              keep=0
+          }
+
+          END{
+              print "TOTAL MATCH = " count > "/dev/stderr"
+          }
+          ' source.txt > develop202.txt
+
+          echo "===== Result ====="
+          ls -lh develop202.txt
+          wc -l develop202.txt
+
+          if [ ! -s develop202.txt ]; then
+            echo "develop202.txt is empty"
+            exit 1
+          fi
+
+      - name: Commit & Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add develop202.txt
+
+          if git diff --cached --quiet; then
+            echo "No changes detected, skip commit."
+            exit 0
+          fi
+
+          git commit -m "Update develop202.txt"
+          git push

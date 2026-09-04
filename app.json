@@ -1,0 +1,13 @@
+[
+  {
+    "list": [
+     { "name": "20260824-2", "url": "http://jiduo.rihou.cc:6250/jiduo.php/vox本地包.zip", "icon": "http://jiduo.rihou.cc:6250/23.jpg", "version": "最新本地包" },
+      { "name": "搜狗输入法", "url": "https://ghfast.top/github.com/klcb2010/TX/releases/download/1.0/sougou.apk", "icon": "https://ghfast.top/github.com/klcb2010/TX/raw/master/logo/sougou.png", "version": "1.0" },
+      { "name": "AppOps", "url": "https://ghfast.top/github.com/klcb2010/TX/releases/download/1.0/AppOps.apk", "icon": "https://ghfast.top/github.com/klcb2010/TX/raw/master/logo/AppOps_logo.png", "version": "9.0.7" },
+      { "name": "小白管文件", "url": "https://ghfast.top/github.com/klcb2010/TX/releases/download/1.0/xiaobai.apk", "icon": "https://ghfast.top/github.com/klcb2010/TX/raw/master/logo/xiaobai.png", "version": "2.8.0" },
+      { "name": "ES文件浏览", "url": "https://ghfast.top/github.com/klcb2010/TX/releases/download/1.0/ES.apk", "icon": "https://ghfast.top/github.com/klcb2010/TX/raw/master/logo/ES.png", "version": "4.3.7" },
+      { "name": "Shizuku", "url": "https://ghfast.top/github.com/klcb2010/TX/releases/download/1.0/Shizuku.apk", "icon": "https://ghfast.top/github.com/klcb2010/TX/raw/master/logo/Shizuku_logo.png", "version": "13.5.4" },
+      { "name": "小布电视", "url": "https://ghfast.top/github.com/klcb2010/TX/releases/download/1.0/xiaobu.apk", "icon": "https://ghfast.top/github.com/klcb2010/TX/blob/master/logo/xianbu.png", "version": "2.1.2" }
+    ]
+  }
+]

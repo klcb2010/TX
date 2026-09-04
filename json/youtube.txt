@@ -1,0 +1,13 @@
+{
+  "class":[
+    {"type_id":"Sharp锐评影社","type_name":"普锐评影社"},
+    {"type_id":"温城鲤","type_name":"温城鲤"},
+    {"type_id":"哇萨比抓马","type_name":"哇萨比抓马"},
+    {"type_id":"六道追劇","type_name":"六道追剧"},
+    {"type_id":"壹號電視館","type_name":"1号电视馆"},
+    {"type_id":"Semenix Gaming","type_name":"Semenix Gaming"},
+    {"type_id":"最新华语MV","type_name":"音乐MV"}
+  ],
+  "jx":0,
+  "parse":0
+}
