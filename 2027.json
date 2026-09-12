@@ -8,7 +8,7 @@
   "logo":"https://txtv.ccwu.cc/raw/klcb2010/mod-for-Firefox/refs/heads/main/384Firefox.png",
   "sites": [
 
-	{"key":"Douban","name":"更新日期 26 09 02","type":3,"api":"csp_Douban","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://jk.catvod.site/jk/t4/douban.json"},
+	{"key":"Douban","name":"更新日期 26 09 02","type":3,"api":"csp_Douban","searchable":0,"quickSearch":0,"filterable":1,"ext":"./douban.json"},
 	{"key":"Market","name":"相关软件夸克源","type":3,"api":"csp_Market","searchable":0,"changeable":0,"indexs":0,"filterable":1,"style":{"type":"list"},"ext":{"categories":[{"name":"相关软件","url":"https://pan.quark.cn/s/d7cd1c249080"}]}},
 	{"key":"综合设置","name":"肥猫配置","type":3,"api":"csp_PanSettings","searchable":0,"changeable":0,"indexs":0,"style":{"type":"rect","ratio":1.597}},
 	{"key":"追新","name":"光鸭追新[网盘]","type":3,"api":"csp_GuangYaZhuiXin","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"style":{"type":"rect","ratio":0.71},"timeout":60},
@@ -74,10 +74,10 @@
     {"key":"九七","name":"九七 [搜索]","type":3,"api":"csp_SoAiPanSoo","searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"style":{"type":"list","ratio":1},"timeout":60},
     {"key":"趣盘社","name":"趣盘社 [搜索]","type":3,"api":"csp_SoAiQuPanShe","searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"style":{"type":"list","ratio":1},"timeout":60},
 	  
-	{"key":"少儿教育","name":"少儿[哔哩]","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"changeable":0,"ext":{"json":"https://jk.catvod.site/jk/t4/bili_edu_child.json"},"style":{"type":"rect","ratio":1.597}},
-    {"key":"小学课堂","name":"小学[哔哩]","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"changeable":0,"ext":{"json":"https://jk.catvod.site/jk/t4/bili_edu_primary.json"},"style":{"type":"rect","ratio":1.597}},
-    {"key":"初中课堂","name":"初中[哔哩]","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"changeable":0,"ext":{"json":"https://jk.catvod.site/jk/t4/bili_edu_middle.json"},"style":{"type":"rect","ratio":1.597}},
-    {"key":"高中课堂","name":"高中[哔哩]","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"changeable":0,"ext":{"json":"https://jk.catvod.site/jk/t4/bili_edu_high.json"},"style":{"type":"rect","ratio":1.597}},
+	{"key":"少儿教育","name":"少儿[哔哩]","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"changeable":0,"ext":{"json":"./bili_edu_child.json"},"style":{"type":"rect","ratio":1.597}},
+    {"key":"小学课堂","name":"小学[哔哩]","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"changeable":0,"ext":{"json":"./bili_edu_primary.json"},"style":{"type":"rect","ratio":1.597}},
+    {"key":"初中课堂","name":"初中[哔哩]","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"changeable":0,"ext":{"json":"./bili_edu_middle.json"},"style":{"type":"rect","ratio":1.597}},
+    {"key":"高中课堂","name":"高中[哔哩]","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"changeable":0,"ext":{"json":"./bili_edu_high.json"},"style":{"type":"rect","ratio":1.597}},
     {"key":"push_agent","name":"推送","type":3,"api":"csp_Push","searchable":0,"changeable":0,"indexs":0,"timeout":60}
  
  ],
