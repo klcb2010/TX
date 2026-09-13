@@ -21,6 +21,7 @@
     {"key":"虎斑","name":"虎斑[网盘]","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["http://38.76.197.172:16969"]},"timeout":60},
     {"key":"人人","name":"人人[网盘]","type":3,"api":"csp_RenRen","searchable":1,"quickSearch":1,"filterable":1,"timeout":60},
     {"key":"文才","name":"文才[影视]","type":3,"api":"csp_WenCai","searchable":1,"filterable":1,"changeable":1,"ext":"https://www.tjrongze.com,https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.jiabaide.cn"},
+	{"key":"红果","name":"红果","type":3,"api":"./hongguo.py","searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"playerType":2},
 	{"key": "河马短剧", "name": "河马短剧", "type": 3, "api": "./hmdj.py", "searchable": 1, "changeable": 1, "quickSearch": 1, "filterable": 1, "playerType": 2},
     {"key":"YouTube1","name":"YouTube","type":3,"api":"./YouTube.py","searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"playerType":2,"style":{"type":"rect","ratio":1.597}},
     {"key":"YouTube","name":"肥猫","type":3,"api":"csp_Youtube","ext":"{\"hls_proxy\":true,\"json\":\"https://ghfast.top/raw.githubusercontent.com/klcb2010/TX/master/youtube.json\"}","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"style":{"type":"rect","ratio":1.78}},
