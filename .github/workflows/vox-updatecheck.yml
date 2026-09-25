@@ -1,0 +1,105 @@
+name: 更新本地包日期
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */2 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 拉取仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 获取远程最新信息
+        id: get-remote
+        run: |
+          URL="http://rihou.cc:88/json/market.json"
+          JSON=$(curl -fsSL --max-time 15 "$URL")
+
+          REMOTE_NAME=$(echo "$JSON" | jq -r '.[] | select(.name=="本地包") | .list[0].name')
+          REMOTE_URL=$(echo "$JSON" | jq -r '.[] | select(.name=="本地包") | .list[0].url')
+
+          if [ -z "$REMOTE_NAME" ] || [ "$REMOTE_NAME" = "null" ]; then
+            echo "❌ remote name not found"
+            exit 1
+          fi
+
+          if [ -z "$REMOTE_URL" ] || [ "$REMOTE_URL" = "null" ]; then
+            echo "❌ remote url not found"
+            exit 1
+          fi
+
+          echo "remote_name=$REMOTE_NAME" >> $GITHUB_OUTPUT
+          echo "remote_url=$REMOTE_URL" >> $GITHUB_OUTPUT
+
+      - name: 读取本地信息
+        id: get-local
+        run: |
+          LOCAL_NAME=$(sed -n '6p' app.json | sed -n 's/.*"name": "\([^"]*\)".*/\1/p')
+          LOCAL_URL=$(sed -n '6p' app.json | sed -n 's/.*"url": "\([^"]*\)".*/\1/p')
+
+          if [ -z "$LOCAL_NAME" ]; then
+            echo "❌ local name not found"
+            exit 1
+          fi
+
+          if [ -z "$LOCAL_URL" ]; then
+            echo "❌ local url not found"
+            exit 1
+          fi
+
+          echo "local_name=$LOCAL_NAME" >> $GITHUB_OUTPUT
+          echo "local_url=$LOCAL_URL" >> $GITHUB_OUTPUT
+
+      - name: 对比是否需要更新
+        id: compare
+        run: |
+          if [ "${{ steps.get-remote.outputs.remote_name }}" = "${{ steps.get-local.outputs.local_name }}" ] &&
+             [ "${{ steps.get-remote.outputs.remote_url }}" = "${{ steps.get-local.outputs.local_url }}" ]; then
+            echo "need_update=false" >> $GITHUB_OUTPUT
+          else
+            echo "need_update=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 第六行本地包双重校验替换name和url
+        if: steps.compare.outputs.need_update == 'true'
+        run: |
+          NEW_NAME="${{ steps.get-remote.outputs.remote_name }}"
+          NEW_URL="${{ steps.get-remote.outputs.remote_url }}"
+          FILE="app.json"
+
+          # 双保险：
+          # 1. 只处理第6行
+          # 2. 第6行必须包含 vox本地包
+          sed -i.bak '6{
+            /vox本地包/ {
+              s|"name": "[^"]*"|"name": "'"$NEW_NAME"'"|
+              s|"url": "[^"]*"|"url": "'"$NEW_URL"'"|
+            }
+          }' "$FILE"
+
+          rm -f "${FILE}.bak"
+
+      - name: 提交并推送修改
+        if: steps.compare.outputs.need_update == 'true'
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+
+          git add app.json
+
+          if git diff --cached --quiet; then
+            echo "无实际变更，跳过提交"
+            exit 0
+          fi
+
+          git commit -m "update local package name and url"
+          git push origin HEAD
