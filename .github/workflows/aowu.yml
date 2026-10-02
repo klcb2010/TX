@@ -1,0 +1,74 @@
+name: Decode config.webp Local Fix
+on:
+  workflow_dispatch:
+
+jobs:
+  decode:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download config.webp
+        run: |
+          curl -fL --retry 3 -o config.webp http://itv666.cc/aowu/config.webp
+          ls -lh config.webp
+
+      - name: Extract & Deep Clean JSON
+        run: |
+          python3 - << 'EOF'
+          import json
+          import re
+
+          with open("config.webp", "rb") as f:
+              raw_bin = f.read()
+
+          start = raw_bin.find(b"{")
+          end = raw_bin.rfind(b"}")
+
+          if start == -1 or end == -1 or start >= end:
+              print("[-] No complete JSON block found")
+              exit(1)
+
+          json_bin = raw_bin[start:end+1]
+          raw_str = json_bin.decode("utf-8", errors="replace")
+
+          # 强力清洗：只保留 JSON 合法字符+中文，其他全部清空
+          # 允许：中文、大小写字母、数字、{}[]":, 空格
+          clean_str = re.sub(r'[^\u4e00-\u9fa5a-zA-Z0-9\{\}\[\]":, \n\t]', "", raw_str)
+
+          # 清洗后可能出现连续多余符号，修复开头 { 后乱码残留
+          # 匹配从 { 开始到最后 } 的完整内容
+          match = re.search(r'\{[\s\S]*\}', clean_str)
+          if not match:
+              print("[-] Clean after no json")
+              with open("raw_extract.bin", "wb") as fw:
+                  fw.write(json_bin)
+              exit(1)
+
+          final_json_str = match.group(0)
+
+          try:
+              cfg = json.loads(final_json_str)
+              pretty = json.dumps(cfg, indent=2, ensure_ascii=False)
+              print("\n===== Decoded TVBox Config =====")
+              print(pretty)
+              with open("tvbox_config.json", "w", encoding="utf-8") as fw:
+                  fw.write(pretty)
+              print("\n[+] Saved tvbox_config.json")
+          except Exception as err:
+              print(f"\n[-] JSON parse error: {err}")
+              print("Cleaned text preview:\n", final_json_str[:1000])
+              with open("raw_extract.txt", "w", encoding="utf-8") as fw:
+                  fw.write(final_json_str)
+              with open("raw_extract.bin", "wb") as fw:
+                  fw.write(json_bin)
+              exit(1)
+          EOF
+
+      - name: Upload output files
+        uses: actions/upload-artifact@v4
+        with:
+          name: decode-result
+          path: |
+            tvbox_config.json
+            raw_extract.txt
+            raw_extract.bin
+            config.webp
