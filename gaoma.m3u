@@ -1,0 +1,34 @@
+#EXTM3U
+# ############################# CCTV央视频道 #############################
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-1综合.png",CCTV-1综合
+http://127.0.0.1:35456/gaoma/cctv1.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-2财经.png",CCTV-2财经
+http://127.0.0.1:35456/gaoma/cctv2.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-3综艺.png",CCTV-3综艺
+http://127.0.0.1:35456/gaoma/cctv3.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-4中文国际.png",CCTV-4中文国际
+http://127.0.0.1:35456/gaoma/cctv4.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-5体育.png",CCTV-5体育
+http://127.0.0.1:35456/gaoma/cctv5.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-6电影.png",CCTV-6电影
+http://127.0.0.1:35456/gaoma/cctv7.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-8电视剧.png",CCTV-8电视剧
+http://127.0.0.1:35456/gaoma/cctv8.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-9纪录.png",CCTV-9纪录
+http://127.0.0.1:35456/gaoma/cctv9.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-10科教.png",CCTV-10科教
+http://127.0.0.1:35456/gaoma/cctv10.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-11戏曲.png",CCTV-11戏曲
+http://127.0.0.1:35456/gaoma/cctv11.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-12社会与法.png",CCTV-12社会与法
+http://127.0.0.1:35456/gaoma/cctv12.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-13新闻.png",CCTV-13新闻
+http://127.0.0.1:35456/gaoma/cctv13.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-14少儿.png",CCTV-14少儿
+http://127.0.0.1:35456/gaoma/cctv14.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-15音乐.png",CCTV-15音乐
+http://127.0.0.1:35456/gaoma/cctv15.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-16奥林匹克.png",CCTV-16奥林匹克
+http://127.0.0.1:35456/gaoma/cctv16.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-17农业农村.png",CCTV-17农业农村
+http://127.0.0.1:35456/gaoma/cctv17.m3u8
