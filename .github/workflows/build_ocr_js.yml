@@ -1,0 +1,46 @@
+name: Build and Hide OCR Keys
+
+on:
+  workflow_dispatch: # 支持手动点击运行
+
+permissions:
+  contents: write # 赋予 Actions 推送代码回仓库的权限
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Process JS Template and Inject Secrets
+      run: |
+        # 1. 将 Secrets 转换为 Base64 密文
+        B64_API_KEY=$(echo -n "${{ secrets.BD_API_KEY }}" | base64)
+        B64_SECRET_KEY=$(echo -n "${{ secrets.BD_SECRET_KEY }}" | base64)
+        
+        # 2. 确保目标 js 目录存在
+        mkdir -p js
+        
+        # 3. 替换模版中的占位符并输出到 js/ocr_service.js
+        sed -e "s/__API_KEY_PLACEHOLDER__/${B64_API_KEY}/g" \
+            -e "s/__SECRET_KEY_PLACEHOLDER__/${B64_SECRET_KEY}/g" \
+            src/ocr_template.js > js/ocr_service.js
+            
+        echo "JS 编译混淆完成，已输出至 js/ocr_service.js"
+
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        
+        # 检查文件是否有变动，有变动则提交
+        if git status --porcelain | grep -q "js/ocr_service.js"; then
+          git add js/ocr_service.js
+          git commit -m "chore: workflow 手动更新已编译的鉴权 JS 文件"
+          git push
+          echo "已成功推送到仓库。"
+        else
+          echo "文件无变化，无需提交。"
+        fi

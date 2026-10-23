@@ -1,0 +1,245 @@
+name: Sync M3U and JSON
+
+on:
+  schedule:
+    - cron: '20 22 * * *'
+  push:
+    branches:
+      - master
+    paths:
+      - 'ok/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Check trigger type
+        id: check_trigger
+        run: |
+          echo "Event name: ${{ github.event_name }}"
+          echo "Current UTC time: $(date -u)"
+
+          if [[ "${{ github.event_name }}" == "schedule" || "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "trigger_type=schedule_or_manual" >> "$GITHUB_OUTPUT"
+          elif [[ "${{ github.event_name }}" == "push" ]]; then
+            echo "trigger_type=jpg_update" >> "$GITHUB_OUTPUT"
+          else
+            echo "trigger_type=skip" >> "$GITHUB_OUTPUT"
+          fi
+
+          echo "Changed files:"
+          git diff --name-only HEAD^ HEAD || true
+
+      # =========================
+      # 下载（带 fallback）
+      # =========================
+      - name: Fetch source M3U file
+        if: steps.check_trigger.outputs.trigger_type == 'schedule_or_manual'
+        run: |
+          set -e
+
+          DELAY=$((30 + RANDOM % 21))
+          echo "等待 ${DELAY} 秒..."
+          sleep ${DELAY}
+
+          PRIMARY_URL="${{ secrets.M3U_SOURCE_URL }}"
+          BACKUP_URL="${{ secrets.M3U_BACKUP_URL }}"
+
+          download() {
+            url=$1
+            echo "[INFO] 尝试: $url"
+
+            curl -L --http1.1 \
+              -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120 Safari/537.36" \
+              -e "https://www.google.com/" \
+              --connect-timeout 10 \
+              --max-time 120 \
+              --retry 3 \
+              --retry-delay 5 \
+              --retry-all-errors \
+              -o iptv.m3u "$url" || return 1
+
+            test -s iptv.m3u
+          }
+
+          if ! download "$PRIMARY_URL"; then
+            echo "[WARN] 主源失败，切换备用源"
+            download "$BACKUP_URL"
+          fi
+
+          echo "[INFO] 下载完成预览"
+          head -n 3 iptv.m3u || true
+          wc -l iptv.m3u || true
+
+      # =========================
+      # 处理逻辑（完全保留你的规则）
+      # =========================
+      - name: Process & generate li.m3u
+        if: steps.check_trigger.outputs.trigger_type == 'schedule_or_manual'
+        run: |
+          python3 <<'EOF'
+          import re, sys
+
+          UA_HINT = "#UA-Hint: 请将 User-Agent 设置为 okHttp/Mod-1.5.0.0 ，否则无法观看"
+
+          try:
+              with open("iptv.m3u", "r", encoding="utf-8", errors="ignore") as f:
+                  lines = f.read().splitlines()
+          except Exception as e:
+              print("[ERROR] 读取失败:", e)
+              sys.exit(1)
+
+          if not lines:
+              print("[ERROR] iptv.m3u 为空")
+              sys.exit(1)
+
+          header0 = lines[0].strip() if lines else "#EXTM3U"
+          body = lines[2:] if len(lines) > 2 else []
+
+          weishi, cctv, migu, weishi_mcp = [], [], [], []
+
+          skip_group = re.compile(r'group-title="(4K频道|熊猫|影视|地方|少儿|教育|其他|体育|印象天下|纪实|综艺|新闻|其他-MCP)"')
+          skip_name  = re.compile(r'(cgtnru-MCP|cgtndoc-MCP|国学频道-MCP|cgtn-MCP|CGTN|老故事|体坛|怀旧剧场)')
+
+          migu_exclude_name = re.compile(r'(吉林|青海|海南|海峡|中国农林|兵团|河南|陕西|大湾|东南)')
+          weishi_mcp_exclude = re.compile(r'(云南|兵团|甘肃|新疆|西藏|宁夏|海南|青海|内蒙古|山西|陕西|河南)')
+
+          def is_cctv(x):
+              return bool(re.search(r'group-title="[^"]*央视"|CCTV|cctv', x))
+
+          def is_weishi(x):
+              return bool(re.search(r'group-title="[^"]*卫视"', x))
+
+          def is_weishi_mcp(x):
+              return '-MCP' in x
+
+          i, n = 0, len(body)
+
+          while i < n:
+              if not body[i].startswith("#EXTINF"):
+                  i += 1
+                  continue
+
+              extinf = body[i]
+
+              if skip_group.search(extinf) or skip_name.search(extinf):
+                  i += 2
+                  continue
+
+              url = body[i+1] if i+1 < n else None
+              if not url or not url.startswith("http"):
+                  i += 1
+                  continue
+
+              # 咪咕
+              if (re.search(r'migu', url, re.I) or
+                  re.search(r'\bmg\b', url, re.I) or
+                  'mgtv.ottiptv.cc' in url.lower()):
+
+                  if not migu_exclude_name.search(extinf):
+                      migu += [extinf, url]
+
+              # MCP卫视
+              elif is_weishi(extinf) and is_weishi_mcp(extinf):
+                  if not weishi_mcp_exclude.search(extinf):
+                      weishi_mcp += [extinf, url]
+
+              # 卫视
+              elif is_weishi(extinf):
+                  weishi += [extinf, url]
+
+              # CCTV
+              elif is_cctv(extinf):
+                  cctv += [extinf, url]
+
+              else:
+                  weishi += [extinf, url]
+
+              i += 2
+
+          print(f"[INFO] 卫视:{len(weishi)//2} MCP:{len(weishi_mcp)//2} CCTV:{len(cctv)//2} MIGU:{len(migu)//2}")
+
+          out_lines = [header0, UA_HINT] + weishi_mcp + weishi + cctv + migu
+
+          with open("li.m3u", "w", encoding="utf-8") as f:
+              f.write("\n".join(out_lines) + "\n")
+
+          # 追加 dmys（完整保留）
+          try:
+              with open("dmys.m3u", "r", encoding="utf-8") as f:
+                  dmys_content = f.read()
+
+              with open("li.m3u", "a", encoding="utf-8") as f:
+                  f.write(dmys_content)
+
+              print("[INFO] dmys.m3u 已追加")
+          except FileNotFoundError:
+              print("[ERROR] 未找到 dmys.m3u")
+          EOF
+
+      # =========================
+      # commit li.m3u
+      # =========================
+      - name: Commit li.m3u changes
+        if: steps.check_trigger.outputs.trigger_type == 'schedule_or_manual'
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+
+          git add li.m3u
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update li.m3u"
+            git push
+          fi
+
+      # =========================
+      # JSON UA sync
+      # =========================
+      - name: Run sync JSON script for UA update
+        if: steps.check_trigger.outputs.trigger_type == 'schedule_or_manual'
+        run: |
+          python sync_json2025.py --update-ua
+
+      # =========================
+      # JSON JPG sync
+      # =========================
+      - name: Run sync JSON script for jpg update
+        if: steps.check_trigger.outputs.trigger_type == 'jpg_update'
+        run: |
+          python sync_json2025.py --update-jpg
+
+      # =========================
+      # commit JSON
+      # =========================
+      - name: Commit JSON changes
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+
+          git add 2024.json
+
+          if git diff --cached --quiet; then
+            echo "No JSON changes"
+          else
+            git commit -m "Sync JSON update"
+            git push
+          fi

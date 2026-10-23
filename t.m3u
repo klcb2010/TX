@@ -1,0 +1,101 @@
+#EXTM3U
+# ############################# CCTV央视频道 #############################
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-1综合.png",CCTV-1综合
+http://127.0.0.1:35456/ysptx/cctv1.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-2财经.png",CCTV-2财经
+http://127.0.0.1:35456/ysptx/cctv2.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-3综艺.png",CCTV-3综艺
+http://127.0.0.1:35456/ysptx/cctv3.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-4中文国际.png",CCTV-4中文国际
+http://127.0.0.1:35456/ysptx/cctv4.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-5体育.png",CCTV-5体育
+http://127.0.0.1:35456/ysptx/cctv5.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-5+.png",CCTV-5plus
+http://127.0.0.1:35456/ysptx/cctv5p.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-6电影.png",CCTV-6电影
+http://127.0.0.1:35456/ysptx/cctv6.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-7国防军事.png",CCTV-7国防军事
+http://127.0.0.1:35456/ysptx/cctv7.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-8电视剧.png",CCTV-8电视剧
+http://127.0.0.1:35456/ysptx/cctv8.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-9纪录.png",CCTV-9纪录
+http://127.0.0.1:35456/ysptx/cctv9.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-10科教.png",CCTV-10科教
+http://127.0.0.1:35456/ysptx/cctv10.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-11戏曲.png",CCTV-11戏曲
+http://127.0.0.1:35456/ysptx/cctv11.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-12社会与法.png",CCTV-12社会与法
+http://127.0.0.1:35456/ysptx/cctv12.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-13新闻.png",CCTV-13新闻
+http://127.0.0.1:35456/ysptx/cctv13.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-14少儿.png",CCTV-14少儿
+http://127.0.0.1:35456/ysptx/cctv14.m3u8
+#EXTINF:-1 group-title="央视频道" tvg-logo="https://epg.112114.xyz/logo/CCTV-15音乐.png",CCTV-15音乐
+http://127.0.0.1:35456/ysptx/cctv15.m3u8
+
+
+# ############################# 省级卫视频道 #############################
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/北京卫视.png",北京卫视
+http://127.0.0.1:35456/ysptx/beijing.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/天津卫视.png",天津卫视
+http://127.0.0.1:35456/ysptx/tianjin.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/河北卫视.png",河北卫视
+http://127.0.0.1:35456/ysptx/hebei.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/山西卫视.png",山西卫视
+http://127.0.0.1:35456/ysptx/shanxi.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/内蒙古卫视.png",内蒙古卫视
+http://127.0.0.1:35456/ysptx/neimeng.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/辽宁卫视.png",辽宁卫视
+http://127.0.0.1:35456/ysptx/liaoning.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/吉林卫视.png",吉林卫视
+http://127.0.0.1:35456/ysptx/jilin.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/黑龙江卫视.png",黑龙江卫视
+http://127.0.0.1:35456/ysptx/heilongjiang.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/东方卫视.png",东方卫视
+http://127.0.0.1:35456/ysptx/shanghai.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/江苏卫视.png",江苏卫视
+http://127.0.0.1:35456/ysptx/jiangsu.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/浙江卫视.png",浙江卫视
+http://127.0.0.1:35456/ysptx/zhejiang.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/安徽卫视.png",安徽卫视
+http://127.0.0.1:35456/ysptx/anhui.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/东南卫视.png",东南卫视
+http://127.0.0.1:35456/ysptx/fujian.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/江西卫视.png",江西卫视
+http://127.0.0.1:35456/ysptx/jiangxi.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/山东卫视.png",山东卫视
+http://127.0.0.1:35456/ysptx/shandong.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/河南卫视.png",河南卫视
+http://127.0.0.1:35456/ysptx/henan.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/湖北卫视.png",湖北卫视
+http://127.0.0.1:35456/ysptx/hubei.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/湖南卫视.png",湖南卫视
+http://127.0.0.1:35456/ysptx/hunan.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/广东卫视.png",广东卫视
+http://127.0.0.1:35456/ysptx/guangdong.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/广西卫视.png",广西卫视
+http://127.0.0.1:35456/ysptx/guangxi.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/海南卫视.png",海南卫视
+http://127.0.0.1:35456/ysptx/hainan.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/重庆卫视.png",重庆卫视
+http://127.0.0.1:35456/ysptx/chongqing.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/四川卫视.png",四川卫视
+http://127.0.0.1:35456/ysptx/sichuan.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/贵州卫视.png",贵州卫视
+http://127.0.0.1:35456/ysptx/guizhou.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/云南卫视.png",云南卫视
+http://127.0.0.1:35456/ysptx/yunnan.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/西藏卫视.png",西藏卫视
+http://127.0.0.1:35456/ysptx/xizang.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/陕西卫视.png",陕西卫视
+http://127.0.0.1:35456/ysptx/shaanxi.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/甘肃卫视.png",甘肃卫视
+http://127.0.0.1:35456/ysptx/gansu.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/青海卫视.png",青海卫视
+http://127.0.0.1:35456/ysptx/qinghai.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/宁夏卫视.png",宁夏卫视
+http://127.0.0.1:35456/ysptx/ningxia.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/新疆卫视.png",新疆卫视
+http://127.0.0.1:35456/ysptx/xinjiang.m3u8
+#EXTINF:-1 group-title="卫视频道" tvg-logo="https://epg.112114.xyz/logo/兵团卫视.png",兵团卫视
+http://127.0.0.1:35456/ysptx/bingtuan.m3u8
