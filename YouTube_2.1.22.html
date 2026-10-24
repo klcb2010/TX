@@ -6253,7 +6253,18 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
       if (sugKey(e)) return;
       if (e.key === 'Enter' || e.keyCode === 13) doSearch();
     });
-    on('q', 'blur', function () { setTyping(false); setTimeout(closeSug, 160); });   // 等点击先触发
+    on('q', 'blur', function () {
+      setTyping(false);
+      setTimeout(closeSug, 160);   // 等点击先触发
+      /* 压暗（body.searching）原来只在 touchstart/click 里收，TV 上用方向键
+         把焦点移出去根本不产生 click，于是内容一直灰着，要再按一次 OK 才恢复。
+         这里在焦点离开后补收：如果新焦点还停在搜索区（清空/搜索按钮）就保持。 */
+      setTimeout(function () {
+        var ae = document.activeElement, box = document.querySelector('.search');
+        if (ae && box && box.contains(ae)) return;
+        if (hasBodyClass('searching')) bodyClass('searching', false);
+      }, 60);
+    });
     on('q', 'focus', function () { bodyClass('searching', true); setTyping(true); });
 
     /* 点页面别处 → 收起联想、收起键盘、把焦点还回去。
@@ -6271,6 +6282,13 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
     }
     document.addEventListener('touchstart', dismissSearch, { passive: true });
     document.addEventListener('click', dismissSearch);
+    /* 焦点离开搜索区的兜底：从「搜索按钮」被方向键挪走时不会触发 input 的 blur，
+       压暗就没人收了。只要新焦点不在搜索区里，就地收掉。 */
+    document.addEventListener('focusin', function (e) {
+      var box = document.querySelector('.search');
+      if (box && e.target && box.contains(e.target)) return;
+      if (hasBodyClass('searching')) bodyClass('searching', false);
+    });
     on('setBtn', 'click', function () { openSheet('settings'); });
     on('subFollow', 'click', toggleSubscribe);
     on('netBtn', 'click', function () { openSheet('net'); runDiag(); });
