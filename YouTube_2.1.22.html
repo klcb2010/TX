@@ -355,9 +355,9 @@ html.fm-chrome-normal .top{ padding-top:10px; }
 }
 
 /* 搜索态：内容区轻微压暗，注意力收到搜索框上 */
-body.searching .wrap{ opacity:.45; transition:opacity .2s ease; }
-body.searching .tabs{ opacity:.45; transition:opacity .2s ease; }
-.wrap, .tabs{ transition:opacity .2s ease; }
+body.searching .wrap{ opacity:.72; transition:opacity .12s ease; }
+body.searching .tabs{ opacity:.72; transition:opacity .12s ease; }
+.wrap, .tabs{ transition:opacity .12s ease; }
 @media (prefers-reduced-motion: reduce){
   body.searching .wrap, body.searching .tabs, .wrap, .tabs{ transition:none; }
 }
@@ -446,8 +446,6 @@ body.searching .tabs{ opacity:.45; transition:opacity .2s ease; }
   align-items:center; justify-content:center;
   padding:0;
 }
-/* 显隐用 display 切换只在"空↔有字"这一刻发生一次（syncClear 里做了状态判断），
-   不会每个字符都重排；换成 opacity 常驻反而会让隐藏按钮混进方向键焦点链。 */
 .search .clr.on{ display:inline-flex; }
 .search .clr:active{ color:var(--text); transform:scale(0.9); }
 .search .clr:focus{ color:var(--signal); }
@@ -1327,147 +1325,36 @@ pre.code{
   .totop:active{ transform:none; }
 }
 
-/* ============ 输入态性能模式 ============
-   点开搜索框之后，输入法会压缩 viewport，每次按键都要重排一次顶栏。这时候
-   背景那三层全屏动画（大面积渐变位移、46px 模糊、background-position 扫描）
-   加上顶栏的 backdrop-filter，会把主线程吃光——表现就是"打字一顿一顿"。
-   输入期间它们全部停掉，只留静态渐变，视觉上几乎看不出差别。 */
-html.fm-typing body::before,
-html.fm-typing body::after,
-html.fm-typing .sheen{ animation:none !important; }
-html.fm-typing .top{
-  -webkit-backdrop-filter:none !important; backdrop-filter:none !important;
-  /* 换成接近原色的实底渐变：少了模糊，观感几乎不变，但每次重排不用再采样背景 */
-  background:linear-gradient(180deg, rgba(20,12,13,0.93) 0%, rgba(14,10,11,0.97) 100%) !important;
-}
-html.fm-typing .wrap{ transition:none !important; }
-html.fm-typing .tabs{ transition:none !important; }
-html.fm-typing .sug{ transition:none !important; }
-html.fm-typing .search input{ transition:none !important; }
-html.fm-typing .card-inner{ transition:none !important; }
-/* TV 上背景那三层全屏动画本来就是纯负担（大屏 + WebView 合成能力有限），常驻停掉；
-   只停动画、留着静态滤镜，观感和原来一致（滤镜静止后会被缓存，不再逐帧重算）。 */
-html.fm-tv body::before{ animation:none !important; }
-html.fm-tv body::after{ animation:none !important; }
-html.fm-tv .sheen{ display:none !important; }
-
 /* TV */
 html.fm-tv .card{ width:25%; }
 html.fm-tv .title{ font-size:15px; max-height:42px; }
 html.fm-tv .sub{ font-size:12px; }
 html.fm-tv .tab{ font-size:15px; padding:8px 18px; }
-html.fm-tv .card-inner:focus{ border-color:rgba(127,211,255,0.6); box-shadow:0 0 0 3px rgba(127,211,255,0.55); }
+html.fm-tv .card-inner:focus{ box-shadow:0 0 0 3px var(--signal); }
+/* 搜索框可被遥控器定焦：加明显焦点环；typing 时不要整页半透明（掉帧主因） */
+html.fm-tv #q{
+  -webkit-user-select:text; user-select:text;
+  caret-color:var(--signal);
+}
+html.fm-tv #q:focus{
+  border-color:#6BA8D6 !important;
+  background:rgba(255,255,255,0.10) !important;
+  box-shadow:0 0 0 3px rgba(107,168,214,0.55) !important;
+  outline:none;
+}
+html.fm-tv body.searching .wrap,
+html.fm-tv body.searching .tabs{ opacity:1; }
+html.fm-tv .sug{ transition:none; }
+html.fm-tv .search .go:focus,
+html.fm-tv .search .clr:focus{
+  color:#6BA8D6;
+  box-shadow:0 0 0 2px rgba(107,168,214,0.5);
+  border-radius:50%;
+}
 
 /* 降级 */
 html.no-css-functions .top{ padding-top:16px; }
 html.no-css-functions .wrap{ padding-bottom:48px; }
-
-/* ===== TV remote focus (fm-tv) =====
-   遥控器焦点框统一淡蓝：红色只留给"播放 / 当前选中"，焦点用冷色才分得清。 */
-:root{
-  --tv-focus:#7FD3FF;                       /* 焦点描边 */
-  --tv-focus-weak:rgba(127,211,255,0.28);   /* 外发光 */
-  --tv-focus-strong:#D6F2FF;                /* 高亮态描边 */
-  --tv-focus-ink:#06131C;                   /* 淡蓝实底上的文字色 */
-}
-html.fm-tv button,
-html.fm-tv .tab,
-html.fm-tv .chip,
-html.fm-tv .gear,
-html.fm-tv .go,
-html.fm-tv .clr,
-html.fm-tv .brand,
-html.fm-tv .sub-play,
-html.fm-tv .sub-back,
-html.fm-tv .sub-follow,
-html.fm-tv .sug-hit,
-html.fm-tv .sug-del{
-  -webkit-user-select:none; user-select:none;
-  outline:none;
-}
-/* 输入框绝不能继承 user-select:none —— 部分 Android TV WebView 会因此拒绝把焦点
-   交给 input，表现就是遥控器怎么按都进不去搜索框。这里强制改回可编辑。 */
-html.fm-tv input,
-html.fm-tv textarea,
-html.fm-tv select{
-  -webkit-user-select:text !important;
-  user-select:text !important;
-  outline:none;
-}
-/* 统一焦点框：淡蓝描边 + 淡蓝外发光 */
-html.fm-tv button:focus,
-html.fm-tv input:focus,
-html.fm-tv textarea:focus,
-html.fm-tv select:focus,
-html.fm-tv a[href]:focus,
-html.fm-tv [tabindex]:focus,
-html.fm-tv .card-inner:focus{
-  outline:3px solid var(--tv-focus) !important;
-  outline-offset:3px !important;
-  box-shadow:0 0 0 4px var(--tv-focus-weak) !important;
-}
-/* 搜索框：真焦点与"虚拟焦点"（.tv-cur，WebView 不肯给 input 真焦点时的兜底）同一套外观 */
-html.fm-tv .search input:focus,
-html.fm-tv .search.tv-cur input{
-  outline:3px solid var(--tv-focus) !important;
-  outline-offset:2px !important;
-  border-color:var(--tv-focus) !important;
-  background:rgba(127,211,255,0.10) !important;
-  box-shadow:0 0 0 3px var(--tv-focus-weak) !important;
-}
-/* 其余零散的红色 focus（描边 / 文字色）统一压成淡蓝，避免焦点还残留红色 */
-html.fm-tv .btn:focus,
-html.fm-tv .state .act:focus,
-html.fm-tv .picker:focus,
-html.fm-tv .field input:focus,
-html.fm-tv .field select:focus,
-html.fm-tv .field textarea:focus,
-html.fm-tv .adv-toggle:focus,
-html.fm-tv .totop:focus,
-html.fm-tv .search .go:focus,
-html.fm-tv .search .clr:focus,
-html.fm-tv .tab:focus,
-html.fm-tv .chip:focus,
-html.fm-tv .sub-follow:focus{
-  border-color:var(--tv-focus) !important;
-  color:var(--tv-focus) !important;
-}
-/* 已选中的 tab / chip 再获得焦点：淡蓝实底，别和红撞 */
-html.fm-tv .tab.on:focus,
-html.fm-tv .chip.on:focus{
-  outline-color:var(--tv-focus-strong) !important;
-  background:var(--tv-focus) !important;
-  border-color:var(--tv-focus) !important;
-  color:var(--tv-focus-ink) !important;
-}
-/* 原本拿红色实底表示焦点的实心按钮，TV 下一律换淡蓝实底 */
-html.fm-tv .btn.primary:focus,
-html.fm-tv .icon-btn:focus,
-html.fm-tv .sub-play:focus,
-html.fm-tv .sub-back:focus,
-html.fm-tv .sheet-back:focus,
-html.fm-tv .hero .play:focus,
-html.fm-tv .state .act:focus{
-  background:var(--tv-focus) !important;
-  border-color:var(--tv-focus) !important;
-  color:var(--tv-focus-ink) !important;
-  box-shadow:0 0 0 4px var(--tv-focus-weak) !important;
-}
-html.fm-tv .brand:focus .word,
-html.fm-tv .brand:focus .mark{ color:var(--tv-focus); }
-html.fm-tv .brand:focus .word .w2{
-  background:none !important;
-  -webkit-background-clip:border-box !important; background-clip:border-box !important;
-  -webkit-text-fill-color:var(--tv-focus) !important;
-  color:var(--tv-focus) !important;
-}
-html.fm-tv .gear:focus{ background:rgba(127,211,255,0.16) !important; }
-html.fm-tv .sug-hit:focus{
-  background:rgba(127,211,255,0.16) !important;
-  color:var(--tv-focus-strong) !important;
-}
-html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
-
 </style>
 </head>
 
@@ -1494,7 +1381,7 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
   </div>
 
   <span class="search">
-    <input id="q" type="search" placeholder="搜索视频、频道、播放列表" autocomplete="off" tabindex="0" enterkeyhint="search">
+    <input id="q" type="text" inputmode="search" enterkeyhint="search" tabindex="0" placeholder="搜索视频、频道、播放列表" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
     <button class="clr" id="clrBtn" aria-label="清除"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 L6 18"></path><path d="M6 6 L18 18"></path></svg></button>
     <button class="go" id="goBtn" aria-label="搜索"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M16.5 16.5 L21 21"></path></svg></button>
     <div class="sug" id="sug"></div>
@@ -1757,7 +1644,7 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
 
   var TABS = [
     /* 默认打开第一个：犯叔说影；无订阅 tab */
-    { id: 'fav_fashu', name: '犯叔说影', type: 'search', arg: '犯叔说影' },
+    { id: 'fav_fashu', name: '犯叔说影测试1024', type: 'search', arg: '犯叔说影' },
     { id: 'fav_aqi',   name: '阿奇讲电影', type: 'search', arg: '阿奇讲电影' },
     { id: 'fav_wen',   name: '温城鲤', type: 'search', arg: '温城鲤' },
     { id: 'fav_wasabi',name: '哇萨比抓马', type: 'search', arg: '哇萨比抓马' },
@@ -2103,37 +1990,6 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
     return url;
   }
 
-  /* ---------- 输入态性能模式 ----------
-     打字时关掉三样最贵的东西：全屏背景动画（CSS 里由 .fm-typing 负责）、
-     顶栏 backdrop-filter、以及列表图片解码。
-     键盘一弹，viewport 变矮，IntersectionObserver 会一次性放进一大片图片，
-     解码全压在主线程上——这正是"一开键盘打字就开始卡"的来源。 */
-  var typingOn = false, pendingLazy = [];
-
-  function setTyping(on) {
-    on = !!on;
-    if (on === typingOn) return;
-    typingOn = on;
-    var el = document.documentElement;
-    var cls = (' ' + el.className + ' ').replace(/\s+fm-typing\s+/g, ' ');
-    if (typingOn) cls += ' fm-typing ';
-    el.className = cls.replace(/^\s+|\s+$/g, '');
-    if (!typingOn) flushLazy();
-  }
-
-  function holdLazy(img) {
-    if (img._held) return;
-    img._held = 1;
-    pendingLazy.push(img);
-  }
-
-  function flushLazy() {
-    if (typingOn || !pendingLazy.length) return;
-    var list = pendingLazy, i;
-    pendingLazy = [];
-    for (i = 0; i < list.length; i++) { list[i]._held = 0; lazyLoad(list[i]); }
-  }
-
   /* ---------- 图片懒加载 ----------
      loading="lazy" 旧 WebView 根本不认，列表一长就一次性发几十个封面请求，
      全走代理，首屏被拖死。改成进视口再加载 + 淡入。
@@ -2143,7 +1999,6 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
 
   function lazyLoad(img) {
     if (img._done) return;
-    if (typingOn) { holdLazy(img); return; }   /* 打字期间不启动新的图片解码，等收手再补 */
     img._done = true;
     var url = img.getAttribute('data-src');
     if (!url) return;
@@ -4800,9 +4655,11 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
     };
 
     if (fm.vodInline) {
+      // vod_id 按视频；vod_name 用标题（不要用频道名，否则同 UP 共用一条进度会误跳到 12:18 这类位置）
+      // 不写 position / t=0：已看过的片子仍按 App 自己的进度续播
       await fm.vodInline({
         vod_id: 'yt_' + (vid || Date.now()),
-        vod_name: head,
+        vod_name: title,
         vod_pic: item.pic || '',
         wallPic: wallOf(item),
         vod_play_from: '嗅探',
@@ -4810,7 +4667,7 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
         episodes: eps
       });
     } else {
-      await fm.play(watch, head, { pic: item.pic || '', wallPic: wallOf(item) });
+      await fm.play(watch, title, { pic: item.pic || '', wallPic: wallOf(item) });
     }
 
     if (fm.ext && fm.ext.log) {
@@ -5292,12 +5149,17 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
   /* ---------- TV 焦点：简易方向导航 ---------- */
   function focusables() {
     var all = document.querySelectorAll('button, input, [tabindex]');
-    var out = [], i, el, r;
+    var out = [], i, el, r, st;
     for (i = 0; i < all.length; i++) {
       el = all[i];
       if (el.disabled) continue;
+      // 清除按钮未显示时不参与焦点
+      if (el.id === 'clrBtn' && (el.className || '').indexOf('on') === -1) continue;
       if (openName && !el.closest('.sheet.open')) continue;
       if (!openName && el.closest('.sheet')) continue;
+      // 隐藏节点跳过
+      st = window.getComputedStyle ? getComputedStyle(el) : null;
+      if (st && (st.display === 'none' || st.visibility === 'hidden')) continue;
       r = el.getBoundingClientRect();
       if (r.width === 0 && r.height === 0) continue;
       out.push({ el: el, r: r });
@@ -5308,6 +5170,30 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
   function nearest(dir) {
     var act = document.activeElement;
     if (!act) return null;
+
+    // 遥控器从分类 Tab 往上：强制落到搜索框（否则几何中心算法会偏到 Logo/设置）
+    if (dir === 'up' && act.classList && (act.classList.contains('tab') || act.classList.contains('chip'))) {
+      var qUp = $('q');
+      if (qUp) return qUp;
+    }
+    // 搜索框往下：进当前选中 Tab
+    if (dir === 'down' && act.id === 'q') {
+      var onTab = elTabs && elTabs.querySelector('.tab.on');
+      if (onTab) return onTab;
+      var firstTab = elTabs && elTabs.querySelector('.tab');
+      if (firstTab) return firstTab;
+    }
+    // Logo / 设置 往下也优先搜索框
+    if (dir === 'down' && (act.id === 'netBtn' || act.id === 'setBtn')) {
+      var qDn = $('q');
+      if (qDn) return qDn;
+    }
+    // 搜索按钮 → 搜索框（左）
+    if (dir === 'left' && act.id === 'goBtn') {
+      var qL = $('q');
+      if (qL) return qL;
+    }
+
     var ar = act.getBoundingClientRect();
     var cands = focusables(), best = null, bestScore = Infinity, i, c, dx, dy, ok, score;
     for (i = 0; i < cands.length; i++) {
@@ -5321,7 +5207,8 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
       if (dir === 'up') ok = dy < -4;
       if (dir === 'down') ok = dy > 4;
       if (!ok) continue;
-      score = (dir === 'up' || dir === 'down') ? Math.abs(dy) + Math.abs(dx) * 1.5 : Math.abs(dx) + Math.abs(dy) * 1.5;
+      // 上下移动时降低横向惩罚，方便从左侧 Tab 回到通栏搜索框
+      score = (dir === 'up' || dir === 'down') ? Math.abs(dy) + Math.abs(dx) * 0.55 : Math.abs(dx) + Math.abs(dy) * 1.5;
       if (score < bestScore) { bestScore = score; best = c.el; }
     }
     return best;
@@ -5338,7 +5225,8 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
 
     if ((key === 'Escape' || code === 27) && openName) { e.preventDefault(); closeSheet(); return; }
     if (!dir) return;
-    if (document.activeElement && document.activeElement.tagName === 'INPUT' && (dir === 'left' || dir === 'right')) return;
+    // 输入框内左右键留给光标移动；上下键仍可跳出到 Tab / 联想
+    if (document.activeElement && document.activeElement.id === 'q' && (dir === 'left' || dir === 'right')) return;
 
     var next = nearest(dir);
     if (next) {
@@ -6008,7 +5896,7 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
     '<path d="M12 8v4l3 2"></path></svg>';
 
   var elSug = $('sug');
-  var sugTimer = 0, sugSeq = 0, sugItems = [], sugIdx = -1, sugSig = '', composing = false;
+  var sugTimer = 0, sugSeq = 0, sugItems = [], sugIdx = -1;
 
   async function fetchSuggest(q) {
     var url = 'https://suggestqueries-clients6.youtube.com/complete/search' +
@@ -6046,7 +5934,6 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
     elSug.className = 'sug';
     sugItems = [];
     sugIdx = -1;
-    sugSig = '';
     clearTimeout(sugTimer);   // 关闭时一并掐掉还没发出去的联想请求，
     sugSeq++;                 // 已经发出去、还没回来的也让它的 seq 作废，回调里判断不通过就不会再弹出来
     clearTimeout(closeSug._t);
@@ -6057,14 +5944,9 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
 
   function renderSug(list, isHistory) {
     if (!list.length) { closeSug(); return; }
-    /* 联想词没变就别重绘：删一个字再打回来往往是同一批结果，
-       重建一次 DOM 等于白送一次顶栏重排 + 面板阴影重绘。 */
-    var sig = (isHistory ? 'h|' : 's|') + list.join('\u0001');
-    if (sig === sugSig && elSug.className.indexOf('open') !== -1) return;
-    sugSig = sig;
     sugItems = list;
     sugIdx = -1;
-    var frag = document.createDocumentFragment();
+    elSug.replaceChildren();
 
     list.forEach(function (w) {
       var row = document.createElement('div');
@@ -6100,12 +5982,8 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
         row.appendChild(x);
       }
 
-      frag.appendChild(row);
+      elSug.appendChild(row);
     });
-    /* 一次性挂载：逐条 append 会让面板高度反复变化，每变一次顶栏都要重排
-       （顶栏带 backdrop-filter，重排顺带重算整块模糊，最贵的一步）。 */
-    while (elSug.firstChild) elSug.removeChild(elSug.firstChild);
-    elSug.appendChild(frag);
     elSug.className = 'sug open';
   }
 
@@ -6118,21 +5996,21 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
 
   function syncClear() {
     var c = $('clrBtn');
-    if (!c) return;
-    /* 只在状态真的变了才写 className：每敲一个字都赋值一次，等于逼浏览器
-       重新匹配一遍选择器（.clr.on + .go::before 那条），纯浪费。 */
-    var want = $('q').value ? 'clr on' : 'clr';
-    if (c.className !== want) c.className = want;
+    if (c) c.className = $('q').value ? 'clr on' : 'clr';
   }
 
   function onType() {
-    /* 中文/日文输入法拼写阶段每次按键都会发 input，这时去动 DOM 就是跟 IME
-       抢主线程，表现是拼音卡顿、吞字。等 compositionend 再统一处理一次。 */
-    if (composing) return;
     var q = $('q').value.trim();
     syncClear();
     clearTimeout(sugTimer);
     if (!q) { showHistory(); return; }
+
+    // 电视端远程联想又慢又卡：打字时只关联想，回车再搜；手机仍防抖拉 suggest
+    var isTv = document.documentElement.className.indexOf('fm-tv') !== -1;
+    if (isTv) {
+      closeSug();
+      return;
+    }
 
     sugTimer = setTimeout(async function () {
       var seq = ++sugSeq;
@@ -6140,7 +6018,7 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
         var list = await fetchSuggest(q);
         if (seq === sugSeq && $('q').value.trim()) renderSug(list, false);
       } catch (e) { closeSug(); }
-    }, 220);   // 打字停 220ms 才发请求，别每个字符都打
+    }, 450);   // 加长防抖，少打接口、少重绘
   }
 
   /* 上下键在联想词里走，回车选中当前项 */
@@ -6198,8 +6076,6 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
   function bind() {
     on('goBtn', 'click', doSearch);
     on('q', 'input', onType);
-    on('q', 'compositionstart', function () { composing = true; });
-    on('q', 'compositionend', function () { composing = false; onType(); });
     on('clrBtn', 'click', function () {
       var q = $('q');
       q.value = '';
@@ -6223,8 +6099,8 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
       if (sugKey(e)) return;
       if (e.key === 'Enter' || e.keyCode === 13) doSearch();
     });
-    on('q', 'blur', function () { setTyping(false); setTimeout(closeSug, 160); });   // 等点击先触发
-    on('q', 'focus', function () { bodyClass('searching', true); setTyping(true); });
+    on('q', 'blur', function () { setTimeout(closeSug, 160); });   // 等点击先触发
+    on('q', 'focus', function () { bodyClass('searching', true); });
 
     /* 点页面别处 → 收起联想、收起键盘、把焦点还回去。
        用 touchstart 而不是 click：click 要等到手指抬起才触发，
@@ -6364,273 +6240,5 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
   });
 })();
 </script>
-
-<script>
-(function () {
-  /* TV 遥控器焦点补丁 2.1.23
-     ─ 旧版为什么失效：整段逻辑挂在 DOMContentLoaded 那一刻的 isTv() 上，SDK
-       （fongmiClient）注入稍晚就是 false，之后只有 fmsdk 事件能救；事件没派发
-       就永久不绑键。现在改成「绑定无条件、判定放运行时、多次延时重试」。
-     ─ 搜索框进不去的老账：①CSS 里 input 命中了 -webkit-user-select:none，
-       部分 Android TV WebView 会因此拒绝把焦点交给 input；②input 真焦点拿不到时
-       页面没有任何兜底。现在真焦点失败就挂 .tv-cur 虚拟焦点（同款淡蓝框）并接管按键。 */
-  var TV_UA = /(Android\s*TV|GoogleTV|Google TV|Leanback|AFT[A-Z]|BRAVIA|SmartTV|HbbTV|web0S|NetCast|MiTV)/i;
-
-  var lastFocus = null, tvCur = false, browsed = false, bound = false, lastClickTs = 0;
-
-  function rootEl() { return document.documentElement; }
-  function hasTvClass() {
-    try { return (' ' + rootEl().className + ' ').indexOf(' fm-tv ') !== -1; } catch (e) { return false; }
-  }
-  function isLeanback() {
-    try { return !!(window.fongmiClient && window.fongmiClient.isLeanback); } catch (e) { return false; }
-  }
-  function isTv() {
-    if (hasTvClass() || isLeanback()) return true;
-    try { return TV_UA.test(navigator.userAgent || ''); } catch (e) { return false; }
-  }
-  function markTv() {
-    /* UA 兜底只用来启用焦点逻辑，不主动加 fm-tv 类，免得误判把手机布局切成 TV */
-    if (!isLeanback() && !hasTvClass()) return;
-    try {
-      if (!hasTvClass()) rootEl().className = (rootEl().className ? rootEl().className + ' ' : '') + 'fm-tv';
-    } catch (e) {}
-  }
-  function qEl() { return document.getElementById('q'); }
-  function clsDrop(cls, name) {
-    return (' ' + (cls || '') + ' ').replace(new RegExp('\\s+' + name + '\\s+', 'g'), ' ').replace(/^\s+|\s+$/g, '');
-  }
-  function setCur(on) {
-    tvCur = !!on;
-    var box = document.querySelector('.search');
-    if (!box) return;
-    box.className = clsDrop(box.className, 'tv-cur') + (on ? ' tv-cur' : '');
-  }
-  function visible(el) {
-    if (!el || el.disabled) return false;
-    try {
-      var st = window.getComputedStyle(el);
-      if (st.display === 'none' || st.visibility === 'hidden' || parseFloat(st.opacity) === 0) return false;
-      var r = el.getBoundingClientRect();
-      return r.width > 1 && r.height > 1;
-    } catch (e) { return false; }
-  }
-  function controlOf(el) {
-    var n = el;
-    while (n && n !== document.body && n !== document.documentElement) {
-      var tag = n.tagName || '';
-      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'BUTTON' || tag === 'SELECT' || tag === 'A') return n;
-      if (n.getAttribute && n.getAttribute('tabindex') !== null) return n;
-      n = n.parentNode;
-    }
-    return null;
-  }
-  function fireInput(inp) {
-    try { inp.dispatchEvent(new Event('input', { bubbles: true })); }
-    catch (e) {
-      try {
-        var ev = document.createEvent('HTMLEvents');
-        ev.initEvent('input', true, true);
-        inp.dispatchEvent(ev);
-      } catch (e2) {}
-    }
-  }
-
-  function prep() {
-    markTv();
-    if (!isTv()) return;
-    var inp = qEl();
-    if (inp) {
-      try {
-        if (!inp.getAttribute('tabindex')) inp.setAttribute('tabindex', '0');
-        if (inp.getAttribute('readonly') !== null) inp.removeAttribute('readonly');
-        inp.setAttribute('enterkeyhint', 'search');
-      } catch (e) {}
-    }
-    var list = document.querySelectorAll('.top button, .tabs .tab, .chips .chip, .card-inner, .sub-play, .sub-back, .sug-hit, .opt-item');
-    for (var i = 0; i < list.length; i++) {
-      try { if (!list[i].getAttribute('tabindex')) list[i].setAttribute('tabindex', '0'); } catch (e) {}
-    }
-  }
-
-  function focusSearch() {
-    var inp = qEl();
-    if (!inp) return false;
-    try {
-      if (inp.disabled) inp.disabled = false;
-      if (inp.getAttribute('readonly') !== null) inp.removeAttribute('readonly');
-      if (!inp.getAttribute('tabindex')) inp.setAttribute('tabindex', '0');
-    } catch (e) {}
-    try { inp.focus(); } catch (e) {}
-    if (document.activeElement !== inp) {
-      /* 有些 TV WebView 只认「点一下」才肯把焦点交给输入框；300ms 节流，别连点刷屏 */
-      var now = Date.now();
-      if (now - lastClickTs > 300) {
-        lastClickTs = now;
-        try { inp.click(); } catch (e2) {}
-        try { inp.focus(); } catch (e3) {}
-      }
-    }
-    var real = (document.activeElement === inp);
-    setCur(!real);                      /* 真焦点没拿到，用虚拟焦点顶上 */
-    try { var v = inp.value || ''; inp.setSelectionRange(v.length, v.length); } catch (e4) {}
-    return true;
-  }
-
-  function moveCaret(step) {
-    var inp = qEl();
-    if (!inp) return;
-    try {
-      var len = (inp.value || '').length;
-      var pos = (inp.selectionStart === null || inp.selectionStart === undefined) ? len : inp.selectionStart;
-      pos = Math.max(0, Math.min(len, pos + step));
-      inp.setSelectionRange(pos, pos);
-    } catch (e) {}
-  }
-
-  function focusFirst() {
-    var sels = ['.tabs .tab', '.chips .chip', '.sub-play', '.card-inner'];
-    for (var i = 0; i < sels.length; i++) {
-      var list = document.querySelectorAll(sels[i]);
-      for (var j = 0; j < list.length; j++) {
-        if (!visible(list[j])) continue;
-        try { list[j].focus(); } catch (e) {}
-        if (document.activeElement === list[j]) return true;
-      }
-    }
-    return false;
-  }
-
-  function proxyKey(e) {
-    /* 只有「虚拟焦点」才需要代理：input 拿不到真焦点时，把字符手动写进 value */
-    var inp = qEl();
-    if (!inp || document.activeElement === inp) return false;
-    var k = e.key || '', code = e.keyCode || 0;
-    if (code === 8) {
-      inp.value = (inp.value || '').slice(0, -1);
-      fireInput(inp); return true;
-    }
-    if (code === 32 || k === ' ') {
-      inp.value = (inp.value || '') + ' ';
-      fireInput(inp); return true;
-    }
-    if (k && k.length === 1) {
-      inp.value = (inp.value || '') + k;
-      fireInput(inp); return true;
-    }
-    return false;
-  }
-
-  function onKey(e) {
-    if (!isTv()) return;
-    var k = e.key || '', code = e.keyCode || 0;
-    var left  = (k === 'ArrowLeft'  || code === 37);
-    var up    = (k === 'ArrowUp'    || code === 38);
-    var right = (k === 'ArrowRight' || code === 39);
-    var down  = (k === 'ArrowDown'  || code === 40);
-    var okKey = (k === 'Enter' || code === 13 || code === 23 || code === 66);
-
-    var inp = qEl();
-    var ae = document.activeElement;
-    var onInput = !!inp && ae === inp;
-    var cur = tvCur && !onInput;
-
-    /* 字符键就是打字路径，越短越好：只有虚拟焦点才需要代理输入，其它直接走人 */
-    if (!left && !up && !right && !down && !okKey) {
-      if (cur && proxyKey(e)) { e.preventDefault(); e.stopPropagation(); }
-      return;
-    }
-
-    /* 设置面板打开时交给页面自己处理（看 body.locked 就够，省掉每次按键查一遍 DOM） */
-    if (document.body.className.indexOf('locked') !== -1) return;
-
-    /* 真焦点已经在搜索框里：左右留给光标，上下交给页面导航，这里不拦 */
-    if (onInput) return;
-
-    if (cur) {
-      /* 虚拟焦点：上边就是页面顶部，保持不动；往下走给第一个可聚焦控件，别让焦点凭空消失 */
-      if (up) { e.preventDefault(); e.stopPropagation(); return; }
-      if (down) {
-        if (focusFirst()) { setCur(false); e.preventDefault(); e.stopPropagation(); }
-        return;
-      }
-      if (left || right) { moveCaret(right ? 1 : -1); e.preventDefault(); e.stopPropagation(); return; }
-      if (okKey) { focusSearch(); e.preventDefault(); e.stopPropagation(); return; }
-      return;
-    }
-
-    var ctrl = controlOf(ae || lastFocus);
-    if (!ctrl) {
-      /* 谁都没持焦（刚加载完 / 焦点被页面 blur 掉）：按上回搜索框，其它方向进第一个控件 */
-      var got = (up || !browsed) ? focusSearch() : focusFirst();
-      if (!got) got = up ? focusFirst() : focusSearch();
-      if (got) { e.preventDefault(); e.stopPropagation(); }
-    }
-  }
-
-  function onKeyUp(e) {
-    /* 部分 TV WebView 只在 keyup 派发方向键：这里只补「无焦点时抢焦点」，不重复处理输入 */
-    if (!isTv()) return;
-    var k = e.key || '', code = e.keyCode || 0;
-    var isArrow = (k.indexOf('Arrow') === 0) || (code >= 37 && code <= 40);
-    if (!isArrow && code !== 13 && code !== 23 && code !== 66) return;
-    var inp = qEl();
-    if (inp && document.activeElement === inp) return;
-    if (tvCur) return;
-    if (controlOf(document.activeElement || lastFocus)) return;
-    var up = (k === 'ArrowUp' || code === 38);
-    if (up ? focusSearch() : focusFirst()) { try { e.preventDefault(); } catch (e2) {} }
-  }
-
-  function onFocusIn(e) {
-    var t = e.target;
-    lastFocus = t || null;
-    if (!t || t === qEl()) { setCur(false); return; }
-    /* 用户已经离开搜索框去浏览了：之后按方向键别再把他弹回搜索框 */
-    if (!(t.closest && t.closest('.search'))) browsed = true;
-    setCur(false);
-  }
-
-  function bindKeys() {
-    if (bound) return;
-    bound = true;
-    document.addEventListener('keydown', onKey, true);
-    document.addEventListener('keyup', onKeyUp, true);
-    document.addEventListener('focusin', onFocusIn, true);
-  }
-
-  function isTyping() {
-    try { return document.documentElement.className.indexOf('fm-typing') !== -1; } catch (e) { return false; }
-  }
-
-  function boot() {
-    markTv();
-    bindKeys();                                    /* 无条件绑：onKey 内部自己判断是不是 TV */
-    if (!isTv()) return;
-    if (isTyping()) return;                        /* 正在打字就别批量改 DOM，收手后还有重试 */
-    prep();
-  }
-
-  var prepTimer = 0;
-  function schedulePrep() {
-    /* 输入法弹出/收起也会触发 resize，这时候去遍历 DOM setAttribute 卡的就是打字本身 */
-    if (isTyping()) return;
-    clearTimeout(prepTimer);
-    prepTimer = setTimeout(prep, 300);
-  }
-
-  var delays = [0, 120, 400, 900, 1600, 2600, 4200, 6500, 9000];
-  for (var i = 0; i < delays.length; i++) setTimeout(boot, delays[i]);
-  window.addEventListener('fmsdk', function () { setTimeout(boot, 40); });
-  window.addEventListener('fmviewport', function () { setTimeout(boot, 40); });
-  window.addEventListener('fmresume', function () { setTimeout(boot, 60); });
-  window.addEventListener('resize', schedulePrep);
-  window.addEventListener('orientationchange', schedulePrep);
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', function () { setTimeout(boot, 0); });
-  }
-})();
-</script>
-
 </body>
 </html>
