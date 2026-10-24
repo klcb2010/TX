@@ -1335,6 +1335,33 @@ html.fm-tv .card-inner:focus{ box-shadow:0 0 0 3px var(--signal); }
 /* 降级 */
 html.no-css-functions .top{ padding-top:16px; }
 html.no-css-functions .wrap{ padding-bottom:48px; }
+
+/* ===== TV remote focus (WebHome leanback) ===== */
+html.fm-tv .search input,
+html.fm-tv .go,
+html.fm-tv .clr,
+html.fm-tv .gear,
+html.fm-tv .tab,
+html.fm-tv .chip,
+html.fm-tv .brand,
+html.fm-tv .sub-play,
+html.fm-tv .sub-back {
+  outline: none;
+}
+html.fm-tv .search input:focus,
+html.fm-tv .go:focus,
+html.fm-tv .clr:focus,
+html.fm-tv .gear:focus,
+html.fm-tv .tab:focus,
+html.fm-tv .chip:focus,
+html.fm-tv .brand:focus,
+html.fm-tv button:focus {
+  outline: 3px solid var(--signal) !important;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 3px rgba(240,69,58,0.28);
+}
+html.fm-tv .search input { caret-color: var(--signal); }
+
 </style>
 </head>
 
@@ -1361,7 +1388,7 @@ html.no-css-functions .wrap{ padding-bottom:48px; }
   </div>
 
   <span class="search">
-    <input id="q" type="search" placeholder="搜索视频、频道、播放列表" autocomplete="off">
+    <input id="q" type="search" placeholder="搜索视频、频道、播放列表" autocomplete="off" tabindex="0">
     <button class="clr" id="clrBtn" aria-label="清除"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 L6 18"></path><path d="M6 6 L18 18"></path></svg></button>
     <button class="go" id="goBtn" aria-label="搜索"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M16.5 16.5 L21 21"></path></svg></button>
     <div class="sug" id="sug"></div>
@@ -6179,6 +6206,46 @@ html.no-css-functions .wrap{ padding-bottom:48px; }
     if (view.tab === 'recent') renderRecent();
   });
 })();
+</script>
+<script>
+
+  /* TV：保证搜索框与顶栏可被遥控器定焦 */
+  function ensureTvFocusTargets() {
+    try {
+      if (!document.documentElement.className || document.documentElement.className.indexOf('fm-tv') === -1) return;
+      var q = document.getElementById('q');
+      if (q) {
+        q.setAttribute('tabindex', '0');
+        if (!q.getAttribute('data-fm-tv-bound')) {
+          q.setAttribute('data-fm-tv-bound', '1');
+        }
+      }
+      document.querySelectorAll('.tab,.gear,.go,.clr,.chip,button').forEach(function (el) {
+        try { if (!el.hasAttribute('tabindex')) el.setAttribute('tabindex', '0'); } catch (e) {}
+      });
+      if (!window.__fmTvKeyNav) {
+        window.__fmTvKeyNav = 1;
+        document.addEventListener('keydown', function (e) {
+          var k = e.keyCode || e.which;
+          var ae = document.activeElement;
+          var tag = ae && ae.tagName ? ae.tagName.toLowerCase() : '';
+          // 焦点落在 body/html 时，方向键/确认先拉到搜索框
+          if ((k === 37 || k === 38 || k === 39 || k === 40 || k === 13) &&
+              (!ae || tag === 'body' || tag === 'html' || ae === document.body)) {
+            var t = document.getElementById('q');
+            if (t && t.focus) {
+              try { t.focus(); e.preventDefault(); } catch (ex) {}
+            }
+          }
+        }, true);
+      }
+    } catch (e) {}
+  }
+  if (document.body) ensureTvFocusTargets();
+  else document.addEventListener('DOMContentLoaded', ensureTvFocusTargets);
+  window.addEventListener('fmsdk', function () { setTimeout(ensureTvFocusTargets, 50); });
+  setTimeout(ensureTvFocusTargets, 800);
+
 </script>
 </body>
 </html>
