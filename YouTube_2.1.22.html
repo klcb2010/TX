@@ -1465,7 +1465,13 @@ html.fm-tv .gear:focus{ background:rgba(127,211,255,0.16) !important; }
 html.fm-tv .sug-hit:focus{
   background:rgba(127,211,255,0.16) !important;
   color:var(--tv-focus-strong) !important;
+  /* 面板有 overflow:hidden，外发光描边会被裁掉半圈，改成向内描 */
+  outline-offset:-2px !important;
+  box-shadow:none !important;
 }
+/* 遥控器选中项：焦点框已经表示选中了，行背景别再叠一层红 */
+html.fm-tv .sug-row.on{ background:transparent; }
+html.fm-tv .sug-row.on .sug-hit{ color:var(--tv-focus-strong); }
 html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
 
 </style>
@@ -5356,6 +5362,10 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
     if (key === 'ArrowDown' || code === 40) dir = 'down';
 
     if ((key === 'Escape' || code === 27) && openName) { e.preventDefault(); closeSheet(); return; }
+
+    /* 联想面板打开时先交给它：上下在联想词里走焦点，按 OK 执行，不甩出搜索框 */
+    if (sugNav(e, dir)) return;
+
     if (!dir) return;
     if (document.activeElement && document.activeElement.tagName === 'INPUT' && (dir === 'left' || dir === 'right')) return;
 
@@ -6038,7 +6048,7 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
     '<path d="M12 8v4l3 2"></path></svg>';
 
   var elSug = $('sug');
-  var sugTimer = 0, sugSeq = 0, sugItems = [], sugIdx = -1, sugSig = '', composing = false;
+  var sugTimer = 0, sugSeq = 0, sugItems = [], sugIdx = -1, sugSig = '', composing = false, sugClickLock = false;
 
   async function fetchSuggest(q) {
     var url = 'https://suggestqueries-clients6.youtube.com/complete/search' +
@@ -6073,6 +6083,13 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
   }
 
   function closeSug() {
+    /* 焦点还停在联想词上时先还给输入框：面板一隐，焦点会掉到 body，
+       遥控器再按方向就没有落点了。 */
+    var ae = document.activeElement;
+    if (ae && ae.closest && ae.closest('.sug')) {
+      var qe = $('q');
+      if (qe) { try { qe.focus(); } catch (e) {} }
+    }
     elSug.className = 'sug';
     sugItems = [];
     sugIdx = -1;
@@ -6091,6 +6108,11 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
        重建一次 DOM 等于白送一次顶栏重排 + 面板阴影重绘。 */
     var sig = (isHistory ? 'h|' : 's|') + list.join('\u0001');
     if (sig === sugSig && elSug.className.indexOf('open') !== -1) return;
+    /* 重绘前记下焦点在第几项：清空 DOM 会把焦点踢到 body，
+       遥控器选着选着突然失焦就是这么来的。 */
+    var hadFocus = -1;
+    var aeBefore = document.activeElement;
+    if (aeBefore && aeBefore.closest && aeBefore.closest('.sug')) hadFocus = sugIdx;
     sugSig = sig;
     sugItems = list;
     sugIdx = -1;
@@ -6107,6 +6129,11 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
       b.innerHTML = '<span class="k">' + (isHistory ? ICON_HIST : ICON_SEARCH) + '</span>';
       b.appendChild(document.createTextNode(w));
       b.addEventListener('click', function () {
+        /* TV 上按 OK 有可能既走了我们的 keydown 又让 WebView 补了一次 click，
+           同一项别搜两遍 */
+        if (sugClickLock) return;
+        sugClickLock = true;
+        setTimeout(function () { sugClickLock = false; }, 400);
         $('q').value = w;
         syncClear();
         closeSug();
@@ -6137,6 +6164,16 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
     while (elSug.firstChild) elSug.removeChild(elSug.firstChild);
     elSug.appendChild(frag);
     elSug.className = 'sug open';
+
+    /* 重绘前焦点在列表里的话，把焦点放回原来那一项（不够就落到最后一项） */
+    if (hadFocus >= 0) {
+      var hs2 = elSug.querySelectorAll('.sug-hit');
+      if (hs2.length) {
+        var fi = Math.min(hadFocus, hs2.length - 1);
+        hs2[fi].focus();
+        sugMark(fi);
+      }
+    }
   }
 
   /* 搜索框聚焦且为空 → 先给历史，而不是一片空白 */
@@ -6173,7 +6210,79 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
     }, 220);   // 打字停 220ms 才发请求，别每个字符都打
   }
 
-  /* 上下键在联想词里走，回车选中当前项 */
+  /* 联想面板里的遥控器/键盘导航
+     ─ 面板打开时，上下键在联想词之间移动"焦点"（不是把焦点甩出搜索框去浏览列表）；
+     ─ 上到第一项再按上 = 回到输入框继续编辑；下到最后一项停住，不循环；
+     ─ OK/回车 = 执行当前选中项（走 sug-hit 自己的 click，填值→收起→搜索）。 */
+  function sugHits() { return elSug.querySelectorAll('.sug-hit'); }
+
+  function sugMark(n) {
+    var rows = elSug.querySelectorAll('.sug-row'), i;
+    for (i = 0; i < rows.length; i++) rows[i].className = (i === n) ? 'sug-row on' : 'sug-row';
+    sugIdx = n;
+  }
+
+  function sugNav(e, dir) {
+    var key = e.key || '', code = e.keyCode || 0;
+    var isOk = (key === 'Enter' || code === 13 || code === 23 || code === 66);
+    if (!dir && !isOk) return false;          /* 字符键：一个字都别多碰，打字路径要短 */
+
+    var isOpen = elSug.className.indexOf('open') !== -1;
+    if (!isOpen || !sugItems.length) return false;
+
+    var qe = $('q');
+    var ae = document.activeElement;
+    var inBox = (ae === qe);
+    var inSug = !!(ae && ae.closest && ae.closest('.sug'));
+    if (!inBox && !inSug) return false;
+
+    var hits = sugHits();
+    if (!hits.length) return false;
+
+    var idx = -1, i;
+    for (i = 0; i < hits.length; i++) if (hits[i] === ae) idx = i;
+
+    if (dir === 'down') {
+      var n = (idx < 0) ? 0 : Math.min(idx + 1, hits.length - 1);
+      hits[n].focus();
+      sugMark(n);
+      e.preventDefault(); e.stopPropagation();
+      return true;
+    }
+    if (dir === 'up') {
+      if (inBox) return false;                        /* 在输入框上按上：照常退出搜索框 */
+      if (idx <= 0) { qe.focus(); sugMark(-1); }      /* 顶到第一项再往上：回输入框 */
+      else { hits[idx - 1].focus(); sugMark(idx - 1); }
+      e.preventDefault(); e.stopPropagation();
+      return true;
+    }
+    if (dir === 'left' && inSug) {
+      /* 焦点在删除按钮上：退回同一条联想词，别直接弹回输入框 */
+      if (ae.className && ae.className.indexOf('sug-del') !== -1) {
+        var hit0 = ae.parentNode && ae.parentNode.querySelector ? ae.parentNode.querySelector('.sug-hit') : null;
+        if (hit0) { hit0.focus(); e.preventDefault(); e.stopPropagation(); return true; }
+      }
+      qe.focus(); sugMark(-1);
+      e.preventDefault(); e.stopPropagation();
+      return true;
+    }
+    if (dir === 'right' && inSug && idx >= 0) {
+      /* 历史项右侧有删除按钮，给遥控器留一条路过去 */
+      var row0 = hits[idx].parentNode;
+      var del0 = row0 && row0.querySelector ? row0.querySelector('.sug-del') : null;
+      if (del0) { del0.focus(); e.preventDefault(); e.stopPropagation(); return true; }
+      return false;
+    }
+    /* 焦点已经在联想词上：OK / 回车直接执行（有的 TV WebView 不把 DPAD_CENTER 转成 click） */
+    if (inSug && idx >= 0 && (key === 'Enter' || code === 13 || code === 23 || code === 66)) {
+      e.preventDefault(); e.stopPropagation();
+      hits[idx].click();
+      return true;
+    }
+    return false;
+  }
+
+  /* 输入框上的回车：有高亮项就搜高亮项，否则搜输入的内容 */
   function sugKey(e) {
     var key = e.key || '', code = e.keyCode || 0;
     var isOpen = elSug.className.indexOf('open') !== -1;
@@ -6181,26 +6290,13 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
     if ((key === 'Escape' || code === 27) && isOpen) { closeSug(); return true; }
     if (!isOpen || !sugItems.length) return false;
 
-    var nodes = elSug.querySelectorAll('.sug-row');
-    if (key === 'ArrowDown' || code === 40) {
-      sugIdx = (sugIdx + 1) % sugItems.length;
-    } else if (key === 'ArrowUp' || code === 38) {
-      sugIdx = (sugIdx <= 0 ? sugItems.length : sugIdx) - 1;
-    } else if ((key === 'Enter' || code === 13) && sugIdx >= 0) {
+    if ((key === 'Enter' || code === 13) && sugIdx >= 0 && sugItems[sugIdx]) {
       $('q').value = sugItems[sugIdx];
       closeSug();
       doSearch();
       return true;
-    } else {
-      return false;
     }
-
-    var i;
-    for (i = 0; i < nodes.length; i++) {
-      nodes[i].className = (i === sugIdx) ? 'on' : '';
-    }
-    e.preventDefault();
-    return true;
+    return false;      /* 方向键交给 sugNav，这里不再自己维护一套高亮 */
   }
 
   function clearSearchBox() {
@@ -6255,7 +6351,13 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
     });
     on('q', 'blur', function () {
       setTyping(false);
-      setTimeout(closeSug, 160);   // 等点击先触发
+      /* 焦点移到联想词上不算"离开搜索"：不这样的话一按方向下，面板自己就先关了。
+         等 160ms 让点击先落地，再看新焦点在哪。 */
+      setTimeout(function () {
+        var ae = document.activeElement;
+        if (ae && ae.closest && (ae.closest('.sug') || ae.closest('.search'))) return;
+        closeSug();
+      }, 160);
       /* 压暗（body.searching）原来只在 touchstart/click 里收，TV 上用方向键
          把焦点移出去根本不产生 click，于是内容一直灰着，要再按一次 OK 才恢复。
          这里在焦点离开后补收：如果新焦点还停在搜索区（清空/搜索按钮）就保持。 */
@@ -6618,8 +6720,11 @@ html.fm-tv .sug-del:focus{ color:var(--tv-focus) !important; }
 
     var ctrl = controlOf(ae || lastFocus);
     if (!ctrl) {
-      /* 谁都没持焦（刚加载完 / 焦点被页面 blur 掉）：按上回搜索框，其它方向进第一个控件 */
-      var got = (up || !browsed) ? focusSearch() : focusFirst();
+      /* 谁都没持焦（刚加载完 / 搜索完被页面 blur 掉）：
+         按上回搜索框；正在搜索态也回搜索框；其它方向进第一个控件，
+         别让搜索完按一下又弹回输入框。 */
+      var inSearchMode = document.body.className.indexOf('searching') !== -1;
+      var got = (up || inSearchMode) ? focusSearch() : focusFirst();
       if (!got) got = up ? focusFirst() : focusSearch();
       if (got) { e.preventDefault(); e.stopPropagation(); }
     }
