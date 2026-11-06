@@ -1,0 +1,26 @@
+{
+  "class":[
+    {
+      "type_id":"Sharp锐评影社",
+      "type_name":"犯叔说影"
+    },
+    {
+      "type_id":"阿奇讲电影",
+      "type_name":"阿奇讲电影"
+    },
+    {
+      "type_id":"温城鲤",
+      "type_name":"温城鲤"
+    },
+    {
+      "type_id":"哇萨比抓马",
+      "type_name":"哇萨比抓马"
+    },
+    {
+      "type_id":"华语音乐",
+      "type_name":"音乐"
+    }
+  ],
+  "jx":0,
+  "parse":0
+}
