@@ -22,8 +22,8 @@
     {"key":"多多","name":"多多[网盘]","type":3,"api":"csp_FishCloud","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["https://tv.yydsys.top","https://tv.yydsys.cc","https://tv.214521.xyz"]},"timeout":60},
 	{"key":"傻样","name":"傻样[网盘]","type":3,"api":"csp_FishCloud","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["http://xsayang.fun","http://38.76.197.172:12521"]},"timeout":60},
    	{"key":"欧哥","name":"欧哥[网盘]","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"site":["https://woog.nxog.eu.org","https://woog.nxog.fun","https://woog.nxog.eu.org","https://woog.430520.xyz"]},"timeout":60},
-   	    {"key":"dygq","name":"电影港夸克[网盘]","type":3,"api":"./dygang_quark.py","searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"playerType":2},
-{"key":"dygb","name":"电影港百度[网盘]","type":3,"api":"./dygang_baidu.py","searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"playerType":2},
+    {"key":"dygq","name":"电影港夸克[网盘]","type":3,"api":"./dygang_quark.py","searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"playerType":2},
+    {"key":"dygb","name":"电影港百度[网盘]","type":3,"api":"./dygang_baidu.py","searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"playerType":2},
 	{"key":"观影","name":"观影网盘[网盘]","type":3,"api":"csp_Gying","searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"style":{"type":"rect","ratio":0.68},"ext":{"site":["https://www.xn--10vr61a3xc5x3b.com","https://www.xn--kivn76b41nnhi.com","https://www.xn--wcv59z.com"]},"timeout":120}, 
 	{"key":"文才","name":"文才[影视]","type":3,"api":"csp_WenCai","searchable":1,"filterable":1,"changeable":1,"ext":"https://www.tjrongze.com,https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.jiabaide.cn"},
     {"key":"荐片","name":"荐片[影视]","type":3,"api":"csp_JianPian","searchable":1,"quickSearch":1,"filterable":1,"changeable":1},
@@ -73,7 +73,6 @@
     {"key":"初中课堂","name":"初中[哔哩]","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"changeable":0,"ext":{"json":"./bili_edu_middle.json"},"style":{"type":"rect","ratio":1.597}},
     {"key":"高中课堂","name":"高中[哔哩]","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"changeable":0,"ext":{"json":"./bili_edu_high.json"},"style":{"type":"rect","ratio":1.597}},
 	{"key":"csp_Qwmp4","name":"七味|预加载pg用","type":3,"api":"csp_Qwmp4","searchable":1,"quickSearch":1,"jar": "./pg.jar","filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.qwmp4.com/$$$noproxy$$$0$$$$$QIWEI"},
-	{"key":"WebDAV","name":"内网视频","type":3,"api":"csp_WebDAV","searchable":1,"jar": "./pg.jar","filterable":1,"changeable":1,"timeout":60,"playerType":2,"ext":"./lib/webdav.json"},
     {"key":"push_agent","name":"推送","type":3,"api":"csp_Push","searchable":0,"changeable":0,"indexs":0,"timeout":60}
    
  ],
