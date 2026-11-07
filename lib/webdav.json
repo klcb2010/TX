@@ -4,10 +4,10 @@
       "name": "内网资源",
       "search": true,
       "searchable": true,
-      "server": "http://192.168.50.1:8180",
+      "server": "",
       "path": "/公共视频资源",
-      "user": "klcb2010",
-      "pass": "12345678"
+      "user": "",
+      "pass": ""
     }
   ]
 }
