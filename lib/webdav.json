@@ -1,0 +1,13 @@
+{
+  "drives": [
+    {
+      "name": "内网资源",
+      "search": true,
+      "searchable": true,
+      "server": "",
+      "path": "/公共视频资源",
+      "user": "",
+      "pass": ""
+    }
+  ]
+}
