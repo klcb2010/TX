@@ -9,7 +9,7 @@
   "logo":"https://txtv.ccwu.cc/raw/klcb2010/mod-for-Firefox/refs/heads/main/384Firefox.png",
   "sites": [
 
-	{"key":"Douban","name":"更新日期 26 11 23","type":3,"api":"csp_Douban","searchable":0,"quickSearch":0,"filterable":1,"ext":"./douban.json"},
+	{"key":"Douban","name":"更新日期 26 11 28","type":3,"api":"csp_Douban","searchable":0,"quickSearch":0,"filterable":1,"ext":"./douban.json"},
 	{"key":"Market","name":"相关软件","type":3,"api":"csp_Market","searchable":0,"changeable":0,"indexs":0,"filterable":1,"style":{"type":"list"},"ext":{"categories":[{"name":"相关软件","url":"https://pan.quark.cn/s/d7cd1c249080"}]}},
 	
 	{"key":"网盘配置","name":"pg配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,"jar": "./pg.jar","ext":"./lib/tokenm.json","style":{"type":"rect","ratio":1.5}},
